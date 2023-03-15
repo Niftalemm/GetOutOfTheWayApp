@@ -1,6 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Cannon impact 9" ID="{EE00C764-862A-4D71-A1FD-193C8B5DB53E}" ShortID="576647001">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="cannon attenuation" ID="{8C991D48-3D7D-47C1-A46A-AFE9FCB8C466}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cannon impact 9" ID="{7AF728ED-EAF1-4F9A-B8A3-84BAB05FC824}">
+							<Language>SFX</Language>
+							<AudioFile>Cannon impact 9.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="182123868"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cannon impact 9" ID="{7AF728ED-EAF1-4F9A-B8A3-84BAB05FC824}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Walking in ChainMail - Loop" ID="{539D1B60-C1DE-49AE-89F2-D7F86CFBC8D4}" ShortID="584583334">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Walking in ChainMail - Loop" ID="{61333A65-CEB6-47A9-B5E4-866A44484AFF}">
+							<Language>SFX</Language>
+							<AudioFile>Walking in ChainMail - Loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="304861136"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Walking in ChainMail - Loop" ID="{61333A65-CEB6-47A9-B5E4-866A44484AFF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Spaceship passing by" ID="{7F85FB21-FD87-4D51-A920-815189196B8F}" ShortID="459709517">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="spaceship_attenuation" ID="{7759BD10-6CE4-4C9A-A314-385249D1BF21}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Spaceship passing by" ID="{577CC96E-F655-434F-A72C-1C338FC1EAE0}">
+							<Language>SFX</Language>
+							<AudioFile>Spaceship passing by.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="867703089"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Spaceship passing by" ID="{577CC96E-F655-434F-A72C-1C338FC1EAE0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Engine_03" ID="{EDAD9DB1-332D-4341-BBFC-C3D3DC7956A3}" ShortID="807471374">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="obstacle" ID="{9B378BBA-5506-44CE-80DE-B7829C6C0AE7}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Engine_03" ID="{A9F57896-1B26-4D71-9356-2D6A1A773C27}">
+							<Language>SFX</Language>
+							<AudioFile>Engine_03.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="277644868"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Engine_03" ID="{A9F57896-1B26-4D71-9356-2D6A1A773C27}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="The Creature 1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" ShortID="364753807">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="creature" ID="{A3E76695-6871-4772-AB8B-8D4F80F9BEB6}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="The Creature 1" ID="{5D3B1C26-B60E-485E-99BB-7DE9EB1F3259}">
+							<PropertyList>
+								<Property Name="TrimBegin" Type="Real64" Value="11.3"/>
+								<Property Name="TrimEnd" Type="Real64" Value="17"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>The Creature 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="232375660"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="The Creature 1" ID="{5D3B1C26-B60E-485E-99BB-7DE9EB1F3259}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{D97941A1-A24A-4382-9EF2-9FE27416A9E7}" ShortID="342957">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="bell" ID="{3A918400-F980-4448-B5DF-62C64536EB64}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{FAF1B2DE-FE77-4726-A5E7-BA899A0FF903}">
+							<Language>SFX</Language>
+							<AudioFile>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="775150697"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{FAF1B2DE-FE77-4726-A5E7-BA899A0FF903}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

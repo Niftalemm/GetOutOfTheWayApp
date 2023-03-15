@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{72CF0FED-C23A-4215-B871-B71F750B2934}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{72CF0FED-C23A-4215-B871-B71F750B2934}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{72CF0FED-C23A-4215-B871-B71F750B2934}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Cannon_impact_9" ID="{AB894330-B9A2-42C9-BC3E-FCE332BB4D0B}">
+					<ChildrenList>
+						<Action Name="" ID="{4FA32A4E-3992-4011-AA2C-298E12C26280}" ShortID="177809633">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cannon impact 9" ID="{EE00C764-862A-4D71-A1FD-193C8B5DB53E}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Walking_in_ChainMail___Loop" ID="{F0262016-F2B4-4AC2-97BB-30930D50E99A}">
+					<ChildrenList>
+						<Action Name="" ID="{27C8BB9A-77B1-4D99-A466-E89CF03E6875}" ShortID="26471317">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walking in ChainMail - Loop" ID="{539D1B60-C1DE-49AE-89F2-D7F86CFBC8D4}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Spaceship_passing_by" ID="{2A7CEEB8-A19E-46F0-BEA7-A8F1F169CE12}">
+					<ChildrenList>
+						<Action Name="" ID="{FF5EDF20-56A8-4102-894E-2626F071D4E4}" ShortID="826721474">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spaceship passing by" ID="{7F85FB21-FD87-4D51-A920-815189196B8F}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}">
+					<ChildrenList>
+						<Action Name="" ID="{C03D7331-35DB-4065-9C94-BF6E63608782}" ShortID="863552471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{D97941A1-A24A-4382-9EF2-9FE27416A9E7}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Engine_03" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}">
+					<ChildrenList>
+						<Action Name="" ID="{F2E85789-2906-4918-A86F-B00312348E52}" ShortID="988044063">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine_03" ID="{EDAD9DB1-332D-4341-BBFC-C3D3DC7956A3}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_The_Creature_1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}">
+					<ChildrenList>
+						<Action Name="" ID="{DAC64434-892D-48EE-BE3A-740A0B4C86F3}" ShortID="432139127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Creature 1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

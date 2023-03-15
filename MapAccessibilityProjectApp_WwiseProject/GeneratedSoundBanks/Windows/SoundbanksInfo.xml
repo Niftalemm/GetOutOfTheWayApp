@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{AFB377CE-8750-A487-93AA-359F8AC56DB1}">
+			<ShortName>name</ShortName>
+			<Path>name.bnk</Path>
+			<Media>
+				<File Id="867703089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spaceship passing by.wav</ShortName>
+					<CachePath>SFX/Spaceship passing by_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1427384170" Name="Play_Spaceship_passing_by" MaxAttenuation="100" DurationType="OneShot" DurationMin="5" DurationMax="5">
+					<MediaRefs>
+						<MediaRef Id="867703089"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{F54CF6DD-C58B-E7EE-2ED4-DEC1DE578F50}">
+			<ShortName>new_guy</ShortName>
+			<Path>new_guy.bnk</Path>
+			<Media>
+				<File Id="232375660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>The Creature 1.wav</ShortName>
+					<CachePath>SFX/The Creature 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="277644868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Engine_03.wav</ShortName>
+					<CachePath>SFX/Engine_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="775150697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</ShortName>
+					<CachePath>SFX/MUSCChim_InsJ_Hand-Bell_01-16_High-C_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="361325872" Name="Play_Engine_03" DurationType="OneShot" DurationMin="2.7617688" DurationMax="2.7617688">
+					<MediaRefs>
+						<MediaRef Id="277644868"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2587020279" Name="Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C" DurationType="OneShot" DurationMin="5.6829896" DurationMax="5.6829896">
+					<MediaRefs>
+						<MediaRef Id="775150697"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3696976017" Name="Play_The_Creature_1" DurationType="OneShot" DurationMin="69.12104" DurationMax="69.12104">
+					<MediaRefs>
+						<MediaRef Id="232375660"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E41DAD52-1B89-1163-743F-7E3EE4F5D37D}</FileHash>
+</SoundBanksInfo>
