@@ -50,7 +50,7 @@ public class EnvironmentGeneratorPrefab1 : MonoBehaviour
         GameObject[] Pillars = new GameObject[PillarCords.Length];
         
         /* Generates a new pillar, using each set of coordinates from the PillarCords array. Requires Prefab */
-        for(int i = 0; i < PillarCords.Length; i++)
+        for (int i = 0; i < PillarCords.Length; i++)
         {
             GameObject pillar = GameObject.CreatePrimitive(PrimitiveType.Cube);
             pillar.AddComponent<Rigidbody>();

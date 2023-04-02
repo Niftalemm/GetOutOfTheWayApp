@@ -151,6 +151,8 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
+        this.transform.rotation = UnityEngine.Random.rotation;
+
         if(lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
