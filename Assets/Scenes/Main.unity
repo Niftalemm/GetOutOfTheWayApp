@@ -461,9 +461,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2015694850876529583, guid: 43720cb60f9b74941a7168baa4d7de7b, type: 3}
+      propertyPath: playerPosition
+      value: 
+      objectReference: {fileID: 3597593064941947187, guid: 01650ade18dd1a74abd123bd3891252a, type: 3}
+    - target: {fileID: 2015694850876529583, guid: 43720cb60f9b74941a7168baa4d7de7b, type: 3}
       propertyPath: completedMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 95b60ce8664058344acea7d7eb3c267e, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2015694850876529583, guid: 43720cb60f9b74941a7168baa4d7de7b, type: 3}
       propertyPath: activationDistance
       value: 16.1

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.VisualScripting;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -22,14 +23,12 @@ public class GoalBehavior : MonoBehaviour
         // define playerPosition value
         // define thegameObject
         mat = GetComponent<Material>();
-        Debug.Log(activationDistance);
-        Debug.Log("R" + completedMaterial.color.r + " G" + completedMaterial.color.g + " B" + completedMaterial.color.b);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("update");
 
         // none of this shit is tested (evidently it doesn't work either)
         RaycastHit hit;
@@ -49,7 +48,7 @@ public class GoalBehavior : MonoBehaviour
         {
             Debug.Log("Goal is being looked at.");
         }
-        if (Input.GetKeyDown(KeyCode.E) == true)
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("The E button has been pressed.");
         }
@@ -63,6 +62,7 @@ public class GoalBehaviorEditor : Editor
     GoalBehavior gb;
     SerializedObject SerGB;
     Material tempMat;
+    Object player;
 
     private void OnEnable()
     {
@@ -82,8 +82,15 @@ public class GoalBehaviorEditor : Editor
         // create a ObjectField for the material
         GUILayout.Label("Goal Completion Material", new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleLeft, fontSize = 12});
         tempMat = (Material) EditorGUILayout.ObjectField(tempMat, typeof(Material), false, GUILayout.Height(25));
+        
+
+        // create an ObjectField for the player so the position of the player can be accessed
+        GUILayout.Label("Player Object", new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleLeft, fontSize = 12});
+        player =  EditorGUILayout.ObjectField(player, typeof(Object), false, GUILayout.Height(25));
 
         gb.completedMaterial = tempMat;
+        gb.playerPosition = player.GetComponent<Rigidbody>().transform; // this will cause errors
+
 
         // update the values of the object
         if (GUI.changed)
