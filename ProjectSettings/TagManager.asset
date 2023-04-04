@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pillar
+  - Goal
+  - Goal1
+  - Goal2
+  - Goal3
+  - Wall
+  - Ball
   layers:
   - Default
   - TransparentFX
