@@ -9,49 +9,58 @@ using UnityEditor;
 
 public class GoalBehavior : MonoBehaviour
 {
-    public Transform playerPosition;
-    public float activationDistance = 20f;
+    private Rigidbody rb;
     private bool active = true;
-    private Material mat;
-    public Material completedMaterial;
+    public float activationDistance = 20f;
+
     
     
 
     // Start is called before the first frame update
     void Start()
     {
-        // define playerPosition value
-        // define thegameObject
-        mat = GetComponent<Material>();
-        
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        // none of this shit is tested (evidently it doesn't work either)
-        RaycastHit hit;
-
         if (active)
         {
-            // whatever the goal does goes here
-            
-            active = !(Physics.Raycast(playerPosition.position, playerPosition.forward, out hit, activationDistance) && Input.GetKeyDown(KeyCode.E)); // deactivate when player is looking at it and presses E
-            if (!active)
-            {
-                mat = completedMaterial;
-                Debug.Log("Goal has been pressed.");
-            }
+            // whatever the goal does while active goes here (if that is anything)
         }
-        if (Physics.Raycast(playerPosition.position, playerPosition.forward, out hit, activationDistance))
+        else
         {
-            Debug.Log("Goal is being looked at.");
+            // anything the goal does while deactivated goes here
         }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("The E button has been pressed.");
-        }
+    }
+
+    public void FixedUpdate()
+    {
+        // empty lmao
+    }
+
+    public void Deactivate()
+    {
+        // this method, get this, deactivates the goal.
+        Destroy(this);
+        active = false;
+    }
+
+    public void Activate()
+    {
+        GetComponent<Material>().color = new Color(0, 255, 0);
+        active = true;
+    }
+
+    public Vector3 GetPosition()
+    {
+        return rb.position;
+    }
+
+    public bool WithinActivationRange(Vector3 otherPosition)
+    {
+        return (Mathf.Sqrt(Mathf.Pow(otherPosition.x - rb.position.x,2) + Mathf.Pow(otherPosition.z - rb.position.z,2)) <= activationDistance);
     }
 }
 
@@ -61,8 +70,6 @@ public class GoalBehaviorEditor : Editor
 {
     GoalBehavior gb;
     SerializedObject SerGB;
-    Material tempMat;
-    Object player;
 
     private void OnEnable()
     {
@@ -73,24 +80,11 @@ public class GoalBehaviorEditor : Editor
     public override void OnInspectorGUI()
     {
         SerGB.Update();
-        GUILayout.Label("Goal Behavior Parameters", new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold, fontSize = 16 });
+        GUILayout.Label("Goal Behavior Parameter", new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold, fontSize = 16 });
         EditorGUILayout.Space();
 
         // create a slider for the activation distance
         gb.activationDistance = EditorGUILayout.Slider(new GUIContent("Activation Distance", "How far away the player have to be to complete the goal"), gb.activationDistance, 5, 100, GUILayout.Height(25));
-
-        // create a ObjectField for the material
-        GUILayout.Label("Goal Completion Material", new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleLeft, fontSize = 12});
-        tempMat = (Material) EditorGUILayout.ObjectField(tempMat, typeof(Material), false, GUILayout.Height(25));
-        
-
-        // create an ObjectField for the player so the position of the player can be accessed
-        GUILayout.Label("Player Object", new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleLeft, fontSize = 12});
-        player =  EditorGUILayout.ObjectField(player, typeof(Object), false, GUILayout.Height(25));
-
-        gb.completedMaterial = tempMat;
-        gb.playerPosition = player.GetComponent<Rigidbody>().transform; // this will cause errors
-
 
         // update the values of the object
         if (GUI.changed)

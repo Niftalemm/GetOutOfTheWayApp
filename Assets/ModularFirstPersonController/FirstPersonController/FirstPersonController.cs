@@ -6,6 +6,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +18,12 @@ using UnityEngine.UI;
 public class FirstPersonController : MonoBehaviour
 {
     private Rigidbody rb;
+
+    #region MAPP Team Variables
+
+    private List<GoalBehavior> goals;
+
+    #endregion
 
     #region Camera Movement Variables
 
@@ -151,7 +158,14 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
+        #region MAPP stuff
+        //setup random direction
         this.transform.rotation = UnityEngine.Random.rotation;
+        rb = GetComponent<Rigidbody>();
+
+        // find all goals in scene & link them
+        goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
+        #endregion
 
         if(lockCursor)
         {
@@ -368,6 +382,13 @@ public class FirstPersonController : MonoBehaviour
 
     void FixedUpdate()
     {
+        #region MAPP Team Additions (errors here)
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ActivateGoal();
+        }
+        #endregion
+
         #region Movement
 
         if (playerCanMove)
@@ -526,6 +547,31 @@ public class FirstPersonController : MonoBehaviour
             // Resets when play stops moving
             timer = 0;
             joint.localPosition = new Vector3(Mathf.Lerp(joint.localPosition.x, jointOriginalPos.x, Time.deltaTime * bobSpeed), Mathf.Lerp(joint.localPosition.y, jointOriginalPos.y, Time.deltaTime * bobSpeed), Mathf.Lerp(joint.localPosition.z, jointOriginalPos.z, Time.deltaTime * bobSpeed));
+        }
+    }
+
+    private void ActivateGoal()
+    {
+        bool flag = false;
+        int counter = 0;
+        while (!flag)
+        {
+            if (counter >= goals.Count)
+            {
+                break;
+            }
+            else
+            {
+                GoalBehavior temp = goals[counter];
+                goals.RemoveAt(counter);
+                counter--;
+                Destroy(temp.GetComponentInParent<MeshRenderer>());
+            }
+            counter++;
+        }
+        if (!flag)
+        {
+            Debug.Log("There is no goals within range");
         }
     }
 }
