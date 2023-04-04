@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 55b24e9ea7645e46b03511b1729b9392
     GuidInternal: 
-    m_lastTime: -8585210399854812094
+    m_lastTime: -8585210375862360066
     List:
     - name: name
       guid: b533cad4c42cc04fbcacc815d89d876b
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed0fcf723ac21542b871b71f750b2934
     GuidInternal: 
-    m_lastTime: -8585210399856071948
+    m_lastTime: -8585210375862444394
     List:
     - name: Play_Cannon_impact_9
       guid: 304389aba2b9c942bc3efce332bb4d0b
@@ -127,9 +127,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Engine_03
-      guid: e7e46b50b022364abace3afd9cbf738f
-      id: 361325872
+    - name: Play_Goal1
+      guid: 9783c00dc930214e93f3ddcf9f70b4dc
+      id: 3029450520
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -137,16 +137,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ed0fcf723ac21542b871b71f750b2934
-      - ElementName: Play_Engine_03
+      - ElementName: Play_Goal1
         ObjectType: 3
-        guid: e7e46b50b022364abace3afd9cbf738f
-      Path: Events\Default Work Unit\Play_Engine_03
+        guid: 9783c00dc930214e93f3ddcf9f70b4dc
+      Path: Events\Default Work Unit\Play_Goal1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C
-      guid: 67729ea9aa4a854fa399cd745d7e8262
-      id: 2587020279
+    - name: Play_Goal2
+      guid: f6b936f12f82bd4e92412710698a288f
+      id: 3029450523
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -154,10 +154,78 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ed0fcf723ac21542b871b71f750b2934
-      - ElementName: Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C
+      - ElementName: Play_Goal2
+        ObjectType: 3
+        guid: f6b936f12f82bd4e92412710698a288f
+      Path: Events\Default Work Unit\Play_Goal2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Goal3
+      guid: 67729ea9aa4a854fa399cd745d7e8262
+      id: 3029450522
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Goal3
         ObjectType: 3
         guid: 67729ea9aa4a854fa399cd745d7e8262
-      Path: Events\Default Work Unit\Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C
+      Path: Events\Default Work Unit\Play_Goal3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Moving1_Engine
+      guid: e7e46b50b022364abace3afd9cbf738f
+      id: 3649024054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Moving1_Engine
+        ObjectType: 3
+        guid: e7e46b50b022364abace3afd9cbf738f
+      Path: Events\Default Work Unit\Play_Moving1_Engine
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Moving2_Projector
+      guid: 902618148544174295d1a61e8bff5874
+      id: 2804779699
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Moving2_Projector
+        ObjectType: 3
+        guid: 902618148544174295d1a61e8bff5874
+      Path: Events\Default Work Unit\Play_Moving2_Projector
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Moving3_Sewing
+      guid: 5368583a468e7842ae204bed2caa1320
+      id: 3992388391
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Moving3_Sewing
+        ObjectType: 3
+        guid: 5368583a468e7842ae204bed2caa1320
+      Path: Events\Default Work Unit\Play_Moving3_Sewing
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -178,9 +246,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_The_Creature_1
+    - name: Play_Static1
       guid: 0a9ca7e13bb1d540b5c353d57a3da8e2
-      id: 3696976017
+      id: 2385860965
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -188,10 +256,27 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: ed0fcf723ac21542b871b71f750b2934
-      - ElementName: Play_The_Creature_1
+      - ElementName: Play_Static1
         ObjectType: 3
         guid: 0a9ca7e13bb1d540b5c353d57a3da8e2
-      Path: Events\Default Work Unit\Play_The_Creature_1
+      Path: Events\Default Work Unit\Play_Static1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Static2
+      guid: 5682be6997ba424984bd55ae462288ee
+      id: 2385860966
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Static2
+        ObjectType: 3
+        guid: 5682be6997ba424984bd55ae462288ee
+      Path: Events\Default Work Unit\Play_Static2
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
