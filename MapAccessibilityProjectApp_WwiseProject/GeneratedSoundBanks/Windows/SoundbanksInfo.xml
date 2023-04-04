@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{966E69BD-28E4-83EE-7958-C92E5141D9AD}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{F2BA963C-CB8C-0DE6-E106-F4B657264DD6}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
@@ -35,7 +35,7 @@
 				</File>
 				<File Id="578318702" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>133048__temawas__sewing-machine.wav</ShortName>
-					<CachePath>SFX/133048__temawas__sewing-machine_89151C9C.wem</CachePath>
+					<CachePath>SFX/133048__temawas__sewing-machine_B6DCBA84.wem</CachePath>
 				</File>
 				<File Id="775150697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</ShortName>
@@ -43,11 +43,15 @@
 				</File>
 				<File Id="916412887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>movie_projector_x.wav</ShortName>
-					<CachePath>SFX/movie_projector_x_5ED6A82C.wem</CachePath>
+					<CachePath>SFX/movie_projector_x_E6DFEFBF.wem</CachePath>
 				</File>
 				<File Id="957856903" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>681566__freekit__constant-buzz-with-repeating-spikes.wav</ShortName>
 					<CachePath>SFX/681566__freekit__constant-buzz-with-repeating-spikes_E3B83AEC.wem</CachePath>
+				</File>
+				<File Id="1010418730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>681638__itinerantmonk108__electric-tea-kettle.wav</ShortName>
+					<CachePath>SFX/681638__itinerantmonk108__electric-tea-kettle_A188E86F.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -94,6 +98,11 @@
 				<Event Id="2385860967" Name="Play_Static3" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="957856903"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1116337078" Name="Play_Walls_Boiling" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1010418730"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -147,5 +156,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B7EA1AB3-7570-888F-518A-C9F2C0D3E518}</FileHash>
+	<FileHash>{B9CCDABC-ADB1-6A65-FF5E-D8FDC19677FA}</FileHash>
 </SoundBanksInfo>

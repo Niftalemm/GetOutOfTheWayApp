@@ -22,6 +22,7 @@ namespace AK
         static const AkUniqueID PLAY_STATIC1 = 2385860965U;
         static const AkUniqueID PLAY_STATIC2 = 2385860966U;
         static const AkUniqueID PLAY_STATIC3 = 2385860967U;
+        static const AkUniqueID PLAY_WALLS_BOILING = 1116337078U;
     } // namespace EVENTS
 
     namespace BANKS

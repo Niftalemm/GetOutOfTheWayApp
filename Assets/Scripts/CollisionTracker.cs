@@ -14,30 +14,54 @@ public class CollisionTracker : MonoBehaviour
     
     public class collectedData
     {
-        public int staticCollisions { get; set; } = 0;
-        public int movingCollisions { get; set; } = 0;
+        public int staticCollisions = 0;
+        public int movingCollisions = 0;
         public List<string> position = new List<string>();
         public List<string> rotation = new List<string>();
         public float baseTimer;
-        public float timer1;
-        public float timer2;
-        public float timer3;
+        public float timer1 = 0;
+        public float timer2 = 0;
+        public float timer3 = 0;
     }
 
     collectedData tracker = new collectedData();
     
-
-    private void Start()
+    private void WriteToCSV()
     {
-        
         string filePath = Application.dataPath + "/results.csv";
         if (!File.Exists(filePath))
         {
-            StreamWriter writer = new StreamWriter(filePath);
-            writer.WriteLine("Participant, Static Collisions, Moving Collisions, Location, Rotation, TTT1, TTT2, TTT3");
-            writer.Flush();
-            writer.Close();
+            StreamWriter creativeWriter = new StreamWriter(filePath);
+            creativeWriter.WriteLine("Participant,Static Collisions,Moving Collisions,Location,Rotation,TTT1,TTT2,TTT3");
+            creativeWriter.Flush();
+            creativeWriter.Close();
         }
+        
+        string[] tempPosition = tracker.position.ToArray();
+        string[] tempRotation = tracker.rotation.ToArray();
+        string fullPosition = "";
+        string fullRotation = "";
+
+        for (int i = 0; i < tempPosition.Length - 2; i++)
+        {
+            fullPosition += tempPosition[i] + ", ";
+        }
+        fullPosition += tempPosition[tempPosition.Length - 1];
+
+        for (int i = 0; i < tempRotation.Length - 2; i++)
+        {
+            fullRotation += tempRotation[i] + ", ";
+        }
+        fullRotation += tempRotation[tempRotation.Length - 1];
+        StreamWriter writer = File.AppendText(filePath);
+        writer.WriteLine("Goober McGee" + "," + tracker.staticCollisions + "," + tracker.movingCollisions + "," + "\"" + fullPosition + "\"" + "," + "\"" + fullRotation + "\"" + 
+            "," + tracker.timer1 + "," + tracker.timer2 + "," + tracker.timer3);
+        writer.Flush();
+        writer.Close();
+    }
+
+    private void Start()
+    {
         tracker.baseTimer = 0;
     }
 
@@ -54,8 +78,8 @@ public class CollisionTracker : MonoBehaviour
         GameObject followMe = GameObject.Find("FirstPersonController");
         GameObject rotationRef = GameObject.Find("CrosshairAndStamina");
         // Convert Vector3 into a string resembling an array element to later convert into an array
-        string convertedPosition = ("[" + followMe.transform.position.x + "| " + followMe.transform.position.y + "| " + followMe.transform.position.z + "]");
-        string convertedRotation = ("[" + rotationRef.transform.rotation.x + "| " + rotationRef.transform.rotation.y + "| " + rotationRef.transform.rotation.z + "]");
+        string convertedPosition = ("[" + followMe.transform.position.x + "," + followMe.transform.position.y + "," + followMe.transform.position.z + "]");
+        string convertedRotation = ("[" + rotationRef.transform.rotation.x + "," + rotationRef.transform.rotation.y + "," + rotationRef.transform.rotation.z + "]");
         tracker.position.Add(convertedPosition);
         tracker.rotation.Add(convertedRotation);
     }
@@ -79,32 +103,20 @@ public class CollisionTracker : MonoBehaviour
             tracker.movingCollisions += 1;
             Debug.Log("Ball hit " + tracker.movingCollisions);
         }
-        else if (collision.gameObject.tag == "Goal")
+        else if (collision.gameObject.tag == "Goal1")
         {
-            string[] tempPosition = tracker.position.ToArray();
-            string[] tempRotation = tracker.rotation.ToArray();
-            string fullPosition = "";
-            string fullRotation = "";
-
-            for (int i = 0; i < tempPosition.Length - 2; i++)
-            {
-                fullPosition += tempPosition[i] + ", ";
-            }
-            fullPosition += tempPosition[tempPosition.Length - 1];
-
-            for (int i = 0; i < tempRotation.Length - 2; i++)
-            {
-                fullRotation += tempRotation[i] + ", ";
-            }
-            fullRotation += tempRotation[tempRotation.Length - 1];
-
             tracker.timer1 = tracker.baseTimer;
-            Debug.Log("Goal At " + tracker.timer1);
-            string filePath = Application.dataPath + "/results.csv";
-            StreamWriter writer = File.AppendText(filePath);
-            writer.WriteLine("Goober McGee" + ", " + tracker.staticCollisions + ", " + tracker.movingCollisions + ", " + "\"" + fullPosition + "\"" + ", " + "\"" + fullRotation + "\"");
-            writer.Flush();
-            writer.Close();
+            Debug.Log("Goal At " + tracker.timer1);      
+        }
+        else if(collision.gameObject.tag == "Goal2")
+        {
+            tracker.timer2 = tracker.baseTimer;
+            Debug.Log("Goal At " + tracker.timer2);
+        }
+        else if (collision.gameObject.tag == "Goal2")
+        {
+            tracker.timer3 = tracker.baseTimer;
+            Debug.Log("Goal At " + tracker.timer3);
         }
     }
 
