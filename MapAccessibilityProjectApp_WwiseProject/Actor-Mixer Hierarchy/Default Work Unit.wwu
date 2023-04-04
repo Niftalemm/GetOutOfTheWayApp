@@ -85,7 +85,7 @@
 						<ActiveSource Name="Spaceship passing by" ID="{577CC96E-F655-434F-A72C-1C338FC1EAE0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Engine_03" ID="{EDAD9DB1-332D-4341-BBFC-C3D3DC7956A3}" ShortID="807471374">
+				<Sound Name="Moving1_Engine" ID="{EDAD9DB1-332D-4341-BBFC-C3D3DC7956A3}" ShortID="807471374">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -114,7 +114,7 @@
 						<ActiveSource Name="Engine_03" ID="{A9F57896-1B26-4D71-9356-2D6A1A773C27}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="The Creature 1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" ShortID="364753807">
+				<Sound Name="Static1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" ShortID="364753807">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -147,7 +147,7 @@
 						<ActiveSource Name="The Creature 1" ID="{5D3B1C26-B60E-485E-99BB-7DE9EB1F3259}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{D97941A1-A24A-4382-9EF2-9FE27416A9E7}" ShortID="342957">
+				<Sound Name="Goal3" ID="{D97941A1-A24A-4382-9EF2-9FE27416A9E7}" ShortID="342957">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -165,6 +165,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{FAF1B2DE-FE77-4726-A5E7-BA899A0FF903}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.52552227753196"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</AudioFile>
 							<MediaIDList>
@@ -174,6 +179,166 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{FAF1B2DE-FE77-4726-A5E7-BA899A0FF903}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Goal2" ID="{07218D90-C0E3-4730-9695-4496B8A8A7D1}" ShortID="833582013">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="bell" ID="{3A918400-F980-4448-B5DF-62C64536EB64}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Goal_2_B" ID="{BF5FDB72-609D-46AD-9BCB-2CEA547D6CB3}">
+							<Language>SFX</Language>
+							<AudioFile>Goal_2_B.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="230393233"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Goal_2_B" ID="{BF5FDB72-609D-46AD-9BCB-2CEA547D6CB3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Goal1" ID="{FC3B3278-DDFC-4C01-902A-ABD97F538A9F}" ShortID="865569486">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="bell" ID="{3A918400-F980-4448-B5DF-62C64536EB64}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Goal_2_A" ID="{048D5805-67DC-48C7-9164-FF1BA55F7D0A}">
+							<Language>SFX</Language>
+							<AudioFile>Goal_2_A.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="540102485"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Goal_2_A" ID="{048D5805-67DC-48C7-9164-FF1BA55F7D0A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Static2" ID="{98F93700-3200-41B5-9431-8152465D32AC}" ShortID="536559468">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="creature" ID="{A3E76695-6871-4772-AB8B-8D4F80F9BEB6}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wall_A" ID="{9FFFB530-4939-4021-A620-6A739124F182}">
+							<Language>SFX</Language>
+							<AudioFile>Wall_A.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="563949349"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wall_A" ID="{9FFFB530-4939-4021-A620-6A739124F182}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Moving2_Projector" ID="{61AEF91B-7AB4-4463-A406-E54629BC308C}" ShortID="173749284">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="obstacle" ID="{9B378BBA-5506-44CE-80DE-B7829C6C0AE7}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="movie_projector_x" ID="{50F66812-DED3-4276-9623-2B99F847DF76}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.4351024421568"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.09254469929565"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>movie_projector_x.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="916412887"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="movie_projector_x" ID="{50F66812-DED3-4276-9623-2B99F847DF76}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Moving3_Sewing" ID="{154C84F9-DFB1-4928-99A4-3BF0A209C817}" ShortID="989566793">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="obstacle" ID="{9B378BBA-5506-44CE-80DE-B7829C6C0AE7}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="133048__temawas__sewing-machine" ID="{4245363F-5420-42EA-B6F0-24BFEEE60E96}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.80625208195372"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.45543876547668"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>133048__temawas__sewing-machine.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="578318702"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="133048__temawas__sewing-machine" ID="{4245363F-5420-42EA-B6F0-24BFEEE60E96}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

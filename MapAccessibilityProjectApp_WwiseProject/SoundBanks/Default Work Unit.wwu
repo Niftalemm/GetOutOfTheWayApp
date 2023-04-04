@@ -5,18 +5,23 @@
 			<ChildrenList>
 				<SoundBank Name="name" ID="{D4CA33B5-2CC4-4FC0-BCAC-C815D89D876B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Cannon_impact_9" ID="{AB894330-B9A2-42C9-BC3E-FCE332BB4D0B}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="0"/>
-						<ObjectRef Name="Play_Spaceship_passing_by" ID="{2A7CEEB8-A19E-46F0-BEA7-A8F1F169CE12}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Walking_in_ChainMail___Loop" ID="{F0262016-F2B4-4AC2-97BB-30930D50E99A}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="0"/>
+						<ObjectRef Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moving2_Projector" ID="{14182690-4485-4217-95D1-A61E8BFF5874}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moving3_Sewing" ID="{3A586853-8E46-4278-AE20-4BED2CAA1320}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Static2" ID="{69BE8256-BA97-4942-84BD-55AE462288EE}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goal1" ID="{0DC08397-30C9-4E21-93F3-DDCF9F70B4DC}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goal2" ID="{F136B9F6-822F-4EBD-9241-2710698A288F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goal3" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="new_guy" ID="{E68495FB-BF3B-4DF0-8BB2-47414E130374}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_The_Creature_1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Engine_03" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goal3" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

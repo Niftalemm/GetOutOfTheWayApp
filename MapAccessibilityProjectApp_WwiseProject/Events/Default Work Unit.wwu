@@ -36,34 +36,89 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}">
+				<Event Name="Play_Goal3" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}">
 					<ChildrenList>
 						<Action Name="" ID="{C03D7331-35DB-4065-9C94-BF6E63608782}" ShortID="863552471">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="MUSCChim_InsJ_Hand-Bell_01-16_High-C" ID="{D97941A1-A24A-4382-9EF2-9FE27416A9E7}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+									<ObjectRef Name="Goal3" ID="{D97941A1-A24A-4382-9EF2-9FE27416A9E7}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Engine_03" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}">
+				<Event Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}">
 					<ChildrenList>
 						<Action Name="" ID="{F2E85789-2906-4918-A86F-B00312348E52}" ShortID="988044063">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Engine_03" ID="{EDAD9DB1-332D-4341-BBFC-C3D3DC7956A3}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+									<ObjectRef Name="Moving1_Engine" ID="{EDAD9DB1-332D-4341-BBFC-C3D3DC7956A3}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_The_Creature_1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}">
+				<Event Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}">
 					<ChildrenList>
 						<Action Name="" ID="{DAC64434-892D-48EE-BE3A-740A0B4C86F3}" ShortID="432139127">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="The Creature 1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+									<ObjectRef Name="Static1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Goal1" ID="{0DC08397-30C9-4E21-93F3-DDCF9F70B4DC}">
+					<ChildrenList>
+						<Action Name="" ID="{98E5C27D-3BFD-49B1-9486-84A51F13D150}" ShortID="1055984996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goal1" ID="{FC3B3278-DDFC-4C01-902A-ABD97F538A9F}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Goal2" ID="{F136B9F6-822F-4EBD-9241-2710698A288F}">
+					<ChildrenList>
+						<Action Name="" ID="{63C891C5-E5F1-45D8-9C82-AB328478AADA}" ShortID="67275112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goal2" ID="{07218D90-C0E3-4730-9695-4496B8A8A7D1}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Static2" ID="{69BE8256-BA97-4942-84BD-55AE462288EE}">
+					<ChildrenList>
+						<Action Name="" ID="{DE7F746F-D1B0-45B5-AFC3-E0FF5C8CC15D}" ShortID="53656449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Static2" ID="{98F93700-3200-41B5-9431-8152465D32AC}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Moving3_Sewing" ID="{3A586853-8E46-4278-AE20-4BED2CAA1320}">
+					<ChildrenList>
+						<Action Name="" ID="{B58D4E03-E472-4F28-B9C9-DF1795CE939A}" ShortID="782174308">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moving3_Sewing" ID="{154C84F9-DFB1-4928-99A4-3BF0A209C817}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Moving2_Projector" ID="{14182690-4485-4217-95D1-A61E8BFF5874}">
+					<ChildrenList>
+						<Action Name="" ID="{013F2F27-BC2D-45C1-B975-E297F0FDD956}" ShortID="173477515">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moving2_Projector" ID="{61AEF91B-7AB4-4463-A406-E54629BC308C}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
