@@ -9,19 +9,91 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{AFB377CE-8750-A487-93AA-359F8AC56DB1}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{966E69BD-28E4-83EE-7958-C92E5141D9AD}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
-				<File Id="867703089" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Spaceship passing by.wav</ShortName>
-					<CachePath>SFX/Spaceship passing by_10C4C929.wem</CachePath>
+				<File Id="230393233" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goal_2_B.wav</ShortName>
+					<CachePath>SFX/Goal_2_B_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="232375660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>The Creature 1.wav</ShortName>
+					<CachePath>SFX/The Creature 1_093CB6E9.wem</CachePath>
+				</File>
+				<File Id="277644868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Engine_03.wav</ShortName>
+					<CachePath>SFX/Engine_03_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="540102485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Goal_2_A.wav</ShortName>
+					<CachePath>SFX/Goal_2_A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="563949349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wall_A.wav</ShortName>
+					<CachePath>SFX/Wall_A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="578318702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>133048__temawas__sewing-machine.wav</ShortName>
+					<CachePath>SFX/133048__temawas__sewing-machine_89151C9C.wem</CachePath>
+				</File>
+				<File Id="775150697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</ShortName>
+					<CachePath>SFX/MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem</CachePath>
+				</File>
+				<File Id="916412887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>movie_projector_x.wav</ShortName>
+					<CachePath>SFX/movie_projector_x_5ED6A82C.wem</CachePath>
+				</File>
+				<File Id="957856903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>681566__freekit__constant-buzz-with-repeating-spikes.wav</ShortName>
+					<CachePath>SFX/681566__freekit__constant-buzz-with-repeating-spikes_E3B83AEC.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1427384170" Name="Play_Spaceship_passing_by" MaxAttenuation="100" DurationType="OneShot" DurationMin="5" DurationMax="5">
+				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="867703089"/>
+						<MediaRef Id="540102485"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3029450523" Name="Play_Goal2" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="230393233"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="775150697"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="277644868"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2804779699" Name="Play_Moving2_Projector" MaxAttenuation="85" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="916412887"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3992388391" Name="Play_Moving3_Sewing" MaxAttenuation="85" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="578318702"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="51" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="232375660"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="51" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="563949349"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860967" Name="Play_Static3" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="957856903"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -39,7 +111,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{AA9838F4-E777-610D-B2D5-DA894AA0C33F}">
+		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{74303987-F792-5288-B8F3-E215C9239291}">
 			<ShortName>new_guy</ShortName>
 			<Path>new_guy.bnk</Path>
 			<Media>
@@ -57,17 +129,17 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="361325872" Name="Play_Engine_03" MaxAttenuation="85" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="277644868"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2587020279" Name="Play_MUSCChim_InsJ_Hand_Bell_01_16_High_C" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="775150697"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3696976017" Name="Play_The_Creature_1" MaxAttenuation="51" DurationType="Infinite">
+				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="277644868"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="51" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="232375660"/>
 					</MediaRefs>
@@ -75,5 +147,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6F394EAD-FCAE-9C0D-8EEE-8715859D8F1C}</FileHash>
+	<FileHash>{B7EA1AB3-7570-888F-518A-C9F2C0D3E518}</FileHash>
 </SoundBanksInfo>

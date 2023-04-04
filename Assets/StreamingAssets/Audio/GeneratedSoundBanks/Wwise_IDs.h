@@ -13,10 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_ENGINE_03 = 361325872U;
-        static const AkUniqueID PLAY_MUSCCHIM_INSJ_HAND_BELL_01_16_HIGH_C = 2587020279U;
-        static const AkUniqueID PLAY_SPACESHIP_PASSING_BY = 1427384170U;
-        static const AkUniqueID PLAY_THE_CREATURE_1 = 3696976017U;
+        static const AkUniqueID PLAY_GOAL1 = 3029450520U;
+        static const AkUniqueID PLAY_GOAL2 = 3029450523U;
+        static const AkUniqueID PLAY_GOAL3 = 3029450522U;
+        static const AkUniqueID PLAY_MOVING1_ENGINE = 3649024054U;
+        static const AkUniqueID PLAY_MOVING2_PROJECTOR = 2804779699U;
+        static const AkUniqueID PLAY_MOVING3_SEWING = 3992388391U;
+        static const AkUniqueID PLAY_STATIC1 = 2385860965U;
+        static const AkUniqueID PLAY_STATIC2 = 2385860966U;
+        static const AkUniqueID PLAY_STATIC3 = 2385860967U;
     } // namespace EVENTS
 
     namespace BANKS

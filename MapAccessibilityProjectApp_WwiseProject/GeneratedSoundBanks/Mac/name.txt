@@ -1,6 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1427384170	Play_Spaceship_passing_by			\Default Work Unit\Play_Spaceship_passing_by	
+	2385860965	Play_Static1			\Default Work Unit\Play_Static1	
+	2385860966	Play_Static2			\Default Work Unit\Play_Static2	
+	2385860967	Play_Static3			\Default Work Unit\Play_Static3	
+	2804779699	Play_Moving2_Projector			\Default Work Unit\Play_Moving2_Projector	
+	3029450520	Play_Goal1			\Default Work Unit\Play_Goal1	
+	3029450522	Play_Goal3			\Default Work Unit\Play_Goal3	
+	3029450523	Play_Goal2			\Default Work Unit\Play_Goal2	
+	3649024054	Play_Moving1_Engine			\Default Work Unit\Play_Moving1_Engine	
+	3992388391	Play_Moving3_Sewing			\Default Work Unit\Play_Moving3_Sewing	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	867703089	Spaceship passing by	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Spaceship passing by_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship passing by		960096
+	230393233	Goal2	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Goal_2_B_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal2		888100
+	232375660	Static1	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\The Creature 1_093CB6E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static1		1005576
+	277644868	Moving1_Engine	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Engine_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving1_Engine		243684
+	540102485	Goal1	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Goal_2_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal1		1416348
+	563949349	Static2	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Wall_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static2		1056836
+	578318702	Moving3_Sewing	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\133048__temawas__sewing-machine_89151C9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving3_Sewing		291012
+	775150697	Goal3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal3		292996
+	916412887	Moving2_Projector	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\movie_projector_x_5ED6A82C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving2_Projector		36642
+	957856903	Static3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\681566__freekit__constant-buzz-with-repeating-spikes_E3B83AEC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static3		540824
 

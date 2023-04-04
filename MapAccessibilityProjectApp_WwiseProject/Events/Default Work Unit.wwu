@@ -124,6 +124,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Static3" ID="{9B4764FB-9722-4580-9337-6B87B660AF2B}">
+					<ChildrenList>
+						<Action Name="" ID="{75A3AC8F-5EB3-447A-BF16-396BDD6BC442}" ShortID="306795848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Static3" ID="{743CEB17-6E95-4CA5-BDE7-25B988E21C56}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Walls_Boiling" ID="{8EE3D8FD-58CB-4D1C-8D6B-F0FDDF1FED61}">
+					<ChildrenList>
+						<Action Name="" ID="{92EFA6EA-6765-48DE-B293-AC8D3983C0D5}" ShortID="968999312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walls_Boiling" ID="{F3300D82-54AF-441E-9887-5CD127964F7A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

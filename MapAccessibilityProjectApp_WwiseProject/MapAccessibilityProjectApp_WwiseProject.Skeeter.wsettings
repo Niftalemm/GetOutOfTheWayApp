@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Skeeter\Downloads\"/>
 				<Property Name="Event Action List\{03F8A1B3-D91E-4109-BB93-3189CAF59699}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0DC08397-30C9-4E21-93F3-DDCF9F70B4DC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{14182690-4485-4217-95D1-A61E8BFF5874}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2A7CEEB8-A19E-46F0-BEA7-A8F1F169CE12}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3A586853-8E46-4278-AE20-4BED2CAA1320}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}\x64_Expand States" Type="string" Value=""/>
@@ -15,8 +16,10 @@
 				<Property Name="Event Action List\{7F1B9401-BDEF-412D-A477-87025B8DF253}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{859034A5-5D19-4EC9-8810-5562253DD70C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{89C274AC-BBC3-42A7-8192-EA3BEF093CEE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8EE3D8FD-58CB-4D1C-8D6B-F0FDDF1FED61}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8FDD5681-2003-4B50-8266-3B586AE8203D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{93F8CF4E-D1CA-49CF-AE13-8F614CC48C20}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9B4764FB-9722-4580-9337-6B87B660AF2B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9C4B7629-FD54-488C-BE53-109EE062206C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A99E7267-4AAA-4F85-A399-CD745D7E8262}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{AB894330-B9A2-42C9-BC3E-FCE332BB4D0B}\x64_Expand States" Type="string" Value=""/>

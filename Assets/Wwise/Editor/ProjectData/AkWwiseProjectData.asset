@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 55b24e9ea7645e46b03511b1729b9392
     GuidInternal: 
-    m_lastTime: -8585210375862360066
+    m_lastTime: -8585210365882843199
     List:
     - name: name
       guid: b533cad4c42cc04fbcacc815d89d876b
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed0fcf723ac21542b871b71f750b2934
     GuidInternal: 
-    m_lastTime: -8585210375862444394
+    m_lastTime: -8585210365882937420
     List:
     - name: Play_Cannon_impact_9
       guid: 304389aba2b9c942bc3efce332bb4d0b
@@ -280,6 +280,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Static3
+      guid: fb64479b2297804593376b87b660af2b
+      id: 2385860967
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Static3
+        ObjectType: 3
+        guid: fb64479b2297804593376b87b660af2b
+      Path: Events\Default Work Unit\Play_Static3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Walking_in_ChainMail___Loop
       guid: 162026f0b4f2c24a97bb30930d50e99a
       id: 1631307919
@@ -294,6 +311,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 162026f0b4f2c24a97bb30930d50e99a
       Path: Events\Default Work Unit\Play_Walking_in_ChainMail___Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Walls_Boiling
+      guid: fdd8e38ecb581c4d8d6bf0fddf1fed61
+      id: 1116337078
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Walls_Boiling
+        ObjectType: 3
+        guid: fdd8e38ecb581c4d8d6bf0fddf1fed61
+      Path: Events\Default Work Unit\Play_Walls_Boiling
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -354,7 +388,7 @@ MonoBehaviour:
     m_lastTime: -8585253752224161075
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000009c0000009d000000d0000000d1000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000009c0000009d000000d0000000d1000000fe000000ff000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
