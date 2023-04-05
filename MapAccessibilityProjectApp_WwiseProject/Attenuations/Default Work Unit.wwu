@@ -245,6 +245,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="bell" ID="{3A918400-F980-4448-B5DF-62C64536EB64}" ShortID="564542128">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="200"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -255,12 +258,13 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>0</YPos>
+											<YPos>-0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>-200</YPos>
+											<XPos>200</XPos>
+											<YPos>-14.49462</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

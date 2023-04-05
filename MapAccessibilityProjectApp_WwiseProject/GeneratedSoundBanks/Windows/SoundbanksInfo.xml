@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{6C3681B8-CD9D-166E-F714-509A1EE28AB0}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{66AFF6C7-C7D9-2477-3677-3EA16A9478E9}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
@@ -90,17 +90,17 @@
 						<MediaRef Id="928954443"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="200" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="540102485"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3029450523" Name="Play_Goal2" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="3029450523" Name="Play_Goal2" MaxAttenuation="200" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="230393233"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="200" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="775150697"/>
 					</MediaRefs>
@@ -140,7 +140,7 @@
 						<MediaRef Id="563949349"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385860967" Name="Play_Static3" DurationType="Infinite">
+				<Event Id="2385860967" Name="Play_Static3" MaxAttenuation="51" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="957856903"/>
 					</MediaRefs>
@@ -165,7 +165,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{74303987-F792-5288-B8F3-E215C9239291}">
+		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{E7DFF8C8-47B6-4184-19ED-CE9783B14A7F}">
 			<ShortName>new_guy</ShortName>
 			<Path>new_guy.bnk</Path>
 			<Media>
@@ -183,7 +183,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="200" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="775150697"/>
 					</MediaRefs>
@@ -201,5 +201,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{21F65CD3-3E25-087D-1A4A-A1F91D6E1067}</FileHash>
+	<FileHash>{AB5BE8B4-525F-A9C0-47FC-10B5EFCFFB94}</FileHash>
 </SoundBanksInfo>

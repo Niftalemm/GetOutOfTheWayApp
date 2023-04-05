@@ -26,7 +26,7 @@ public class OOF : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Pillar")
+        if (collision.gameObject.tag == "Pillar" || collision.gameObject.tag == "Wall" || collision.gameObject.tag == "Ball")
         {
             akOOFEvent.Post(gameObject);
         }

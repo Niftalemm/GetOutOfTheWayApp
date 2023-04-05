@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 55b24e9ea7645e46b03511b1729b9392
     GuidInternal: 
-    m_lastTime: -8585209507102621005
+    m_lastTime: -8585209490265870970
     List:
     - name: name
       guid: b533cad4c42cc04fbcacc815d89d876b
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed0fcf723ac21542b871b71f750b2934
     GuidInternal: 
-    m_lastTime: -8585209517653784879
+    m_lastTime: -8585209490265990000
     List:
     - name: Play_Cannon_impact_9
       guid: 304389aba2b9c942bc3efce332bb4d0b
@@ -124,6 +124,57 @@ MonoBehaviour:
         ObjectType: 3
         guid: 304389aba2b9c942bc3efce332bb4d0b
       Path: Events\Default Work Unit\Play_Cannon_impact_9
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Error1
+      guid: c0d3fb0c5689f940a12d9cb920850490
+      id: 2208161937
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Error1
+        ObjectType: 3
+        guid: c0d3fb0c5689f940a12d9cb920850490
+      Path: Events\Default Work Unit\Play_Error1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Error2
+      guid: bbe3e1c6f49a8246acc05659e777644c
+      id: 2208161938
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Error2
+        ObjectType: 3
+        guid: bbe3e1c6f49a8246acc05659e777644c
+      Path: Events\Default Work Unit\Play_Error2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Error3
+      guid: 65ed4d31102b544488eb460fe323b27b
+      id: 2208161939
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Error3
+        ObjectType: 3
+        guid: 65ed4d31102b544488eb460fe323b27b
+      Path: Events\Default Work Unit\Play_Error3
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -422,7 +473,7 @@ MonoBehaviour:
     m_lastTime: -8585253752224161075
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000001b0000001c0000001d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
