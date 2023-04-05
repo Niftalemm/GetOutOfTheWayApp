@@ -218,10 +218,18 @@ public class FirstPersonController : MonoBehaviour
 
     private void Update()
     {
+
+        #region MAPP Team Additions (errors here)
+        if (Input.GetKey(KeyCode.E))
+        {
+            ActivateGoal();
+        }
+        #endregion
+
         #region Camera
 
         // Control camera movement
-        if(cameraCanMove)
+        if (cameraCanMove)
         {
             yaw = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * mouseSensitivity;
 
@@ -382,12 +390,7 @@ public class FirstPersonController : MonoBehaviour
 
     void FixedUpdate()
     {
-        #region MAPP Team Additions (errors here)
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            ActivateGoal();
-        }
-        #endregion
+
 
         #region Movement
 
@@ -552,24 +555,28 @@ public class FirstPersonController : MonoBehaviour
 
     private void ActivateGoal()
     {
-        bool flag = false;
+        bool flag = true;
         int counter = 0;
-        while (!flag)
+        while (flag)
         {
             if (counter >= goals.Count)
             {
-                break;
+                flag = false;
             }
             else
             {
-                GoalBehavior temp = goals[counter];
-                goals.RemoveAt(counter);
-                counter--;
-                Destroy(temp.GetComponentInParent<MeshRenderer>());
+                if (goals[counter].WithinActivationRange(rb.transform.position))
+                {
+                    GoalBehavior temp = goals[counter];
+                    goals.RemoveAt(counter);
+                    counter--;
+                    Destroy(temp.GetComponentInParent<MeshRenderer>());
+                    break;
+                }
             }
             counter++;
         }
-        if (!flag)
+        if (flag)
         {
             Debug.Log("There is no goals within range");
         }
