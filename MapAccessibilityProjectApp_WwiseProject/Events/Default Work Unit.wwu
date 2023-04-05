@@ -146,6 +146,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_RobloxOof" ID="{7A20F280-A3C9-4782-9231-B3F9503D9AFC}">
+					<ChildrenList>
+						<Action Name="" ID="{E1A4AE41-7C98-4B59-A19B-4F5C62BA9AC4}" ShortID="891333762">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RobloxOof" ID="{C80084DD-D61D-4C99-8B38-AD57D057373A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Goal_Complete" ID="{AB701E6B-6CA2-414C-893B-C73896B7A52E}">
+					<ChildrenList>
+						<Action Name="" ID="{E65A3D14-8C1F-4563-82A3-8B512A68230F}" ShortID="884956199">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Goal_Complete" ID="{34C5B4F4-8162-4FBC-89FD-20694D77EF82}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Error1" ID="{0CFBD3C0-8956-40F9-A12D-9CB920850490}">
+					<ChildrenList>
+						<Action Name="" ID="{64228B10-6AF8-467E-8CF2-2017AC5ACAE7}" ShortID="523258354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error1" ID="{756C566B-3747-4197-8055-D9C9CF45EED0}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Error2" ID="{C6E1E3BB-9AF4-4682-ACC0-5659E777644C}">
+					<ChildrenList>
+						<Action Name="" ID="{43710ECD-2244-4E9B-B372-55F93939DFBE}" ShortID="540032672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error2" ID="{05355D91-3447-48D0-B9DF-BB1B876A7EB2}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Error3" ID="{314DED65-2B10-4454-88EB-460FE323B27B}">
+					<ChildrenList>
+						<Action Name="" ID="{29FF80C1-FAF2-4CC6-B629-A1CF71CD6C39}" ShortID="1057576534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error3" ID="{0CA978F0-00D0-4160-B158-C8BAE7CFD61D}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

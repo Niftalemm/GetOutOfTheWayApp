@@ -6,11 +6,17 @@
 				<SoundBank Name="name" ID="{D4CA33B5-2CC4-4FC0-BCAC-C815D89D876B}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Error1" ID="{0CFBD3C0-8956-40F9-A12D-9CB920850490}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Goal_Complete" ID="{AB701E6B-6CA2-414C-893B-C73896B7A52E}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moving2_Projector" ID="{14182690-4485-4217-95D1-A61E8BFF5874}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moving3_Sewing" ID="{3A586853-8E46-4278-AE20-4BED2CAA1320}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Error3" ID="{314DED65-2B10-4454-88EB-460FE323B27B}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Static3" ID="{9B4764FB-9722-4580-9337-6B87B660AF2B}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Error2" ID="{C6E1E3BB-9AF4-4682-ACC0-5659E777644C}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RobloxOof" ID="{7A20F280-A3C9-4782-9231-B3F9503D9AFC}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Static2" ID="{69BE8256-BA97-4942-84BD-55AE462288EE}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Walls_Boiling" ID="{8EE3D8FD-58CB-4D1C-8D6B-F0FDDF1FED61}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goal1" ID="{0DC08397-30C9-4E21-93F3-DDCF9F70B4DC}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goal2" ID="{F136B9F6-822F-4EBD-9241-2710698A288F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goal3" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>

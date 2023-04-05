@@ -13,12 +13,17 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ERROR1 = 2208161937U;
+        static const AkUniqueID PLAY_ERROR2 = 2208161938U;
+        static const AkUniqueID PLAY_ERROR3 = 2208161939U;
         static const AkUniqueID PLAY_GOAL1 = 3029450520U;
         static const AkUniqueID PLAY_GOAL2 = 3029450523U;
         static const AkUniqueID PLAY_GOAL3 = 3029450522U;
+        static const AkUniqueID PLAY_GOAL_COMPLETE = 2547208403U;
         static const AkUniqueID PLAY_MOVING1_ENGINE = 3649024054U;
         static const AkUniqueID PLAY_MOVING2_PROJECTOR = 2804779699U;
         static const AkUniqueID PLAY_MOVING3_SEWING = 3992388391U;
+        static const AkUniqueID PLAY_ROBLOXOOF = 1410732160U;
         static const AkUniqueID PLAY_STATIC1 = 2385860965U;
         static const AkUniqueID PLAY_STATIC2 = 2385860966U;
         static const AkUniqueID PLAY_STATIC3 = 2385860967U;

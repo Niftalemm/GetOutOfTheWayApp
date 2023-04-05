@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using AK;
 
 #if UNITY_EDITOR
     using UnityEditor;
@@ -17,6 +18,7 @@ using UnityEngine.UI;
 
 public class FirstPersonController : MonoBehaviour
 {
+    
     private Rigidbody rb;
 
     #region MAPP Team Variables
@@ -160,11 +162,11 @@ public class FirstPersonController : MonoBehaviour
     {
         #region MAPP stuff
         //setup random direction
-        this.transform.rotation = UnityEngine.Random.rotation;
-        rb = GetComponent<Rigidbody>();
+        //this.transform.rotation = UnityEngine.Random.rotation;
+        //rb = GetComponent<Rigidbody>();
 
         // find all goals in scene & link them
-        goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
+        //goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
         #endregion
 
         if(lockCursor)
@@ -220,10 +222,10 @@ public class FirstPersonController : MonoBehaviour
     {
 
         #region MAPP Team Additions (errors here)
-        if (Input.GetKey(KeyCode.E))
-        {
-            ActivateGoal();
-        }
+        //if (Input.GetKey(KeyCode.E))
+        //{
+        //    ActivateGoal();
+        //}
         #endregion
 
         #region Camera
@@ -553,41 +555,45 @@ public class FirstPersonController : MonoBehaviour
         }
     }
 
-    private void ActivateGoal()
-    {
-        bool flag = true;
-        int counter = 0;
-        while (flag)
-        {
-            if (counter >= goals.Count)
-            {
-                flag = false;
-            }
-            else
-            {
-                if (goals[counter].WithinActivationRange(rb.transform.position))
-                {
-                    GoalBehavior temp = goals[counter];
-                    goals.RemoveAt(counter);
-                    counter--;
-                    Destroy(temp.GetComponentInParent<MeshRenderer>());
-                    break;
-                }
-            }
-            counter++;
-        }
-        if (flag)
-        {
-            Debug.Log("There is no goals within range");
-        }
-    }
+    //private void ActivateGoal()
+    //{
+    //    bool flag = true;
+    //    int counter = 0;
+    //    while (flag)
+    //    {
+    //        if (counter >= goals.Count)
+    //        {
+    //            flag = false;
+    //        }
+    //        else
+    //        {
+    //            if (goals[counter].WithinActivationRange(rb.transform.position))
+    //            {
+    //                GoalBehavior temp = goals[counter];
+    //                goals.RemoveAt(counter);
+    //                counter--;
+    //                Destroy(temp.GetComponentInParent<MeshRenderer>());
+    //                break;
+    //            }
+    //        }
+    //        counter++;
+    //    }
+    //    if (flag)
+    //    {
+    //        Debug.Log("There are no goals within range");
+    //    }
+    //}
+    
+
 }
+
+
 
 
 
 // Custom Editor
 #if UNITY_EDITOR
-    [CustomEditor(typeof(FirstPersonController)), InitializeOnLoadAttribute]
+[CustomEditor(typeof(FirstPersonController)), InitializeOnLoadAttribute]
     public class FirstPersonControllerEditor : Editor
     {
     FirstPersonController fpc;

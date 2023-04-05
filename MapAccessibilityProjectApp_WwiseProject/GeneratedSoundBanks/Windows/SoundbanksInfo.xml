@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{F2BA963C-CB8C-0DE6-E106-F4B657264DD6}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{6C3681B8-CD9D-166E-F714-509A1EE28AB0}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
@@ -25,6 +25,10 @@
 					<ShortName>Engine_03.wav</ShortName>
 					<CachePath>SFX/Engine_03_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="305625904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>572938__bloodpixelhero__error-3.wav</ShortName>
+					<CachePath>SFX/572938__bloodpixelhero__error-3_773AB617.wem</CachePath>
+				</File>
 				<File Id="540102485" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Goal_2_A.wav</ShortName>
 					<CachePath>SFX/Goal_2_A_D79FB2B7.wem</CachePath>
@@ -35,15 +39,31 @@
 				</File>
 				<File Id="578318702" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>133048__temawas__sewing-machine.wav</ShortName>
-					<CachePath>SFX/133048__temawas__sewing-machine_B6DCBA84.wem</CachePath>
+					<CachePath>SFX/133048__temawas__sewing-machine_89151C9C.wem</CachePath>
+				</File>
+				<File Id="659495117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>562809__richheard__fanfare-4.wav</ShortName>
+					<CachePath>SFX/562809__richheard__fanfare-4_5C7F738F.wem</CachePath>
+				</File>
+				<File Id="672840739" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>142608__autistic-lucario__error.wav</ShortName>
+					<CachePath>SFX/142608__autistic-lucario__error_10C4C929.wem</CachePath>
 				</File>
 				<File Id="775150697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</ShortName>
 					<CachePath>SFX/MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem</CachePath>
 				</File>
+				<File Id="886845352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>roblox-oof-gamespecifications.com_(1).wav</ShortName>
+					<CachePath>SFX/roblox-oof-gamespecifications.com_(1)_19988ABE.wem</CachePath>
+				</File>
 				<File Id="916412887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>movie_projector_x.wav</ShortName>
-					<CachePath>SFX/movie_projector_x_E6DFEFBF.wem</CachePath>
+					<CachePath>SFX/movie_projector_x_5ED6A82C.wem</CachePath>
+				</File>
+				<File Id="928954443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>577835__deeplayerking__windows-error-sound-effect.wav</ShortName>
+					<CachePath>SFX/577835__deeplayerking__windows-error-sound-effect_98680764.wem</CachePath>
 				</File>
 				<File Id="957856903" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>681566__freekit__constant-buzz-with-repeating-spikes.wav</ShortName>
@@ -51,10 +71,25 @@
 				</File>
 				<File Id="1010418730" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>681638__itinerantmonk108__electric-tea-kettle.wav</ShortName>
-					<CachePath>SFX/681638__itinerantmonk108__electric-tea-kettle_A188E86F.wem</CachePath>
+					<CachePath>SFX/681638__itinerantmonk108__electric-tea-kettle_0789F156.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2208161937" Name="Play_Error1" DurationType="OneShot" DurationMin="0.28510204" DurationMax="0.28510204">
+					<MediaRefs>
+						<MediaRef Id="672840739"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2208161938" Name="Play_Error2" DurationType="OneShot" DurationMin="0.81665486" DurationMax="0.81665486">
+					<MediaRefs>
+						<MediaRef Id="305625904"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2208161939" Name="Play_Error3" DurationType="OneShot" DurationMin="0.5472786" DurationMax="0.5472786">
+					<MediaRefs>
+						<MediaRef Id="928954443"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="540102485"/>
@@ -70,6 +105,11 @@
 						<MediaRef Id="775150697"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2547208403" Name="Play_Goal_Complete" DurationType="OneShot" DurationMin="2.681416" DurationMax="2.681416">
+					<MediaRefs>
+						<MediaRef Id="659495117"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="277644868"/>
@@ -83,6 +123,11 @@
 				<Event Id="3992388391" Name="Play_Moving3_Sewing" MaxAttenuation="85" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="578318702"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1410732160" Name="Play_RobloxOof" DurationType="OneShot" DurationMin="0.32153392" DurationMax="0.32153392">
+					<MediaRefs>
+						<MediaRef Id="886845352"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="51" DurationType="Infinite">
@@ -156,5 +201,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B9CCDABC-ADB1-6A65-FF5E-D8FDC19677FA}</FileHash>
+	<FileHash>{21F65CD3-3E25-087D-1A4A-A1F91D6E1067}</FileHash>
 </SoundBanksInfo>

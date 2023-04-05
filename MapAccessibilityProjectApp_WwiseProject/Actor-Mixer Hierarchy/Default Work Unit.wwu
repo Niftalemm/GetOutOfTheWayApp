@@ -406,6 +406,154 @@
 						<ActiveSource Name="681638__itinerantmonk108__electric-tea-kettle" ID="{1E2DE5A4-0AA9-46ED-B011-16A917FD72EC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="RobloxOof" ID="{C80084DD-D61D-4C99-8B38-AD57D057373A}" ShortID="977811616">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="roblox-oof-gamespecifications_com_(1)" ID="{28654395-809B-436E-A02F-4E85E388C6BA}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.513274336283186"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.834808259587021"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>roblox-oof-gamespecifications.com_(1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="886845352"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="roblox-oof-gamespecifications_com_(1)" ID="{28654395-809B-436E-A02F-4E85E388C6BA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Goal_Complete" ID="{34C5B4F4-8162-4FBC-89FD-20694D77EF82}" ShortID="353515285">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="562809__richheard__fanfare-4" ID="{4930934F-F06A-461D-A409-006E448C8E30}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.34513274336283"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.61061946902655"/>
+								<Property Name="TrimEnd" Type="Real64" Value="3.29203539823009"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>562809__richheard__fanfare-4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="659495117"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="562809__richheard__fanfare-4" ID="{4930934F-F06A-461D-A409-006E448C8E30}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Error1" ID="{756C566B-3747-4197-8055-D9C9CF45EED0}" ShortID="492023458">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="142608__autistic-lucario__error" ID="{0F71E6DF-063F-4DDE-9A2E-A3382EECA8AD}">
+							<Language>SFX</Language>
+							<AudioFile>142608__autistic-lucario__error.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="672840739"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="142608__autistic-lucario__error" ID="{0F71E6DF-063F-4DDE-9A2E-A3382EECA8AD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Error2" ID="{05355D91-3447-48D0-B9DF-BB1B876A7EB2}" ShortID="549527860">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="572938__bloodpixelhero__error-3" ID="{BDB6E255-B856-4B0B-97A7-67AA16492FE9}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.816654867256637"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>572938__bloodpixelhero__error-3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="305625904"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="572938__bloodpixelhero__error-3" ID="{BDB6E255-B856-4B0B-97A7-67AA16492FE9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Error3" ID="{0CA978F0-00D0-4160-B158-C8BAE7CFD61D}" ShortID="86376727">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="577835__deeplayerking__windows-error-sound-effect" ID="{3CE60D09-3062-4239-8CF1-D72FA273BEEC}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.544059291366497"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.544059291366497"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>577835__deeplayerking__windows-error-sound-effect.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="928954443"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="577835__deeplayerking__windows-error-sound-effect" ID="{3CE60D09-3062-4239-8CF1-D72FA273BEEC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

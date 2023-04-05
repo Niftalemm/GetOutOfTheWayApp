@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6bd3a9296f2a9e43906f5295ebfc671a
     GuidInternal: 
-    m_lastTime: -8585252800355538818
+    m_lastTime: -8585253752224156115
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 9926904b5e5a6f4687dd6b48cd2013cb
     GuidInternal: 
-    m_lastTime: -8585252800355628920
+    m_lastTime: -8585253752224210675
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 55b24e9ea7645e46b03511b1729b9392
     GuidInternal: 
-    m_lastTime: -8585209639979414510
+    m_lastTime: -8585209507102621005
     List:
     - name: name
       guid: b533cad4c42cc04fbcacc815d89d876b
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed0fcf723ac21542b871b71f750b2934
     GuidInternal: 
-    m_lastTime: -8585209639997491097
+    m_lastTime: -8585209517653784879
     List:
     - name: Play_Cannon_impact_9
       guid: 304389aba2b9c942bc3efce332bb4d0b
@@ -124,6 +124,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 304389aba2b9c942bc3efce332bb4d0b
       Path: Events\Default Work Unit\Play_Cannon_impact_9
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Goal_Complete
+      guid: 6b1e70aba26c4c41893bc73896b7a52e
+      id: 2547208403
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Goal_Complete
+        ObjectType: 3
+        guid: 6b1e70aba26c4c41893bc73896b7a52e
+      Path: Events\Default Work Unit\Play_Goal_Complete
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -226,6 +243,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5368583a468e7842ae204bed2caa1320
       Path: Events\Default Work Unit\Play_Moving3_Sewing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_RobloxOof
+      guid: 80f2207ac9a382479231b3f9503d9afc
+      id: 1410732160
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_RobloxOof
+        ObjectType: 3
+        guid: 80f2207ac9a382479231b3f9503d9afc
+      Path: Events\Default Work Unit\Play_RobloxOof
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -343,7 +377,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 073e643df2f012408e780b438cd5c1a5
     GuidInternal: 
-    m_lastTime: -8585252800355668921
+    m_lastTime: -8585253752224235475
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -357,7 +391,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 7a78160f148edc439ec1221a33fd2bb4
     GuidInternal: 
-    m_lastTime: -8585252800355568884
+    m_lastTime: -8585253752224170996
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -371,7 +405,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 8c65800200679e4e95aae9a13c60f1da
     GuidInternal: 
-    m_lastTime: -8585252800355558890
+    m_lastTime: -8585253752224166035
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -385,10 +419,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 70cf7cdfecf1734686970a18d2d8ef3c
     GuidInternal: 
-    m_lastTime: -8585252800355558890
+    m_lastTime: -8585253752224161075
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
