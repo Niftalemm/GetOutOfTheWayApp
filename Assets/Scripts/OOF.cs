@@ -46,7 +46,7 @@ public class OOF : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (selectedLevels.Count < 3)
+            if (selectedLevels.Count < 24)
             {
                 Debug.Log(selectedLevels.Count);
                 ActivateGoal();
@@ -114,19 +114,19 @@ public class OOF : MonoBehaviour
     {
         // load a random level
         int nextLevel;
-        if (selectedLevels.Count > 0)
+        if (selectedLevels.Count < levelNames.Length * 3)
         {
-            nextLevel = Random.Range(0, levelNames.Length);
+            do
+            {
+                nextLevel = Random.Range(0, levelNames.Length);
+            } while (selectedLevels.Count(level => level == nextLevel) >= 3);
+
+            selectedLevels.Add(nextLevel);
+            // save selectedLevels to PlayerPrefs
+            PlayerPrefs.SetString("SelectedLevels", string.Join(",", selectedLevels));
+            PlayerPrefs.Save();
+            SceneManager.LoadScene(levelNames[nextLevel]);
         }
-        else
-        {
-            nextLevel = 0;
-        }
-        selectedLevels.Add(nextLevel);
-        // save selectedLevels to PlayerPrefs
-        PlayerPrefs.SetString("SelectedLevels", string.Join(",", selectedLevels));
-        PlayerPrefs.Save();
-        SceneManager.LoadScene(levelNames[nextLevel]);
     }
     private void resetLevel()
     {
