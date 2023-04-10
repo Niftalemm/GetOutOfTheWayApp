@@ -7,6 +7,7 @@ using UnityEditor;
 using System.Xml.Serialization;
 using System.Linq;
 using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
+using UnityEngine.SceneManagement;
 
 public class OOF : MonoBehaviour
 {
@@ -16,12 +17,21 @@ public class OOF : MonoBehaviour
     [SerializeField] public AK.Wwise.Event akGoalError;
     private List<GoalBehavior> goals;
     private Rigidbody rb;
-
+    public string[] tutorialLevels = { "Level1", "Level2", "Level3" };
+    public string[] levelNames = { "Level4", "Level5", "Level6", "Level7", "Level8", "Level9", "Level10", "Level11" };
+    public List<int> selectedLevels;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
+        selectedLevels = new List<int>(); // Initialize selectedLevels to an empty list
 
+        // Load the selectedLevels list from PlayerPrefs
+        if (PlayerPrefs.HasKey("SelectedLevels"))
+        {
+            string levelsString = PlayerPrefs.GetString("SelectedLevels");
+            selectedLevels = new List<int>(System.Array.ConvertAll(levelsString.Split(','), int.Parse));
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -36,8 +46,18 @@ public class OOF : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("h*ck");
-            ActivateGoal();
+            if (selectedLevels.Count < 3)
+            {
+                Debug.Log(selectedLevels.Count);
+                ActivateGoal();
+            }
+            else
+            {
+                Debug.Log("Game Over");
+                SceneManager.LoadScene("Success");
+                resetLevel();
+            }
+
         }
     }
     private void ActivateGoal()
@@ -63,5 +83,63 @@ public class OOF : MonoBehaviour
             Debug.Log("There are no goal objects in range");
             akGoalError.Post(gameObject);
         }
+
+        if (goals.Count == 0)
+        {
+            // check current level
+            Scene currentScene = SceneManager.GetActiveScene();
+            Debug.Log(currentScene.name);
+            // If the current level is tutorial scene
+            if (tutorialLevels.Contains(currentScene.name))
+            {
+                int nextSceneIndex = System.Array.IndexOf(tutorialLevels, currentScene.name) + 1;
+                if (nextSceneIndex < tutorialLevels.Length)
+                {
+                    // go to next tutorial level
+                    SceneManager.LoadScene(tutorialLevels[nextSceneIndex]);
+                }
+                else
+                {
+                    selectRandomLevel();
+                }
+            }
+            else
+            {
+                selectRandomLevel();
+            }
+        }
     }
+    // Randomly generate a level, and store level name into a list
+    private void selectRandomLevel()
+    {
+        // load a random level
+        int nextLevel;
+        if (selectedLevels.Count > 0)
+        {
+            nextLevel = Random.Range(0, levelNames.Length);
+        }
+        else
+        {
+            nextLevel = 0;
+        }
+        selectedLevels.Add(nextLevel);
+        // save selectedLevels to PlayerPrefs
+        PlayerPrefs.SetString("SelectedLevels", string.Join(",", selectedLevels));
+        PlayerPrefs.Save();
+        SceneManager.LoadScene(levelNames[nextLevel]);
+    }
+    private void resetLevel()
+    {
+        selectedLevels = new List<int>(); // Initialize selectedLevels to an empty list
+        PlayerPrefs.SetString("SelectedLevels", string.Join(",", selectedLevels));
+        PlayerPrefs.Save();
+    }
+    // When the player exit the play mode using the toolbar button, reset everything
+    private void OnApplicationQuit()
+    {
+        Debug.Log("Player has exited Play Mode");
+        resetLevel();
+    }
+
 }
+

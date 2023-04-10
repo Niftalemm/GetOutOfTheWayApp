@@ -22,13 +22,6 @@ public class FirstPersonController : MonoBehaviour
     
     private Rigidbody rb;
 
-    #region MAPP Team Variables
-
-    private List<GoalBehavior> goals;
-
-    public string[] levelNames = { "Level4", "Level5" };
-
-    #endregion
 
     #region Camera Movement Variables
 
@@ -163,19 +156,6 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
-        #region MAPP stuff
-        //setup random direction
-        //this.transform.rotation = UnityEngine.Random.rotation;
-        rb = GetComponent<Rigidbody>();
-
-        // find all goals in scene & link them
-        goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
-        Debug.Log(goals.Count);
-        foreach (GoalBehavior g in goals)
-        {
-            Debug.Log(g);
-        }
-        #endregion
 
         if(lockCursor)
         {
@@ -230,11 +210,7 @@ public class FirstPersonController : MonoBehaviour
     {
 
         #region MAPP Team Additions (errors here)
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("Click");
-            ActivateGoal();
-        }
+
         #endregion
 
         #region Camera
@@ -563,60 +539,6 @@ public class FirstPersonController : MonoBehaviour
             joint.localPosition = new Vector3(Mathf.Lerp(joint.localPosition.x, jointOriginalPos.x, Time.deltaTime * bobSpeed), Mathf.Lerp(joint.localPosition.y, jointOriginalPos.y, Time.deltaTime * bobSpeed), Mathf.Lerp(joint.localPosition.z, jointOriginalPos.z, Time.deltaTime * bobSpeed));
         }
     }
-
-    private void ActivateGoal()
-    {
-        bool flag = false;
-        int index = 0;
-        while (!flag && index < goals.Count)
-        {
-            if (goals[index].WithinActivationRange(rb.transform.position))
-            {
-                GoalBehavior temp = goals[index];
-                Destroy(temp.GetComponentInParent<MeshRenderer>());
-                goals.RemoveAt(index);
-                Debug.Log(goals.Count);
-                flag = true;
-            }
-            index++;
-        }
-        if (!flag && index == goals.Count)
-        {
-            Debug.Log("There are no goal objects in range");
-        }
-        //When the player hits all the goals, go to another scene randomly
-        if (goals.Count == 0) 
-        {
-            // load a random level
-            int nextLevel = Random.Range(0, levelNames.Length);
-            //SceneManager.LoadScene(levelNames[nextLevel]);
-            SceneManager.LoadScene(levelNames[1]);
-        }
-    }
-    //    {
-    //        if (counter >= goals.Count)
-    //        {
-    //            flag = false;
-    //        }
-    //        else
-    //        {
-    //            if (goals[counter].WithinActivationRange(rb.transform.position))
-    //            {
-    //                GoalBehavior temp = goals[counter];
-    //                goals.RemoveAt(counter);
-    //                counter--;
-    //                Destroy(temp.GetComponentInParent<MeshRenderer>());
-    //                break;
-    //            }
-    //        }
-    //        counter++;
-    //    }
-    //    if (flag)
-    //    {
-    //        Debug.Log("There are no goals within range");
-    //    }
-    //}
-    
 
 }
 
