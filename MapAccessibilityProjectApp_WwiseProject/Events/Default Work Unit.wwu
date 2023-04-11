@@ -201,6 +201,138 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GoalGuitarChords" ID="{58D87EFC-7C28-4750-A2C5-6A726FF78AE1}">
+					<ChildrenList>
+						<Action Name="" ID="{7D11D0F9-6125-49C1-B1B7-5168F654E23B}" ShortID="139609645">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalGuitarChords" ID="{46775F15-6F03-40D7-A0BF-41445479CA52}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalBluesRiff" ID="{A8A027E3-7D39-4CE9-8F0D-C2D07C114037}">
+					<ChildrenList>
+						<Action Name="" ID="{C2C48423-7A89-4F6A-B8E8-CD19DE4F93A3}" ShortID="1023226441">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalBluesRiff" ID="{3603A5D1-CFC4-4CE6-971A-C0783703C876}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalClassicalGuitar" ID="{425A1757-F8CC-429D-BADE-A8EC1D1DDFED}">
+					<ChildrenList>
+						<Action Name="" ID="{FC780DCB-4AD3-4488-A36D-920B07DCDF2C}" ShortID="626716469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalClassicalGuitar" ID="{57D1EB44-C75D-4112-96D8-BD516BC6D373}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalJazzGuitar" ID="{D7E26306-DD22-4359-98AF-C57D5C65784C}">
+					<ChildrenList>
+						<Action Name="" ID="{1C4BD6DC-C858-4211-BABD-658CA6E95069}" ShortID="993263915">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalJazzGuitar" ID="{A353477A-4165-4929-9F05-0446F10ECD50}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalJazzPiano" ID="{880311AB-9BE1-4936-A810-A0CAEC0ED3A7}">
+					<ChildrenList>
+						<Action Name="" ID="{12919243-119A-45C1-BCE4-6C7CD10613BF}" ShortID="88683212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalJazzPiano" ID="{E2C44687-41C8-4270-8720-51BECF22424C}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalLightJazz" ID="{9663C8F4-D882-41AD-9C5A-C52986B64227}">
+					<ChildrenList>
+						<Action Name="" ID="{F2A15973-1578-4E45-9EE4-09CCBB595817}" ShortID="1010618602">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalLightJazz" ID="{153AB276-6347-4061-8D64-50680B550121}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalGuitarStratocaster" ID="{AB3237AC-A273-41A0-8537-119D53425483}">
+					<ChildrenList>
+						<Action Name="" ID="{8CBF3650-6629-4A65-A41B-2443A84EBFFF}" ShortID="140053636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalGuitarStratocaster" ID="{F0099C21-BA13-4F58-BB8C-43C39CBEF2C0}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalGuitarMetal" ID="{997812D6-529A-4E0D-B62B-5834F6E0E5D0}">
+					<ChildrenList>
+						<Action Name="" ID="{3AB77E48-36D1-464A-A46B-83F969C7D26D}" ShortID="1054763434">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalGuitarMetal" ID="{DAE24843-62E5-49DB-BA1A-6EC0448FC133}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalViolin" ID="{DB581D09-ED87-49DB-AA73-1EC2A03708FB}">
+					<ChildrenList>
+						<Action Name="" ID="{13178DC9-359A-4AF4-8F75-003A23EA27CA}" ShortID="343771127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalViolin" ID="{1C299CCD-069F-4E6E-9933-D3B987ED84DB}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalDreamyTropics" ID="{542D57A4-F76B-42B7-9899-D7297080BCC3}">
+					<ChildrenList>
+						<Action Name="" ID="{D432E3E3-4896-40DC-9912-3BFC05F81190}" ShortID="187959183">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalDreamyTropics" ID="{2A89BEF6-0C0A-44B8-AFC0-5A77656DE694}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DontUse" ID="{100879C8-3DFE-4685-A442-716927C4537C}">
+					<ChildrenList>
+						<Action Name="" ID="{2EF57529-7644-4995-BFAA-4505C13263B6}" ShortID="122122869">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DontUse" ID="{FEF78C2E-B5CB-4363-B314-A1FADAA2E941}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalMelodicDrums" ID="{E956F31A-945C-4390-A014-3B9537C74470}">
+					<ChildrenList>
+						<Action Name="" ID="{F45A29D7-9747-4CDB-AECA-C14FCCDC7C40}" ShortID="683595222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalMelodicDrums" ID="{60A44B61-252F-4ACE-A7BF-BDBB44C9FFD1}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

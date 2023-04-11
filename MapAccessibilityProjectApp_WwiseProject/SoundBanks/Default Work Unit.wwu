@@ -33,6 +33,24 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="GoalIdeas" ID="{4AE49048-302E-4F6B-87F6-38B34BE672EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_GoalGuitarStratocaster" ID="{AB3237AC-A273-41A0-8537-119D53425483}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalLightJazz" ID="{9663C8F4-D882-41AD-9C5A-C52986B64227}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalClassicalGuitar" ID="{425A1757-F8CC-429D-BADE-A8EC1D1DDFED}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalDreamyTropics" ID="{542D57A4-F76B-42B7-9899-D7297080BCC3}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalJazzGuitar" ID="{D7E26306-DD22-4359-98AF-C57D5C65784C}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalMelodicDrums" ID="{E956F31A-945C-4390-A014-3B9537C74470}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DontUse" ID="{100879C8-3DFE-4685-A442-716927C4537C}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalGuitarChords" ID="{58D87EFC-7C28-4750-A2C5-6A726FF78AE1}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalJazzPiano" ID="{880311AB-9BE1-4936-A810-A0CAEC0ED3A7}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalViolin" ID="{DB581D09-ED87-49DB-AA73-1EC2A03708FB}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalBluesRiff" ID="{A8A027E3-7D39-4CE9-8F0D-C2D07C114037}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalGuitarMetal" ID="{997812D6-529A-4E0D-B62B-5834F6E0E5D0}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
