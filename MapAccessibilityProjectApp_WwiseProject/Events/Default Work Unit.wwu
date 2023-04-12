@@ -157,17 +157,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Goal_Complete" ID="{AB701E6B-6CA2-414C-893B-C73896B7A52E}">
-					<ChildrenList>
-						<Action Name="" ID="{E65A3D14-8C1F-4563-82A3-8B512A68230F}" ShortID="884956199">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Goal_Complete" ID="{34C5B4F4-8162-4FBC-89FD-20694D77EF82}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Error1" ID="{0CFBD3C0-8956-40F9-A12D-9CB920850490}">
 					<ChildrenList>
 						<Action Name="" ID="{64228B10-6AF8-467E-8CF2-2017AC5ACAE7}" ShortID="523258354">
@@ -328,6 +317,105 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="GoalMelodicDrums" ID="{60A44B61-252F-4ACE-A7BF-BDBB44C9FFD1}" WorkUnitID="{7543CAA1-5983-44A0-AE33-944A4234012A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thud1" ID="{76865A8A-0A08-4824-908B-04324F2B75AA}">
+					<ChildrenList>
+						<Action Name="" ID="{1390321C-18C1-40D1-9B32-A81B4F4696D0}" ShortID="248902845">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thud1" ID="{F88F719B-7C60-48EA-A857-0F40ECFEF514}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thud3" ID="{F7F8E2C6-91DD-4545-BFA4-0705B04691D6}">
+					<ChildrenList>
+						<Action Name="" ID="{374D8764-F188-4B0B-9AD0-5025525CCD2E}" ShortID="171936546">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thud3" ID="{92825E07-3CD9-40AC-8704-E8B3E286B074}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thud2" ID="{BFA48292-A3BE-42B2-AB96-3EA1796B11F6}">
+					<ChildrenList>
+						<Action Name="" ID="{0CD42FC8-80DF-41A9-8FC8-05159FBDB612}" ShortID="42969105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thud2" ID="{51D82F3F-6AF1-4CB8-8159-49F2390A4042}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete3" ID="{01FE51E8-7880-4497-A03F-C59FC61D788D}">
+					<ChildrenList>
+						<Action Name="" ID="{5B904E76-B971-46B1-8960-13F788802AEA}" ShortID="838698774">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete3" ID="{7328CC27-4F30-4FE4-BC3D-D67CCA803132}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete4" ID="{3768EFD2-E3A4-4228-BD0F-3BCB64443932}">
+					<ChildrenList>
+						<Action Name="" ID="{335E0A4D-15B3-4605-9162-24933EA5B2F9}" ShortID="203634156">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete4" ID="{8809F8CD-0568-4D9B-842D-FBB21F4EFA5F}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete2" ID="{44614E32-BD3B-4881-88B8-818A493D7192}">
+					<ChildrenList>
+						<Action Name="" ID="{C3AE597B-CB93-4FFD-8ADE-3FDB112B4B99}" ShortID="1039025525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete2" ID="{097F92B0-8F77-4871-AB03-65AC2F88D7CE}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete" ID="{2325E3ED-CFFC-4232-B5B1-2EE7F8DB3B5D}">
+					<ChildrenList>
+						<Action Name="" ID="{E90F917E-A3E3-480D-AE7D-3210656F8249}" ShortID="805229509">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete" ID="{34C5B4F4-8162-4FBC-89FD-20694D77EF82}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete5" ID="{A433E27A-C0C7-4001-9CD9-3FF1911A56C8}">
+					<ChildrenList>
+						<Action Name="" ID="{D80F5329-9911-40F2-9B7D-CA7B19C2DE49}" ShortID="511217429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete5" ID="{321044EC-F66D-44A6-B756-4F5F22890E51}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalPing" ID="{C47B7CE5-CB9A-48C1-B66F-77AD7A4A2972}">
+					<ChildrenList>
+						<Action Name="" ID="{80512AED-CAA4-4EAF-8BA1-9864CEF97398}" ShortID="746403963">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
