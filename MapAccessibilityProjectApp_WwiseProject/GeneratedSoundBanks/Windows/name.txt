@@ -1,34 +1,50 @@
 Event	ID	Name			Wwise Object Path	Notes
+	100894738	Play_GoalComplete			\Default Work Unit\Play_GoalComplete	
 	1116337078	Play_Walls_Boiling			\Default Work Unit\Play_Walls_Boiling	
 	1410732160	Play_RobloxOof			\Default Work Unit\Play_RobloxOof	
+	2096220504	Play_Thud3			\Default Work Unit\Play_Thud3	
+	2096220505	Play_Thud2			\Default Work Unit\Play_Thud2	
+	2096220506	Play_Thud1			\Default Work Unit\Play_Thud1	
 	2208161937	Play_Error1			\Default Work Unit\Play_Error1	
 	2208161938	Play_Error2			\Default Work Unit\Play_Error2	
 	2208161939	Play_Error3			\Default Work Unit\Play_Error3	
+	2307863650	Play_GoalComplete4			\Default Work Unit\Play_GoalComplete4	
+	2307863651	Play_GoalComplete5			\Default Work Unit\Play_GoalComplete5	
+	2307863652	Play_GoalComplete2			\Default Work Unit\Play_GoalComplete2	
+	2307863653	Play_GoalComplete3			\Default Work Unit\Play_GoalComplete3	
 	2385860965	Play_Static1			\Default Work Unit\Play_Static1	
 	2385860966	Play_Static2			\Default Work Unit\Play_Static2	
 	2385860967	Play_Static3			\Default Work Unit\Play_Static3	
-	2547208403	Play_Goal_Complete			\Default Work Unit\Play_Goal_Complete	
 	2804779699	Play_Moving2_Projector			\Default Work Unit\Play_Moving2_Projector	
 	3029450520	Play_Goal1			\Default Work Unit\Play_Goal1	
 	3029450522	Play_Goal3			\Default Work Unit\Play_Goal3	
 	3029450523	Play_Goal2			\Default Work Unit\Play_Goal2	
+	3561705391	Play_GoalPing			\Default Work Unit\Play_GoalPing	
 	3649024054	Play_Moving1_Engine			\Default Work Unit\Play_Moving1_Engine	
 	3992388391	Play_Moving3_Sewing			\Default Work Unit\Play_Moving3_Sewing	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	230393233	Goal2	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Goal_2_B_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal2		888100
-	232375660	Static1	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\The Creature 1_093CB6E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static1		1005576
-	277644868	Moving1_Engine	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Engine_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving1_Engine		243684
-	305625904	Error2	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\572938__bloodpixelhero__error-3_773AB617.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error2		156892
-	540102485	Goal1	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Goal_2_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal1		1416348
-	563949349	Static2	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Wall_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static2		1056836
-	578318702	Moving3_Sewing	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\133048__temawas__sewing-machine_89151C9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving3_Sewing		291012
-	659495117	Goal_Complete	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\562809__richheard__fanfare-4_5C7F738F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal_Complete		473100
-	672840739	Error1	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\142608__autistic-lucario__error_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error1		25242
-	775150697	Goal3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal3		292996
-	886845352	RobloxOof	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\roblox-oof-gamespecifications.com_(1)_19988ABE.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobloxOof		56816
-	916412887	Moving2_Projector	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\movie_projector_x_5ED6A82C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving2_Projector		36642
-	928954443	Error3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\577835__deeplayerking__windows-error-sound-effect_98680764.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error3		96636
-	957856903	Static3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\681566__freekit__constant-buzz-with-repeating-spikes_E3B83AEC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static3		540824
-	1010418730	Walls_Boiling	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\681638__itinerantmonk108__electric-tea-kettle_0789F156.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walls_Boiling		597012
+	42088284	Thud2	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\457741__osiruswaltz__wall-bump-1_AA20BD03.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thud2		160064
+	201529871	GoalComplete2	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\466133__humanoide9000__victory-fanfare_E4200DCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalComplete2		288752
+	217865682	GoalPing	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Traffic_Ping_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalPing		707348
+	230393233	Goal2	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Goal_2_B_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal2		888100
+	232375660	Static1	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\The Creature 1_093CB6E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static1		1005576
+	277644868	Moving1_Engine	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Engine_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving1_Engine		243684
+	305625904	Error2	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\572938__bloodpixelhero__error-3_773AB617.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error2		156892
+	332083561	GoalComplete4	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\580310__colorscrimsontears__fanfare-2-rpg_1EA61D19.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalComplete4		339224
+	540102485	Goal1	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Goal_2_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal1		1416348
+	554589208	GoalComplete3	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\320887__rhodesmas__win-04_73E760FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalComplete3		211776
+	563949349	Static2	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\Wall_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static2		1056836
+	578318702	Moving3_Sewing	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\133048__temawas__sewing-machine_89151C9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving3_Sewing		291012
+	653669051	Thud3	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\326048__freeman213sg__muted-wall-hit_257E7961.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thud3		23682
+	659495117	GoalComplete	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\562809__richheard__fanfare-4_5C7F738F.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalComplete		473100
+	672840739	Error1	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\142608__autistic-lucario__error_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error1		25242
+	752423789	Thud1	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\442344__toddcircle__deep-thud-punch_A5C03268.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thud1		55496
+	775150697	Goal3	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal3		292996
+	886845352	RobloxOof	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\roblox-oof-gamespecifications.com_(1)_19988ABE.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobloxOof		56816
+	916412887	Moving2_Projector	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\movie_projector_x_5ED6A82C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving2_Projector		36642
+	926600696	GoalComplete5	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\mixkit-instant-win-2021_7FAD2E32.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalComplete5		124568
+	928954443	Error3	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\577835__deeplayerking__windows-error-sound-effect_98680764.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error3		96636
+	957856903	Static3	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\681566__freekit__constant-buzz-with-repeating-spikes_E3B83AEC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static3		540824
+	1010418730	Walls_Boiling	C:\Users\bonkl\Desktop\UnityRepo\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Windows\SFX\681638__itinerantmonk108__electric-tea-kettle_0789F156.wem		\Actor-Mixer Hierarchy\Default Work Unit\Walls_Boiling		597012
 

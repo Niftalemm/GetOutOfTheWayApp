@@ -13,13 +13,30 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_DONTUSE = 2544616824U;
         static const AkUniqueID PLAY_ERROR1 = 2208161937U;
         static const AkUniqueID PLAY_ERROR2 = 2208161938U;
         static const AkUniqueID PLAY_ERROR3 = 2208161939U;
         static const AkUniqueID PLAY_GOAL1 = 3029450520U;
         static const AkUniqueID PLAY_GOAL2 = 3029450523U;
         static const AkUniqueID PLAY_GOAL3 = 3029450522U;
-        static const AkUniqueID PLAY_GOAL_COMPLETE = 2547208403U;
+        static const AkUniqueID PLAY_GOALBLUESRIFF = 248404309U;
+        static const AkUniqueID PLAY_GOALCLASSICALGUITAR = 4088521484U;
+        static const AkUniqueID PLAY_GOALCOMPLETE = 100894738U;
+        static const AkUniqueID PLAY_GOALCOMPLETE2 = 2307863652U;
+        static const AkUniqueID PLAY_GOALCOMPLETE3 = 2307863653U;
+        static const AkUniqueID PLAY_GOALCOMPLETE4 = 2307863650U;
+        static const AkUniqueID PLAY_GOALCOMPLETE5 = 2307863651U;
+        static const AkUniqueID PLAY_GOALDREAMYTROPICS = 4059286853U;
+        static const AkUniqueID PLAY_GOALGUITARCHORDS = 3550486472U;
+        static const AkUniqueID PLAY_GOALGUITARMETAL = 3682386922U;
+        static const AkUniqueID PLAY_GOALGUITARSTRATOCASTER = 1804908068U;
+        static const AkUniqueID PLAY_GOALJAZZGUITAR = 3803165818U;
+        static const AkUniqueID PLAY_GOALJAZZPIANO = 2605453859U;
+        static const AkUniqueID PLAY_GOALLIGHTJAZZ = 3033230214U;
+        static const AkUniqueID PLAY_GOALMELODICDRUMS = 1962635365U;
+        static const AkUniqueID PLAY_GOALPING = 3561705391U;
+        static const AkUniqueID PLAY_GOALVIOLIN = 968894012U;
         static const AkUniqueID PLAY_MOVING1_ENGINE = 3649024054U;
         static const AkUniqueID PLAY_MOVING2_PROJECTOR = 2804779699U;
         static const AkUniqueID PLAY_MOVING3_SEWING = 3992388391U;
@@ -27,12 +44,16 @@ namespace AK
         static const AkUniqueID PLAY_STATIC1 = 2385860965U;
         static const AkUniqueID PLAY_STATIC2 = 2385860966U;
         static const AkUniqueID PLAY_STATIC3 = 2385860967U;
+        static const AkUniqueID PLAY_THUD1 = 2096220506U;
+        static const AkUniqueID PLAY_THUD2 = 2096220505U;
+        static const AkUniqueID PLAY_THUD3 = 2096220504U;
         static const AkUniqueID PLAY_WALLS_BOILING = 1116337078U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID GOALIDEAS = 598466168U;
         static const AkUniqueID NAME = 797654004U;
         static const AkUniqueID NEW_GUY = 1786443913U;
     } // namespace BANKS

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6bd3a9296f2a9e43906f5295ebfc671a
     GuidInternal: 
-    m_lastTime: -8585253752224156115
+    m_lastTime: -8585210750556659565
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 9926904b5e5a6f4687dd6b48cd2013cb
     GuidInternal: 
-    m_lastTime: -8585253752224210675
+    m_lastTime: -8585210750564797994
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 55b24e9ea7645e46b03511b1729b9392
     GuidInternal: 
-    m_lastTime: -8585209490265870970
+    m_lastTime: -8585202763028227516
     List:
+    - name: GoalIdeas
+      guid: 4890e44a2e306b4f87f638b34be672ef
+      id: 598466168
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 55b24e9ea7645e46b03511b1729b9392
+      - ElementName: GoalIdeas
+        ObjectType: 7
+        guid: 4890e44a2e306b4f87f638b34be672ef
+      Path: SoundBanks\Default Work Unit\GoalIdeas
     - name: name
       guid: b533cad4c42cc04fbcacc815d89d876b
       id: 797654004
@@ -108,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed0fcf723ac21542b871b71f750b2934
     GuidInternal: 
-    m_lastTime: -8585209490265990000
+    m_lastTime: -8585202763028317430
     List:
     - name: Play_Cannon_impact_9
       guid: 304389aba2b9c942bc3efce332bb4d0b
@@ -124,6 +138,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 304389aba2b9c942bc3efce332bb4d0b
       Path: Events\Default Work Unit\Play_Cannon_impact_9
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_DontUse
+      guid: c8790810fe3d8546a442716927c4537c
+      id: 2544616824
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_DontUse
+        ObjectType: 3
+        guid: c8790810fe3d8546a442716927c4537c
+      Path: Events\Default Work Unit\Play_DontUse
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -178,23 +209,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Goal_Complete
-      guid: 6b1e70aba26c4c41893bc73896b7a52e
-      id: 2547208403
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ed0fcf723ac21542b871b71f750b2934
-      - ElementName: Play_Goal_Complete
-        ObjectType: 3
-        guid: 6b1e70aba26c4c41893bc73896b7a52e
-      Path: Events\Default Work Unit\Play_Goal_Complete
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Play_Goal1
       guid: 9783c00dc930214e93f3ddcf9f70b4dc
       id: 3029450520
@@ -243,6 +257,295 @@ MonoBehaviour:
         ObjectType: 3
         guid: 67729ea9aa4a854fa399cd745d7e8262
       Path: Events\Default Work Unit\Play_Goal3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalBluesRiff
+      guid: e327a0a8397de94c8f0dc2d07c114037
+      id: 248404309
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalBluesRiff
+        ObjectType: 3
+        guid: e327a0a8397de94c8f0dc2d07c114037
+      Path: Events\Default Work Unit\Play_GoalBluesRiff
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalClassicalGuitar
+      guid: 57175a42ccf89d42badea8ec1d1ddfed
+      id: 4088521484
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalClassicalGuitar
+        ObjectType: 3
+        guid: 57175a42ccf89d42badea8ec1d1ddfed
+      Path: Events\Default Work Unit\Play_GoalClassicalGuitar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalComplete
+      guid: ede32523fccf3242b5b12ee7f8db3b5d
+      id: 100894738
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalComplete
+        ObjectType: 3
+        guid: ede32523fccf3242b5b12ee7f8db3b5d
+      Path: Events\Default Work Unit\Play_GoalComplete
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalComplete2
+      guid: 324e61443bbd814888b8818a493d7192
+      id: 2307863652
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalComplete2
+        ObjectType: 3
+        guid: 324e61443bbd814888b8818a493d7192
+      Path: Events\Default Work Unit\Play_GoalComplete2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalComplete3
+      guid: e851fe0180789744a03fc59fc61d788d
+      id: 2307863653
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalComplete3
+        ObjectType: 3
+        guid: e851fe0180789744a03fc59fc61d788d
+      Path: Events\Default Work Unit\Play_GoalComplete3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalComplete4
+      guid: d2ef6837a4e32842bd0f3bcb64443932
+      id: 2307863650
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalComplete4
+        ObjectType: 3
+        guid: d2ef6837a4e32842bd0f3bcb64443932
+      Path: Events\Default Work Unit\Play_GoalComplete4
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalComplete5
+      guid: 7ae233a4c7c001409cd93ff1911a56c8
+      id: 2307863651
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalComplete5
+        ObjectType: 3
+        guid: 7ae233a4c7c001409cd93ff1911a56c8
+      Path: Events\Default Work Unit\Play_GoalComplete5
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalDreamyTropics
+      guid: a4572d546bf7b7429899d7297080bcc3
+      id: 4059286853
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalDreamyTropics
+        ObjectType: 3
+        guid: a4572d546bf7b7429899d7297080bcc3
+      Path: Events\Default Work Unit\Play_GoalDreamyTropics
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalGuitarChords
+      guid: fc7ed858287c5047a2c56a726ff78ae1
+      id: 3550486472
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalGuitarChords
+        ObjectType: 3
+        guid: fc7ed858287c5047a2c56a726ff78ae1
+      Path: Events\Default Work Unit\Play_GoalGuitarChords
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalGuitarMetal
+      guid: d61278999a520d4eb62b5834f6e0e5d0
+      id: 3682386922
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalGuitarMetal
+        ObjectType: 3
+        guid: d61278999a520d4eb62b5834f6e0e5d0
+      Path: Events\Default Work Unit\Play_GoalGuitarMetal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalGuitarStratocaster
+      guid: ac3732ab73a2a0418537119d53425483
+      id: 1804908068
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalGuitarStratocaster
+        ObjectType: 3
+        guid: ac3732ab73a2a0418537119d53425483
+      Path: Events\Default Work Unit\Play_GoalGuitarStratocaster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalJazzGuitar
+      guid: 0663e2d722dd594398afc57d5c65784c
+      id: 3803165818
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalJazzGuitar
+        ObjectType: 3
+        guid: 0663e2d722dd594398afc57d5c65784c
+      Path: Events\Default Work Unit\Play_GoalJazzGuitar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalJazzPiano
+      guid: ab110388e19b3649a810a0caec0ed3a7
+      id: 2605453859
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalJazzPiano
+        ObjectType: 3
+        guid: ab110388e19b3649a810a0caec0ed3a7
+      Path: Events\Default Work Unit\Play_GoalJazzPiano
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalLightJazz
+      guid: f4c8639682d8ad419c5ac52986b64227
+      id: 3033230214
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalLightJazz
+        ObjectType: 3
+        guid: f4c8639682d8ad419c5ac52986b64227
+      Path: Events\Default Work Unit\Play_GoalLightJazz
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalMelodicDrums
+      guid: 1af356e95c949043a0143b9537c74470
+      id: 1962635365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalMelodicDrums
+        ObjectType: 3
+        guid: 1af356e95c949043a0143b9537c74470
+      Path: Events\Default Work Unit\Play_GoalMelodicDrums
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalPing
+      guid: e57c7bc49acbc148b66f77ad7a4a2972
+      id: 3561705391
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalPing
+        ObjectType: 3
+        guid: e57c7bc49acbc148b66f77ad7a4a2972
+      Path: Events\Default Work Unit\Play_GoalPing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GoalViolin
+      guid: 091d58db87eddb49aa731ec2a03708fb
+      id: 968894012
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_GoalViolin
+        ObjectType: 3
+        guid: 091d58db87eddb49aa731ec2a03708fb
+      Path: Events\Default Work Unit\Play_GoalViolin
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -382,6 +685,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Thud1
+      guid: 8a5a8676080a2448908b04324f2b75aa
+      id: 2096220506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Thud1
+        ObjectType: 3
+        guid: 8a5a8676080a2448908b04324f2b75aa
+      Path: Events\Default Work Unit\Play_Thud1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Thud2
+      guid: 9282a4bfbea3b242ab963ea1796b11f6
+      id: 2096220505
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Thud2
+        ObjectType: 3
+        guid: 9282a4bfbea3b242ab963ea1796b11f6
+      Path: Events\Default Work Unit\Play_Thud2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Thud3
+      guid: c6e2f8f7dd914545bfa40705b04691d6
+      id: 2096220504
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed0fcf723ac21542b871b71f750b2934
+      - ElementName: Play_Thud3
+        ObjectType: 3
+        guid: c6e2f8f7dd914545bfa40705b04691d6
+      Path: Events\Default Work Unit\Play_Thud3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Walking_in_ChainMail___Loop
       guid: 162026f0b4f2c24a97bb30930d50e99a
       id: 1631307919
@@ -428,7 +782,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 073e643df2f012408e780b438cd5c1a5
     GuidInternal: 
-    m_lastTime: -8585253752224235475
+    m_lastTime: -8585210750567512646
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -442,7 +796,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 7a78160f148edc439ec1221a33fd2bb4
     GuidInternal: 
-    m_lastTime: -8585253752224170996
+    m_lastTime: -8585210750556699547
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -456,7 +810,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 8c65800200679e4e95aae9a13c60f1da
     GuidInternal: 
-    m_lastTime: -8585253752224166035
+    m_lastTime: -8585210750556659565
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -470,11 +824,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 70cf7cdfecf1734686970a18d2d8ef3c
     GuidInternal: 
-    m_lastTime: -8585253752224161075
+    m_lastTime: -8585210750556659565
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000001b0000001c0000001d000000
-  AutoSyncSelection: 0
+  ExpandedWaapiItemIds: 06000000070000002f00000030000000
+  AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 
