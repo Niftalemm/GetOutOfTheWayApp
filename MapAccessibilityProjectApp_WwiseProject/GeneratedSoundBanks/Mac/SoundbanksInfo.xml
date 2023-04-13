@@ -9,123 +9,11 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="598466168" Type="User" Language="SFX" Hash="{DA5464FB-3DB0-D30F-D5C8-2D69CE689E1E}">
+		<SoundBank Id="598466168" Type="User" Language="SFX">
 			<ShortName>GoalIdeas</ShortName>
 			<Path>GoalIdeas.bnk</Path>
-			<Media>
-				<File Id="59960322" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>555802__sergequadrado__tropical-relaxing-loop.wav</ShortName>
-					<CachePath>SFX/555802__sergequadrado__tropical-relaxing-loop_BCBF3D73.wem</CachePath>
-				</File>
-				<File Id="71118503" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>507995__tosha73__blues-riff-110bpm.wav</ShortName>
-					<CachePath>SFX/507995__tosha73__blues-riff-110bpm_67C1C11C.wem</CachePath>
-				</File>
-				<File Id="171840345" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>218807__valentinsosnitskiy__light-jazz.wav</ShortName>
-					<CachePath>SFX/218807__valentinsosnitskiy__light-jazz_CE5D8EEF.wem</CachePath>
-				</File>
-				<File Id="213916489" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>640097__timouse__melodic-beat-220619.wav</ShortName>
-					<CachePath>SFX/640097__timouse__melodic-beat-220619_BBBA0E44.wem</CachePath>
-				</File>
-				<File Id="218826513" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>588640__urkki69__a-soldier-playing-bagpipes-in-edinborough.wav</ShortName>
-					<CachePath>SFX/588640__urkki69__a-soldier-playing-bagpipes-in-edinborough_A5B358B3.wem</CachePath>
-				</File>
-				<File Id="232144342" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>49658__sub-d__more-jazz-guitar.wav</ShortName>
-					<CachePath>SFX/49658__sub-d__more-jazz-guitar_6C291973.wem</CachePath>
-				</File>
-				<File Id="311765173" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>671045__trader_one__dl-120-bpm-classical-guitar.wav</ShortName>
-					<CachePath>SFX/671045__trader_one__dl-120-bpm-classical-guitar_E83E0988.wem</CachePath>
-				</File>
-				<File Id="356383678" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>192682__zagi2__odd-stratocaster-guitar-loop.wav</ShortName>
-					<CachePath>SFX/192682__zagi2__odd-stratocaster-guitar-loop_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="544386767" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>48650__greeniguana00__riff3.wav</ShortName>
-					<CachePath>SFX/48650__greeniguana00__riff3_062E20E6.wem</CachePath>
-				</File>
-				<File Id="670774191" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>538226__zoeyholt__violin-music.wav</ShortName>
-					<CachePath>SFX/538226__zoeyholt__violin-music_C5579977.wem</CachePath>
-				</File>
-				<File Id="919312182" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>438984__oymaldonado__metal-intro.wav</ShortName>
-					<CachePath>SFX/438984__oymaldonado__metal-intro_007B2B4D.wem</CachePath>
-				</File>
-				<File Id="1022368511" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>571371__szegvari__jazz-piano-and-orchestra-eq.wav</ShortName>
-					<CachePath>SFX/571371__szegvari__jazz-piano-and-orchestra-eq_D99810D5.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2544616824" Name="Play_DontUse" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="218826513"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="248404309" Name="Play_GoalBluesRiff" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="71118503"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4088521484" Name="Play_GoalClassicalGuitar" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="311765173"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="4059286853" Name="Play_GoalDreamyTropics" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="59960322"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3550486472" Name="Play_GoalGuitarChords" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="544386767"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3682386922" Name="Play_GoalGuitarMetal" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="919312182"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1804908068" Name="Play_GoalGuitarStratocaster" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="356383678"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3803165818" Name="Play_GoalJazzGuitar" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="232144342"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2605453859" Name="Play_GoalJazzPiano" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="1022368511"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3033230214" Name="Play_GoalLightJazz" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="171840345"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="1962635365" Name="Play_GoalMelodicDrums" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="213916489"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="968894012" Name="Play_GoalViolin" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="670774191"/>
-					</MediaRefs>
-				</Event>
-			</Events>
 		</SoundBank>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{58B12DA2-898C-064F-D21D-F75EC93F0F08}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{5E77B9EF-3A11-E01F-7437-5509ED307089}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
@@ -135,15 +23,11 @@
 				</File>
 				<File Id="201529871" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>466133__humanoide9000__victory-fanfare.wav</ShortName>
-					<CachePath>SFX/466133__humanoide9000__victory-fanfare_E4200DCB.wem</CachePath>
+					<CachePath>SFX/466133__humanoide9000__victory-fanfare_3DC02E41.wem</CachePath>
 				</File>
 				<File Id="217865682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Traffic_Ping.wav</ShortName>
 					<CachePath>SFX/Traffic_Ping_C5579977.wem</CachePath>
-				</File>
-				<File Id="230393233" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Goal_2_B.wav</ShortName>
-					<CachePath>SFX/Goal_2_B_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="232375660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>The Creature 1.wav</ShortName>
@@ -159,11 +43,7 @@
 				</File>
 				<File Id="332083561" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>580310__colorscrimsontears__fanfare-2-rpg.wav</ShortName>
-					<CachePath>SFX/580310__colorscrimsontears__fanfare-2-rpg_1EA61D19.wem</CachePath>
-				</File>
-				<File Id="540102485" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Goal_2_A.wav</ShortName>
-					<CachePath>SFX/Goal_2_A_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/580310__colorscrimsontears__fanfare-2-rpg_10524537.wem</CachePath>
 				</File>
 				<File Id="554589208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>320887__rhodesmas__win-04.wav</ShortName>
@@ -173,13 +53,9 @@
 					<ShortName>Wall_A.wav</ShortName>
 					<CachePath>SFX/Wall_A_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="578318702" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>133048__temawas__sewing-machine.wav</ShortName>
-					<CachePath>SFX/133048__temawas__sewing-machine_89151C9C.wem</CachePath>
-				</File>
 				<File Id="653669051" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>326048__freeman213sg__muted-wall-hit.wav</ShortName>
-					<CachePath>SFX/326048__freeman213sg__muted-wall-hit_257E7961.wem</CachePath>
+					<CachePath>SFX/326048__freeman213sg__muted-wall-hit_9DC27399.wem</CachePath>
 				</File>
 				<File Id="659495117" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>562809__richheard__fanfare-4.wav</ShortName>
@@ -191,23 +67,15 @@
 				</File>
 				<File Id="752423789" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>442344__toddcircle__deep-thud-punch.wav</ShortName>
-					<CachePath>SFX/442344__toddcircle__deep-thud-punch_A5C03268.wem</CachePath>
-				</File>
-				<File Id="775150697" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</ShortName>
-					<CachePath>SFX/MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem</CachePath>
+					<CachePath>SFX/442344__toddcircle__deep-thud-punch_0AEA885E.wem</CachePath>
 				</File>
 				<File Id="886845352" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>roblox-oof-gamespecifications.com_(1).wav</ShortName>
 					<CachePath>SFX/roblox-oof-gamespecifications.com_(1)_19988ABE.wem</CachePath>
 				</File>
-				<File Id="916412887" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>movie_projector_x.wav</ShortName>
-					<CachePath>SFX/movie_projector_x_5ED6A82C.wem</CachePath>
-				</File>
 				<File Id="926600696" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mixkit-instant-win-2021.wav</ShortName>
-					<CachePath>SFX/mixkit-instant-win-2021_7FAD2E32.wem</CachePath>
+					<CachePath>SFX/mixkit-instant-win-2021_449134B6.wem</CachePath>
 				</File>
 				<File Id="928954443" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>577835__deeplayerking__windows-error-sound-effect.wav</ShortName>
@@ -238,21 +106,9 @@
 						<MediaRef Id="928954443"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="540102485"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3029450523" Name="Play_Goal2" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="230393233"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="775150697"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3029450523" Name="Play_Goal2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="100894738" Name="Play_GoalComplete" DurationType="OneShot" DurationMin="2.681416" DurationMax="2.681416">
 					<MediaRefs>
 						<MediaRef Id="659495117"/>
@@ -286,16 +142,6 @@
 				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="277644868"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2804779699" Name="Play_Moving2_Projector" MaxAttenuation="85" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="916412887"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3992388391" Name="Play_Moving3_Sewing" MaxAttenuation="85" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="578318702"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1410732160" Name="Play_RobloxOof" DurationType="OneShot" DurationMin="0.32153392" DurationMax="0.32153392">
@@ -353,7 +199,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{E7DFF8C8-47B6-4184-19ED-CE9783B14A7F}">
+		<SoundBank Id="1786443913" Type="User" Language="SFX">
 			<ShortName>new_guy</ShortName>
 			<Path>new_guy.bnk</Path>
 			<Media>
@@ -365,17 +211,9 @@
 					<ShortName>Engine_03.wav</ShortName>
 					<CachePath>SFX/Engine_03_D79FB2B7.wem</CachePath>
 				</File>
-				<File Id="775150697" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav</ShortName>
-					<CachePath>SFX/MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem</CachePath>
-				</File>
 			</Media>
 			<Events>
-				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="200" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="775150697"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="277644868"/>
@@ -389,5 +227,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C1D2D2E6-A405-6D3F-0F89-7A0736B6FCEA}</FileHash>
+	<FileHash>{D27BAF39-2A38-07B8-7270-835EB75761D9}</FileHash>
 </SoundBanksInfo>

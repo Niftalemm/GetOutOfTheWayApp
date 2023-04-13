@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -238,6 +238,20 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e91b4942e54ce764eb9322fa4eb65586, type: 2}
+  tutorialLevels:
+  - Level1
+  - Level2
+  - Level3
+  levelNames:
+  - Level4
+  - Level5
+  - Level6
+  - Level7
+  - Level8
+  - Level9
+  - Level10
+  - Level11
+  selectedLevels: 
 --- !u!114 &32351251 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3398949186424952914, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
@@ -522,7 +536,7 @@ PrefabInstance:
     - target: {fileID: 8497146883665590687, guid: 5f61e9c87980b614f8a348ff30478696, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: e29d5f3603e0ca042bc0efb4f40d815a, type: 2}
+      objectReference: {fileID: 11400000, guid: cf868e326341f1342a634a08a8c34232, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f61e9c87980b614f8a348ff30478696, type: 3}
 --- !u!1 &838364818 stripped
@@ -566,63 +580,6 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!1 &1044811601
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1044811603}
-  - component: {fileID: 1044811602}
-  m_Layer: 0
-  m_Name: WwiseGlobal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1044811602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044811601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fd69052e2ed2c34bbbdce595db77181, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 9fcd89b5f42e3b649ac4eed608115f27, type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  engineLogging: 0
---- !u!4 &1044811603
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044811601}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1121089605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -938,7 +895,7 @@ PrefabInstance:
     - target: {fileID: 794450365814581642, guid: 65b3a65e41359a947967419a7da4490a, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: c783dfc7d6d148f4db5e5d4ba95bbe43, type: 2}
+      objectReference: {fileID: 11400000, guid: 5bdaa5fe9bbd4e14bb190ad60209a4ee, type: 2}
     - target: {fileID: 3641974915010493456, guid: 65b3a65e41359a947967419a7da4490a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1226,7 +1183,7 @@ PrefabInstance:
     - target: {fileID: 869993714112481069, guid: 43720cb60f9b74941a7168baa4d7de7b, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: d422ae5a4c8e8c2429c7e50a9db86374, type: 2}
+      objectReference: {fileID: 11400000, guid: e32ddac00dc840e4c85787a811757210, type: 2}
     - target: {fileID: 3831541231275876073, guid: 43720cb60f9b74941a7168baa4d7de7b, type: 3}
       propertyPath: m_Name
       value: Goal

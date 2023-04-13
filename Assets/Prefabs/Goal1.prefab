@@ -115,9 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a16c547dd1bc14da468f521c7e2fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPosition: {fileID: 0}
   activationDistance: 5
-  completedMaterial: {fileID: 0}
 --- !u!114 &4723699227222898452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,7 +158,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8dd56524ae0ef674ea7cd361396e4bfd, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: e32ddac00dc840e4c85787a811757210, type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0

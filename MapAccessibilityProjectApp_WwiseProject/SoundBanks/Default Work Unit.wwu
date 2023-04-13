@@ -8,11 +8,8 @@
 						<ObjectRef Name="Play_GoalComplete5" ID="{A433E27A-C0C7-4001-9CD9-3FF1911A56C8}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Error1" ID="{0CFBD3C0-8956-40F9-A12D-9CB920850490}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Goal_Complete" ID="{AB701E6B-6CA2-414C-893B-C73896B7A52E}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Moving2_Projector" ID="{14182690-4485-4217-95D1-A61E8BFF5874}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoalComplete4" ID="{3768EFD2-E3A4-4228-BD0F-3BCB64443932}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoalComplete" ID="{2325E3ED-CFFC-4232-B5B1-2EE7F8DB3B5D}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Moving3_Sewing" ID="{3A586853-8E46-4278-AE20-4BED2CAA1320}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Thud2" ID="{BFA48292-A3BE-42B2-AB96-3EA1796B11F6}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Error3" ID="{314DED65-2B10-4454-88EB-460FE323B27B}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoalComplete3" ID="{01FE51E8-7880-4497-A03F-C59FC61D788D}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>

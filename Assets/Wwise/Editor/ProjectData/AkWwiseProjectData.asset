@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 55b24e9ea7645e46b03511b1729b9392
     GuidInternal: 
-    m_lastTime: -8585202661705685283
+    m_lastTime: -8585202629015852272
     List:
     - name: GoalIdeas
       guid: 4890e44a2e306b4f87f638b34be672ef
@@ -122,25 +122,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed0fcf723ac21542b871b71f750b2934
     GuidInternal: 
-    m_lastTime: -8585202661706964954
+    m_lastTime: -8585202629015976276
     List:
-    - name: Play_Cannon_impact_9
-      guid: 304389aba2b9c942bc3efce332bb4d0b
-      id: 437450382
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ed0fcf723ac21542b871b71f750b2934
-      - ElementName: Play_Cannon_impact_9
-        ObjectType: 3
-        guid: 304389aba2b9c942bc3efce332bb4d0b
-      Path: Events\Default Work Unit\Play_Cannon_impact_9
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Play_DontUse
       guid: c8790810fe3d8546a442716927c4537c
       id: 2544616824
@@ -257,40 +240,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 67729ea9aa4a854fa399cd745d7e8262
       Path: Events\Default Work Unit\Play_Goal3
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_GoalBluesRiff
-      guid: e327a0a8397de94c8f0dc2d07c114037
-      id: 248404309
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ed0fcf723ac21542b871b71f750b2934
-      - ElementName: Play_GoalBluesRiff
-        ObjectType: 3
-        guid: e327a0a8397de94c8f0dc2d07c114037
-      Path: Events\Default Work Unit\Play_GoalBluesRiff
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_GoalClassicalGuitar
-      guid: 57175a42ccf89d42badea8ec1d1ddfed
-      id: 4088521484
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: ed0fcf723ac21542b871b71f750b2934
-      - ElementName: Play_GoalClassicalGuitar
-        ObjectType: 3
-        guid: 57175a42ccf89d42badea8ec1d1ddfed
-      Path: Events\Default Work Unit\Play_GoalClassicalGuitar
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -827,7 +776,7 @@ MonoBehaviour:
     m_lastTime: -8585253752224161075
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
