@@ -12,9 +12,10 @@ using UnityEngine.SceneManagement;
 public class OOF : MonoBehaviour
 {
     [SerializeField] public AK.Wwise.Event akOOFEvent;
-    [SerializeField] public AK.Wwise.Event akGoalSuccess1;
-    [SerializeField] public AK.Wwise.Event akGoalSuccess2;
+    [SerializeField] public AK.Wwise.Event akGoalSuccess;
+    [SerializeField] public AK.Wwise.Event akLevelSuccess;
     [SerializeField] public AK.Wwise.Event akGoalError;
+    [SerializeField] public AK.Wwise.Event akThud;
     private List<GoalBehavior> goals;
     private Rigidbody rb;
     public string[] tutorialLevels = { "Level1", "Level2", "Level3" };
@@ -36,9 +37,13 @@ public class OOF : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Pillar" || collision.gameObject.tag == "Wall" || collision.gameObject.tag == "Ball")
+        if (collision.gameObject.tag == "Pillar" || collision.gameObject.tag == "Ball")
         {
             akOOFEvent.Post(gameObject);
+        }
+        if (collision.gameObject.tag == "Wall")
+        {
+            akThud.Post(gameObject);
         }
     }
 
@@ -73,7 +78,7 @@ public class OOF : MonoBehaviour
                 goals[index].GetComponentInParent<AkAmbient>().Stop(1);
                 Destroy(goals[index].GetComponentInParent<MeshRenderer>());
                 goals.RemoveAt(index);
-                akGoalSuccess1.Post(gameObject);
+                akGoalSuccess.Post(gameObject);
                 flag = true;
             }
             index++;

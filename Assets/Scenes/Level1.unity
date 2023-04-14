@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,59 +193,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4459864851310106427, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
---- !u!1 &32351246 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
-  m_PrefabInstance: {fileID: 32351245}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &32351247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32351246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33ccaf550a7814c40a2f52b453cf4604, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  akOOFEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f3ff906b22ca16a4fb216b0e5252a704, type: 2}
-  akGoalSuccess1:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 3ebd9a3c4c54a2a42926b93ef7bbf198, type: 2}
-  akGoalSuccess2:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  akGoalError:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e91b4942e54ce764eb9322fa4eb65586, type: 2}
-  tutorialLevels:
-  - Level1
-  - Level2
-  - Level3
-  levelNames:
-  - Level4
-  - Level5
-  - Level6
-  - Level7
-  - Level8
-  - Level9
-  - Level10
-  - Level11
-  selectedLevels: 
 --- !u!114 &32351251 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3398949186424952914, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
   m_PrefabInstance: {fileID: 32351245}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32351246}
+  m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abcc6fcee3e1dd542a4f026c35b6e202, type: 3}
