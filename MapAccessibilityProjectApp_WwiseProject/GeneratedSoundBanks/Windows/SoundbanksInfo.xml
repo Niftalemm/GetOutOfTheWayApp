@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="598466168" Type="User" Language="SFX">
+		<SoundBank Id="598466168" Type="User" Language="SFX" Hash="{022ACAD9-0A50-2746-8633-D8F010B61170}">
 			<ShortName>GoalIdeas</ShortName>
 			<Path>GoalIdeas.bnk</Path>
 		</SoundBank>
@@ -199,7 +199,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1786443913" Type="User" Language="SFX">
+		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{E60F2FDD-7FFB-7914-E4F5-5652C5AC708D}">
 			<ShortName>new_guy</ShortName>
 			<Path>new_guy.bnk</Path>
 			<Media>
@@ -227,5 +227,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A158ED00-0811-D4C7-1202-D6661F06367B}</FileHash>
+	<FileHash>{2A2B95E3-3D6C-1421-6F61-FF272D4483B4}</FileHash>
 </SoundBanksInfo>

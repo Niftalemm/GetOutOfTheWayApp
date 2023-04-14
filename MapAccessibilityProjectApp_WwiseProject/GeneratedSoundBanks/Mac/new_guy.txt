@@ -6,5 +6,4 @@ Event	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	232375660	Static1	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\The Creature 1_093CB6E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static1		1005576
 	277644868	Moving1_Engine	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Engine_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving1_Engine		243684
-	775150697	Goal3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\MUSCChim_InsJ_Hand-Bell_01-16_High-C_BF5BBB21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Goal3		292996
 
