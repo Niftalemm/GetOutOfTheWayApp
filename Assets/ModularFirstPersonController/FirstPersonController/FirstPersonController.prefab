@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 1911088179181613181}
   - component: {fileID: 4459864850019384740}
   - component: {fileID: 1636155997144338328}
+  - component: {fileID: 8072788063648178698}
+  - component: {fileID: 3029400690910519055}
   - component: {fileID: 873139810280741932}
   m_Layer: 0
   m_Name: FirstPersonController
@@ -259,6 +261,30 @@ MonoBehaviour:
   - Level10
   - Level11
   selectedLevels: 
+--- !u!114 &8072788063648178698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459864850019384750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c21a0ada2fe244bd913616243e450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3029400690910519055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4459864850019384750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4c21a0ada2fe244bd913616243e450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &873139810280741932
 MonoBehaviour:
   m_ObjectHideFlags: 0

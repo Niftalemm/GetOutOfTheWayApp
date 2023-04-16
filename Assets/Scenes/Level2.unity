@@ -135,6 +135,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 32351251}
     - target: {fileID: 3398949186424952914, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3398949186424952914, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_listeners.initialListenerList.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -192,6 +196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4459864851310106427, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+    - {fileID: 8072788063648178698, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
 --- !u!114 &32351251 stripped
 MonoBehaviour:
