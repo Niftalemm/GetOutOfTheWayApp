@@ -1,6 +1,6 @@
 **Wwise and Unity**
 
-# **IT'S PRONOUNCED "WISE", NOT "W" + "WISE". LIN WILL HAVE YOUR HEAD (\*ALLEGDEDLY\*).**
+# **IT'S PRONOUNCED "WISE", NOT "W" + "WISE".**
 
 An integral part of the sound design process for this project utilizes AudioKinetic Wwise. This document will guide you through the installation process and also try to provide some troubleshooting assistance for common issues you may run into.
 
@@ -24,21 +24,16 @@ The link to download previous versions of Wwise is: [https://www.audiokinetic.co
 
 When you have the launcher installed, you can then proceed to install Wwise through the launcher. The following screenshot shows what it looks like when Wwise is already installed, however the option should still be in the same location in the launcher. Currently, the project is using version **2022.1.1.8100** of Wwise, and I would recommend installing this version as well.
 
-![](RackMultipart20230416-1-o07orl_html_7877e3eb95c5544e.png)
+
 
 The first prompt you will get will ask for the packages you wish to install, and the deployment platforms you wish to have support for. You will pick " **Select All**" for **both** options and leave the target directory unchanged. You will notice that some options you click will have a "-" in the box. This is because there are some platforms that will not be selected, as they require paid licenses to deploy on. We do not care about these platforms.
 
-![](RackMultipart20230416-1-o07orl_html_38aba7dedd081ef5.png)
-
 After clicking "Next", you will be shown a huge list of plugins you can install. There are a number that are checked by default. You can leave everything in this list unchanged, and click "Next", as there is nothing more than what comes with the default plugins that is needed.
-
-![](RackMultipart20230416-1-o07orl_html_c93985ffbfe06251.png)
 
 With the plugins taken care of, Wwise should have everything it needs to install.
 
 Assuming you have Unity already installed and setup on your machine, Wwise will automatically detect all your projects, and show them in the "Unity" tab of the launcher.
 
-![](RackMultipart20230416-1-o07orl_html_c707263450c9108b.png)
 
 You will notice in the above picture that one of my projects has the option to "Open in Wwise", and the other one does not. This is because Wwise has not been **integrated** into that second project. This should be automatically handled when you pull the project from the GitHub repository, however, if it is not, simply click the button to integrate.
 
@@ -48,41 +43,27 @@ Wwise is a fairly intuitive program to use, however the skill ceiling is IMMENSE
 
 When you first open Wwise, it can be rather overwhelming, and seem very complex. You will soon see that there are really only three buttons you ever care about; Audio, Events, and SoundBanks. I will walk you through each of these areas breifly.
 
-![](RackMultipart20230416-1-o07orl_html_4706251ae169771f.png)
 
 **Audio -**
 
 The audio section here is where you store the actual audio files for your project. In this tab, you will see a lot of different hierarchies, the only one we care about is the "Actor-Mixer Hierarchy".
 
-![](RackMultipart20230416-1-o07orl_html_7f1281564d57fb7a.png)
-
 Within this Hierarchy, you will see a "Default Work Unit". This is where all the audio files you use will go. In order to add a file you want to use as a sound, right click on the Work Unit, and then select "Import Audio Files"
-
-![](RackMultipart20230416-1-o07orl_html_a6ca52c8658afb65.png)
 
 A couple things to note about files you can use here is that Wwise will not accept 8-bit sounds, and they need to be .wav format. Converting files from .aaic or .mp4 is very easy using online tools. When importing files, you can drag and drop from your file explorer, or import them through Wwise. Another thing to note here, is that you want to import them as SFX, which is the default setting.
 
-![](RackMultipart20230416-1-o07orl_html_ae9efc4f6aaa6a5c.png)
-
 You should now have a list of all the files you imported inside the Default Work Unit.
 
-![](RackMultipart20230416-1-o07orl_html_bafbee1754a820a2.png)
 
 Here is where you can really take off with Wwise. When you click on a sound file that is inside the Work Unit, it will show you all kinds of options and ways to alter the sound. Many of these are interesting, however, there is one that is KEY to this project, and must be done on **ALL** sounds. That is making sure that the sound has 3D Spatialization, with both position and orientation.
 
-![](RackMultipart20230416-1-o07orl_html_341ff3c4cb9ac66e.png) Another key aspect to consider, in this same "Positioning" tab, is the attenuation of a sound. Attenuation adjusts the volume of the sound, relative to the position of the player and that object. This will be used for the vast majority of objects, and is very important, although I cannot say it will be a MUST for ALL objects. To access the attenuation settings, click the button with arrows that look like " **\> \>**". This will give you a list of all other attenuation settings that are elsewhere in the project, or allow you to make a new setting.
-
-![](RackMultipart20230416-1-o07orl_html_3506b3628a3e954a.png)
+Another key aspect to consider, in this same "Positioning" tab, is the attenuation of a sound. Attenuation adjusts the volume of the sound, relative to the position of the player and that object. This will be used for the vast majority of objects, and is very important, although I cannot say it will be a MUST for ALL objects. To access the attenuation settings, click the button with arrows that look like " **\> \>**". This will give you a list of all other attenuation settings that are elsewhere in the project, or allow you to make a new setting.
 
 When you select either a previous attenuation, or create a new one, you will then need to click the button to the right that looks like a square with an arrow coming out of it in order to have it open a pop-up for you. You may also click the new "ATTENUATION" button towards the bottom, to switch to a mixer tab.
 
-![](RackMultipart20230416-1-o07orl_html_c31c0c0a0fcafa8b.png)
-
 This is another screen where there is a LOT you can do. The main setting to be played with here is the red "Distance // Volume" tab. You will see a big red line graph that shows the relative volume to the player, based on how far away they are. If you right click on the line itself, you can change the shape of the curve, depending on how you want the sound to react to the players distance. Another important setting here to keep in mind is the Max Distance setting. Setting this too low, the player may not have enough time to react. Setting it too high, and the player may become inundated with sounds and cause erroneous behavior.
 
-![](RackMultipart20230416-1-o07orl_html_91946ea8efd2be47.png) A couple of things that are not always needed, but I found I commonly used were making sounds loop and trimming the start/end times of sounds. These are easily changed in the General Settings tab of an Audio file. Loop is a simple check box, and the trimming can be done with a simple slider.
-
-![](RackMultipart20230416-1-o07orl_html_594aac45d52978d4.png)
+A couple of things that are not always needed, but I found I commonly used were making sounds loop and trimming the start/end times of sounds. These are easily changed in the General Settings tab of an Audio file. Loop is a simple check box, and the trimming can be done with a simple slider.
 
 There is much, much more you can do with Wwise here, but this should be the minimum you'll need to know to get off the ground. Now to Events!
 
@@ -90,41 +71,33 @@ There is much, much more you can do with Wwise here, but this should be the mini
 
 "Events" in Wwise are what Unity will actually play. From a single Audio file, you can make several different events. That is, you can trim an Audio file, make an Event, go back to the Audio file and adjust it, and make another Event. You don't need separate Audio files, just separate Events. Then you call the event you want from Unity. Thus far, we only have one Event per Audio file, and it is very straightforward. Creating Events is very easy, and before doing so, I would HIGHLY recommend making sure your Audio file name is what you want it to be. If you change the Audio file name later, it can become confusing to know what event is related to which Audio file. That being said, to create and Event, right click on the Audio file, go to "Create New Event", and select "Play". There are indeed several event types, we only deal with Play for the sake of simplicity.
 
-![](RackMultipart20230416-1-o07orl_html_b772ba8c0750294e.png)
-
 Now, in the "Events" tab, you should see an event called "Play\__xyz"_. There isn't anything more to do here, although we will return to this tab when filling our SoundBank(s).
-
-![](RackMultipart20230416-1-o07orl_html_6c891a5592659178.png)
 
 **SoundBanks -**
 
 The way Wwise groups Events together is with SoundBanks. With large games, sound files can eat up a lot of memory, and this helps mitigate that issue. In Unity, you can load and unload SoundBanks from memory, so that not all sounds from the game are being loaded at once. At this point in our project, we only have one SoundBank, although if the number of sounds continues to grow, more may be needed in order to improve game performance. In order to creater a SoundBank, right click on the "Default Work Unit", click "New Child", and then select "New SoundBank".
 
-![](RackMultipart20230416-1-o07orl_html_3dedaf1a04a57e24.png) To fill the SoundBank, we need to add Events to it. By clicking on the SoundBank in the Hierarchy, we will get a list of all events currently in the SoundBank. With this list open, click back to the Events tab on the left. Then drag and drop the Event(s) into the list.
-
-![](RackMultipart20230416-1-o07orl_html_712513d45f20ce86.png)
+To fill the SoundBank, we need to add Events to it. By clicking on the SoundBank in the Hierarchy, we will get a list of all events currently in the SoundBank. With this list open, click back to the Events tab on the left. Then drag and drop the Event(s) into the list.
 
 The final step before you can go muck around in Unity with your new/altered sounds, is generating the SoundBanks. To do this, you will need to change your Wwise Layout. By default, Wwise will be in Designer Layout. We want to switch to SoundBank Layout. This is done quickly with the F7 key, or by using the Layout tab at the top, and selecting "SoundBank".
 
-![](RackMultipart20230416-1-o07orl_html_aef2cd02db651163.png) When in SoundBank Layout, you can generate the SoundBanks using the buttons in the upper right corner. Make sure to have the proper Platforms and Languages checkout before doing so. I would recommend using the Generate Checked, rather than Generate All when using multiple SoundBanks to make error handling more understandable.
+When in SoundBank Layout, you can generate the SoundBanks using the buttons in the upper right corner. Make sure to have the proper Platforms and Languages checkout before doing so. I would recommend using the Generate Checked, rather than Generate All when using multiple SoundBanks to make error handling more understandable.
 
-![](RackMultipart20230416-1-o07orl_html_b4a40a9c332ada18.png) You will get a log that shows errors/warnings, and if things go successfully, you can now add this SoundBank to your Unity project! (You will always get warnings. Yellow is ok, red is bad)
+You will get a log that shows errors/warnings, and if things go successfully, you can now add this SoundBank to your Unity project! (You will always get warnings. Yellow is ok, red is bad)
 
 **Unity -**
 
 So now we can go into what needs to happen in Unity, to play a sound. This is usually the worst bit. Lots of things can go wrong here, which I will try to go into a bit later. There are two maing things to aware of in the Unity project, pertaining to Wwise. There is a WwiseGlobal object in the hierarchy, and a "Wwise Picker" next to your console/debug log at the bottom.
 
-![](RackMultipart20230416-1-o07orl_html_e05216ef2c4aa1ba.png)
+
 
 The Wwise Picker will contain all the latest and greatest from Wwise, and allow you to Generate the SoundBanks in Unity. Yes, you need to generate them in Wwise and then in Unity as well.
 
-![](RackMultipart20230416-1-o07orl_html_acbcdc220fbcbeef.png) From this Wwise Picker list, you need to add the **SoundBank** to the WwiseGlobal object. You will then see an "AkBank" component appear in the inspector tab to the right. You will need to make sure the AkBank loads on **Awake**. If the SoundBank and the Event load at the same time, you will get an error. The SoundBank needs to be loaded before the Event.
+From this Wwise Picker list, you need to add the **SoundBank** to the WwiseGlobal object. You will then see an "AkBank" component appear in the inspector tab to the right. You will need to make sure the AkBank loads on **Awake**. If the SoundBank and the Event load at the same time, you will get an error. The SoundBank needs to be loaded before the Event.
 
-![](RackMultipart20230416-1-o07orl_html_d0b3d3e7dab9053a.png)
 
 With the SoundBank in place, any object you want to make sound, will need to have two components to them. One of which MUST be the "AkGameObj" component. The other one can be a component provided by AudioKinetic, or one that is coded by you. Generally speaking, the easier way to do it is with AkAmbient. Using AkAmbient as an example, you need to set the Event to trigger on "Start", and also select which Event you want to play.
 
-![](RackMultipart20230416-1-o07orl_html_1b67d6e20a30df25.png)
 
 This setup, as shown above, works well for sounds you want to have happening constantly, from the start of the game/level. For more interactive Events, like making a sounds after a collision, scripts are better utilized, which may be a later section. Otherwise, this is the barebones of getting started in Unity, to make some N O I S E.
 
@@ -133,8 +106,6 @@ This setup, as shown above, works well for sounds you want to have happening con
 The Wwise documentation, in my opinion, leaves a lot to be desired. The forums are bare, and all too often you can find the question you have has been asked, with no replies to it. That being said, I will try to go through the issues I have experienced and what I did about them .
 
 **Wwise Picker Connection Refused-**
-
-![](RackMultipart20230416-1-o07orl_html_48dfa751742d1344.png)
 
 In this scenario, the Wwise Picker will not display anything. Refreshing the project does nothing, and no sounds will be available.
 
