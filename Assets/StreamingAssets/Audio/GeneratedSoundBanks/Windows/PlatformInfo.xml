@@ -2,11 +2,11 @@
 <PlatformInfo>
 	<Platform Name="Windows" BasePlatform="Windows" Generator="2022.1.1.8100"/>
 	<RootPaths>
-		<ProjectRoot>../../../../../MapAccessibilityProjectApp_WwiseProject</ProjectRoot>
-		<SourceFilesRoot>../../../../../MapAccessibilityProjectApp_WwiseProject/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../MapAccessibilityProjectApp_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{FCD69271-C67D-8E21-D5C8-A32115F8C9D2}</FileHash>
+	<FileHash>{F4D1707B-F10C-3DC0-B1A5-872566032501}</FileHash>
 </PlatformInfo>

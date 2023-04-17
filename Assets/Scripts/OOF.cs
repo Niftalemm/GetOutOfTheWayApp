@@ -16,6 +16,7 @@ public class OOF : MonoBehaviour
     [SerializeField] public AK.Wwise.Event akLevelSuccess;
     [SerializeField] public AK.Wwise.Event akGoalError;
     [SerializeField] public AK.Wwise.Event akThud;
+    [SerializeField] public AK.Wwise.Event stopMakingNoise;
     private List<GoalBehavior> goals;
     private Rigidbody rb;
     public string[] tutorialLevels = { "Level1", "Level2", "Level3" };
@@ -35,6 +36,22 @@ public class OOF : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+   
+        if (selectedLevels.Count < 24)
+        {
+            Debug.Log(selectedLevels.Count);
+            ActivateGoal();
+        }
+        else
+        {
+            Debug.Log("Game Over");
+            SceneManager.LoadScene("Success");
+            resetLevel();
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Pillar" || collision.gameObject.tag == "Ball")
@@ -46,6 +63,7 @@ public class OOF : MonoBehaviour
             akThud.Post(gameObject);
         }
     }
+    
 
     private void Update()
     {
@@ -74,11 +92,8 @@ public class OOF : MonoBehaviour
         {
             if (goals[index].WithinActivationRange(rb.transform.position))
             {
-                goals[index].GetComponentInParent<AkAmbient>().Stop(1);
-                goals[index].GetComponentInParent<AkAmbient>().Stop(1);
-                Destroy(goals[index].GetComponentInParent<MeshRenderer>());
+                Debug.Log("Goal Entered");
                 goals.RemoveAt(index);
-                akGoalSuccess.Post(gameObject);
                 flag = true;
             }
             index++;

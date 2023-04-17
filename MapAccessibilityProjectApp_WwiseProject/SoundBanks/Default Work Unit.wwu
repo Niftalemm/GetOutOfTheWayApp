@@ -20,39 +20,15 @@
 						<ObjectRef Name="Play_Thud1" ID="{76865A8A-0A08-4824-908B-04324F2B75AA}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoalComplete2" ID="{44614E32-BD3B-4881-88B8-818A493D7192}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoalPing" ID="{C47B7CE5-CB9A-48C1-B66F-77AD7A4A2972}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_GoalPing" ID="{EE376C89-F802-490E-9302-1C726FD9BF9D}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Static2" ID="{69BE8256-BA97-4942-84BD-55AE462288EE}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalPing_02" ID="{283B3B4C-B212-4CDC-8FF7-127346E58B8F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Walls_Boiling" ID="{8EE3D8FD-58CB-4D1C-8D6B-F0FDDF1FED61}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goal1" ID="{0DC08397-30C9-4E21-93F3-DDCF9F70B4DC}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalPing_01" ID="{592C9C4A-B504-4E89-925D-F96100C11C07}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goal2" ID="{F136B9F6-822F-4EBD-9241-2710698A288F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Goal3" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="new_guy" ID="{E68495FB-BF3B-4DF0-8BB2-47414E130374}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Goal3" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="GoalIdeas" ID="{4AE49048-302E-4F6B-87F6-38B34BE672EF}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_GoalGuitarStratocaster" ID="{AB3237AC-A273-41A0-8537-119D53425483}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalLightJazz" ID="{9663C8F4-D882-41AD-9C5A-C52986B64227}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalClassicalGuitar" ID="{425A1757-F8CC-429D-BADE-A8EC1D1DDFED}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalDreamyTropics" ID="{542D57A4-F76B-42B7-9899-D7297080BCC3}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalJazzGuitar" ID="{D7E26306-DD22-4359-98AF-C57D5C65784C}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalMelodicDrums" ID="{E956F31A-945C-4390-A014-3B9537C74470}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_DontUse" ID="{100879C8-3DFE-4685-A442-716927C4537C}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalGuitarChords" ID="{58D87EFC-7C28-4750-A2C5-6A726FF78AE1}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalJazzPiano" ID="{880311AB-9BE1-4936-A810-A0CAEC0ED3A7}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalViolin" ID="{DB581D09-ED87-49DB-AA73-1EC2A03708FB}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalBluesRiff" ID="{A8A027E3-7D39-4CE9-8F0D-C2D07C114037}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GoalGuitarMetal" ID="{997812D6-529A-4E0D-B62B-5834F6E0E5D0}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

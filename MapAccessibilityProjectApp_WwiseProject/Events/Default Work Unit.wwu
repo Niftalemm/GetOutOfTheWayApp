@@ -234,6 +234,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_GoalPing" ID="{EE376C89-F802-490E-9302-1C726FD9BF9D}">
+					<ChildrenList>
+						<Action Name="" ID="{AF45BC33-FBFB-4E55-811D-A9E73B3A9F6C}" ShortID="439500383">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalPing_01" ID="{592C9C4A-B504-4E89-925D-F96100C11C07}">
+					<ChildrenList>
+						<Action Name="" ID="{3789892E-40AA-45C2-8CAF-34A25BBA8175}" ShortID="3905463">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalPing_02" ID="{283B3B4C-B212-4CDC-8FF7-127346E58B8F}">
+					<ChildrenList>
+						<Action Name="" ID="{B4D206B2-E467-49B9-A891-C824F8464C58}" ShortID="914009466">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

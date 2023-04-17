@@ -1,10 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
 	100894738	Play_GoalComplete			\Default Work Unit\Play_GoalComplete	
 	1116337078	Play_Walls_Boiling			\Default Work Unit\Play_Walls_Boiling	
+	1158470389	Stop_GoalPing			\Default Work Unit\Stop_GoalPing	
 	1410732160	Play_RobloxOof			\Default Work Unit\Play_RobloxOof	
 	2096220504	Play_Thud3			\Default Work Unit\Play_Thud3	
 	2096220505	Play_Thud2			\Default Work Unit\Play_Thud2	
 	2096220506	Play_Thud1			\Default Work Unit\Play_Thud1	
+	2166390192	Play_GoalPing_02			\Default Work Unit\Play_GoalPing_02	
+	2166390195	Play_GoalPing_01			\Default Work Unit\Play_GoalPing_01	
 	2208161937	Play_Error1			\Default Work Unit\Play_Error1	
 	2208161938	Play_Error2			\Default Work Unit\Play_Error2	
 	2208161939	Play_Error3			\Default Work Unit\Play_Error3	
@@ -15,9 +18,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2385860965	Play_Static1			\Default Work Unit\Play_Static1	
 	2385860966	Play_Static2			\Default Work Unit\Play_Static2	
 	2385860967	Play_Static3			\Default Work Unit\Play_Static3	
-	3029450520	Play_Goal1			\Default Work Unit\Play_Goal1	
-	3029450522	Play_Goal3			\Default Work Unit\Play_Goal3	
-	3029450523	Play_Goal2			\Default Work Unit\Play_Goal2	
 	3561705391	Play_GoalPing			\Default Work Unit\Play_GoalPing	
 	3649024054	Play_Moving1_Engine			\Default Work Unit\Play_Moving1_Engine	
 

@@ -9,11 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="598466168" Type="User" Language="SFX" Hash="{022ACAD9-0A50-2746-8633-D8F010B61170}">
-			<ShortName>GoalIdeas</ShortName>
-			<Path>GoalIdeas.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{5E77B9EF-3A11-E01F-7437-5509ED307089}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{92563E9A-EC96-66FE-6E30-C5ABF7CC62A4}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
@@ -106,40 +102,47 @@
 						<MediaRef Id="928954443"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3029450523" Name="Play_Goal2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="100894738" Name="Play_GoalComplete" DurationType="OneShot" DurationMin="2.681416" DurationMax="2.681416">
 					<MediaRefs>
 						<MediaRef Id="659495117"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2307863652" Name="Play_GoalComplete2" MaxAttenuation="200" DurationType="OneShot" DurationMin="1.6363636" DurationMax="1.6363636">
+				<Event Id="2307863652" Name="Play_GoalComplete2" MaxAttenuation="180" DurationType="OneShot" DurationMin="1.6363636" DurationMax="1.6363636">
 					<MediaRefs>
 						<MediaRef Id="201529871"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2307863653" Name="Play_GoalComplete3" MaxAttenuation="200" DurationType="OneShot" DurationMin="1.2" DurationMax="1.2">
+				<Event Id="2307863653" Name="Play_GoalComplete3" MaxAttenuation="180" DurationType="OneShot" DurationMin="1.2" DurationMax="1.2">
 					<MediaRefs>
 						<MediaRef Id="554589208"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2307863650" Name="Play_GoalComplete4" MaxAttenuation="200" DurationType="OneShot" DurationMin="1.7663047" DurationMax="1.7663047">
+				<Event Id="2307863650" Name="Play_GoalComplete4" MaxAttenuation="180" DurationType="OneShot" DurationMin="1.7663047" DurationMax="1.7663047">
 					<MediaRefs>
 						<MediaRef Id="332083561"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2307863651" Name="Play_GoalComplete5" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.7056368" DurationMax="0.7056368">
+				<Event Id="2307863651" Name="Play_GoalComplete5" MaxAttenuation="180" DurationType="OneShot" DurationMin="0.7056368" DurationMax="0.7056368">
 					<MediaRefs>
 						<MediaRef Id="926600696"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3561705391" Name="Play_GoalPing" MaxAttenuation="200" DurationType="Infinite">
+				<Event Id="3561705391" Name="Play_GoalPing" MaxAttenuation="180" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="217865682"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
+				<Event Id="2166390195" Name="Play_GoalPing_01" MaxAttenuation="180" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="217865682"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2166390192" Name="Play_GoalPing_02" MaxAttenuation="180" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="217865682"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="277644868"/>
 					</MediaRefs>
@@ -149,32 +152,32 @@
 						<MediaRef Id="886845352"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="51" DurationType="Infinite">
+				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="18" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="232375660"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="51" DurationType="Infinite">
+				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="38" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="563949349"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385860967" Name="Play_Static3" MaxAttenuation="51" DurationType="Infinite">
+				<Event Id="2385860967" Name="Play_Static3" MaxAttenuation="18" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="957856903"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2096220506" Name="Play_Thud1" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.2885457" DurationMax="0.2885457">
+				<Event Id="2096220506" Name="Play_Thud1" MaxAttenuation="180" DurationType="OneShot" DurationMin="0.2885457" DurationMax="0.2885457">
 					<MediaRefs>
 						<MediaRef Id="752423789"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2096220505" Name="Play_Thud2" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.8331757" DurationMax="0.8331757">
+				<Event Id="2096220505" Name="Play_Thud2" MaxAttenuation="180" DurationType="OneShot" DurationMin="0.8331757" DurationMax="0.8331757">
 					<MediaRefs>
 						<MediaRef Id="42088284"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2096220504" Name="Play_Thud3" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.2674185" DurationMax="0.2674185">
+				<Event Id="2096220504" Name="Play_Thud3" MaxAttenuation="180" DurationType="OneShot" DurationMin="0.2674185" DurationMax="0.2674185">
 					<MediaRefs>
 						<MediaRef Id="653669051"/>
 					</MediaRefs>
@@ -184,6 +187,7 @@
 						<MediaRef Id="1010418730"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1158470389" Name="Stop_GoalPing" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
@@ -199,33 +203,6 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{E60F2FDD-7FFB-7914-E4F5-5652C5AC708D}">
-			<ShortName>new_guy</ShortName>
-			<Path>new_guy.bnk</Path>
-			<Media>
-				<File Id="232375660" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>The Creature 1.wav</ShortName>
-					<CachePath>SFX/The Creature 1_093CB6E9.wem</CachePath>
-				</File>
-				<File Id="277644868" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Engine_03.wav</ShortName>
-					<CachePath>SFX/Engine_03_D79FB2B7.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="277644868"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="51" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="232375660"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EFCFA177-A8C3-058C-DDA0-A17B078CFE44}</FileHash>
+	<FileHash>{E55046A4-7F52-2B35-D190-801C581889B6}</FileHash>
 </SoundBanksInfo>

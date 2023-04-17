@@ -39,7 +39,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="creature" ID="{A3E76695-6871-4772-AB8B-8D4F80F9BEB6}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+							<ObjectRef Name="Wall" ID="{A3E76695-6871-4772-AB8B-8D4F80F9BEB6}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
@@ -77,7 +77,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="creature" ID="{A3E76695-6871-4772-AB8B-8D4F80F9BEB6}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+							<ObjectRef Name="MovingObstacle" ID="{BF3FF468-9450-46D3-B0DF-00FEEF7082F1}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
@@ -95,6 +95,10 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A7B4B5DF-A1C8-46E5-A308-E25E2B4727B7}"/>
+						<Position Name="" ID="{057ADEFB-EB6B-4C22-A172-5AF62EEEC196}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Wall_A" ID="{9FFFB530-4939-4021-A620-6A739124F182}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -106,7 +110,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="creature" ID="{A3E76695-6871-4772-AB8B-8D4F80F9BEB6}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
+							<ObjectRef Name="Wall" ID="{A3E76695-6871-4772-AB8B-8D4F80F9BEB6}" WorkUnitID="{AB2651D0-C4F9-480A-ABE5-FB0D3AFC81D1}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>

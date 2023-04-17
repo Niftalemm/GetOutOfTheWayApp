@@ -9,6 +9,9 @@ using UnityEditor;
 
 public class GoalBehavior : MonoBehaviour
 {
+    [SerializeField] public AK.Wwise.Event startMakingNoise;
+    [SerializeField] public AK.Wwise.Event stopMakingNoise;
+    [SerializeField] public AK.Wwise.Event youDidGood;
     private Rigidbody rb;
     private bool active = true;
     public float activationDistance = 20f;
