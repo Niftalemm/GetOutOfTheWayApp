@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe1635d14d0cde41bfc20c78498d26f, type: 3}
+  m_Name: A433E27A-C0C7-4001-9CD9-3FF1911A56C8
+  m_EditorClassIdentifier: 
+  objectName: Play_GoalComplete5
+  id: 2307863651
+  guid: A433E27A-C0C7-4001-9CD9-3FF1911A56C8

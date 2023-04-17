@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1201786269010608458}
   - component: {fileID: 1701400995711351548}
   - component: {fileID: 2231476501515328048}
-  - component: {fileID: 7601211762323646400}
   - component: {fileID: 6850967211417456532}
   m_Layer: 0
   m_Name: Goal3
@@ -119,16 +118,11 @@ MonoBehaviour:
   startMakingNoise:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b29aa157bce38194685738c2623079e2, type: 2}
   stopMakingNoise:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  youDidGood:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  activationDistance: 5
+    WwiseObjectReference: {fileID: 11400000, guid: 7035dbd0f5a8c84449b23baeda95d278, type: 2}
 --- !u!114 &2231476501515328048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,30 +145,6 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &7601211762323646400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4128084015649177530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b1f167b38ac4a9479314b114716f0ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startMakingNoise:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e32ddac00dc840e4c85787a811757210, type: 2}
-  stopMakingNoise:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5cd692fe37d5606459952aef09e4c226, type: 2}
-  youDidGood:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 85410aecf8ee03a4e8e96fc76da28468, type: 2}
 --- !u!65 &6850967211417456532
 BoxCollider:
   m_ObjectHideFlags: 0

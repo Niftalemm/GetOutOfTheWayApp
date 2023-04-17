@@ -20,11 +20,9 @@ public class OOF : MonoBehaviour
     [SerializeField] public AK.Wwise.Event akLevelSuccess;
     [SerializeField] public AK.Wwise.Event akGoalError;
     [SerializeField] public AK.Wwise.Event akThud;
-    [SerializeField] public AK.Wwise.Event stopMakingNoise;
 
 
     private List<GoalBehavior> goals;
-    private int goalCounter;
     private Rigidbody rb;
     public string[] tutorialLevels = { "Level1", "Level2", "Level3" };
     public string[] levelNames = { "Level4", "Level5", "Level6", "Level7", "Level8", "Level9", "Level10", "Level11" };
@@ -35,7 +33,6 @@ public class OOF : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
-        goalCounter = GameObject.FindObjectsOfType<GoalBehavior>().Length;
         selectedLevels = new List<int>(); // Initialize selectedLevels to an empty list
 
         // Load the selectedLevels list from PlayerPrefs
@@ -54,7 +51,6 @@ public class OOF : MonoBehaviour
         if (selectedLevels.Count < 24)
         {
             Debug.Log(selectedLevels.Count);
-            // ActivateGoal();
         }
         else
         {
@@ -76,7 +72,6 @@ public class OOF : MonoBehaviour
         }
     }
     
-
     private void Update()
     {
         // this probably could stand to have the input thingy removed but we do not have time
@@ -86,7 +81,6 @@ public class OOF : MonoBehaviour
             if (selectedLevels.Count < 24)
             {
                 Debug.Log(selectedLevels.Count);
-                // ActivateGoal();
             }
             else
             {
@@ -97,6 +91,11 @@ public class OOF : MonoBehaviour
 
         }
     }
+
+    /// <summary>
+    /// Activate the goal recently collided with
+    /// </summary>
+    /// <param name="other">The object passed by the OnTriggerEnter</param>
     private void ActivateGoal(Collider other)
     {
 
@@ -105,22 +104,28 @@ public class OOF : MonoBehaviour
         {
             thing.Deactivate();
             goals.Remove(thing);
-            akGoalSuccess.Post(gameObject);
-        }
 
-        if (goals.Count == 0)
-        {
-            // check current level
-            Scene currentScene = SceneManager.GetActiveScene();
-            Debug.Log(currentScene.name);
-            // If the current level is tutorial scene
-            if (tutorialLevels.Contains(currentScene.name))
+            // if there are no more goals, move on
+            if (goals.Count == 0)
             {
-                int nextSceneIndex = System.Array.IndexOf(tutorialLevels, currentScene.name) + 1;
-                if (nextSceneIndex < tutorialLevels.Length)
+                akLevelSuccess.Post(gameObject);
+
+                // check current level
+                Scene currentScene = SceneManager.GetActiveScene();
+                Debug.Log(currentScene.name);
+                // If the current level is tutorial scene
+                if (tutorialLevels.Contains(currentScene.name))
                 {
-                    // go to next tutorial level
-                    SceneManager.LoadScene(tutorialLevels[nextSceneIndex]);
+                    int nextSceneIndex = System.Array.IndexOf(tutorialLevels, currentScene.name) + 1;
+                    if (nextSceneIndex < tutorialLevels.Length)
+                    {
+                        // go to next tutorial level
+                        SceneManager.LoadScene(tutorialLevels[nextSceneIndex]);
+                    }
+                    else
+                    {
+                        selectRandomLevel();
+                    }
                 }
                 else
                 {
@@ -129,11 +134,18 @@ public class OOF : MonoBehaviour
             }
             else
             {
-                selectRandomLevel();
+                akGoalSuccess.Post(gameObject);
             }
+
+
         }
+
+        
     }
-    // Randomly generate a level, and store level name into a list
+
+    /// <summary>
+    /// Randomly generate a level, and store level name into a list
+    /// </summary>
     private void selectRandomLevel()
     {
         // load a random level
@@ -152,13 +164,19 @@ public class OOF : MonoBehaviour
             SceneManager.LoadScene(levelNames[nextLevel]);
         }
     }
+
+
     private void resetLevel()
     {
         selectedLevels = new List<int>(); // Initialize selectedLevels to an empty list
         PlayerPrefs.SetString("SelectedLevels", string.Join(",", selectedLevels));
         PlayerPrefs.Save();
     }
-    // When the player exit the play mode using the toolbar button, reset everything
+
+
+    /// <summary>
+    /// When the player exits the play mode using the toolbar button, reset everything
+    /// </summary>
     private void OnApplicationQuit()
     {
         Debug.Log("Player has exited Play Mode");
