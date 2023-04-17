@@ -46,7 +46,8 @@ public class GoalBehavior : MonoBehaviour
     public void Deactivate()
     {
         // this method, get this, deactivates the goal.
-        Destroy(this);
+        Destroy(GetComponent<MeshRenderer>());
+        
         active = false;
     }
 

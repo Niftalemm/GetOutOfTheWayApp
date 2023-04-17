@@ -9,6 +9,10 @@ using System.Linq;
 using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 using UnityEngine.SceneManagement;
 
+// remove goals list
+// Actvate goal
+// make sure goals get activated
+
 public class OOF : MonoBehaviour
 {
     [SerializeField] public AK.Wwise.Event akOOFEvent;
@@ -17,15 +21,21 @@ public class OOF : MonoBehaviour
     [SerializeField] public AK.Wwise.Event akGoalError;
     [SerializeField] public AK.Wwise.Event akThud;
     [SerializeField] public AK.Wwise.Event stopMakingNoise;
+
+
     private List<GoalBehavior> goals;
+    private int goalCounter;
     private Rigidbody rb;
     public string[] tutorialLevels = { "Level1", "Level2", "Level3" };
     public string[] levelNames = { "Level4", "Level5", "Level6", "Level7", "Level8", "Level9", "Level10", "Level11" };
     public List<int> selectedLevels;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
+        goalCounter = GameObject.FindObjectsOfType<GoalBehavior>().Length;
         selectedLevels = new List<int>(); // Initialize selectedLevels to an empty list
 
         // Load the selectedLevels list from PlayerPrefs
@@ -38,11 +48,13 @@ public class OOF : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        akThud.Post(gameObject);
+        ActivateGoal(other);
    
         if (selectedLevels.Count < 24)
         {
             Debug.Log(selectedLevels.Count);
-            ActivateGoal();
+            // ActivateGoal();
         }
         else
         {
@@ -67,12 +79,14 @@ public class OOF : MonoBehaviour
 
     private void Update()
     {
+        // this probably could stand to have the input thingy removed but we do not have time
+        // maybe even remove this method but that's messing with other people's code and I dont have time to deal with if it gets messed up
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (selectedLevels.Count < 24)
             {
                 Debug.Log(selectedLevels.Count);
-                ActivateGoal();
+                // ActivateGoal();
             }
             else
             {
@@ -83,25 +97,15 @@ public class OOF : MonoBehaviour
 
         }
     }
-    private void ActivateGoal()
+    private void ActivateGoal(Collider other)
     {
-        int index = 0;
-        bool flag = false;
 
-        while (!flag && index < goals.Count)
+        GoalBehavior thing;
+        if (other.TryGetComponent<GoalBehavior>(out thing))
         {
-            if (goals[index].WithinActivationRange(rb.transform.position))
-            {
-                Debug.Log("Goal Entered");
-                goals.RemoveAt(index);
-                flag = true;
-            }
-            index++;
-        }
-        if (!flag && index == goals.Count)
-        {
-            Debug.Log("There are no goal objects in range");
-            akGoalError.Post(gameObject);
+            thing.Deactivate();
+            goals.Remove(thing);
+            akGoalSuccess.Post(gameObject);
         }
 
         if (goals.Count == 0)
