@@ -211,7 +211,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 32351245}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abcc6fcee3e1dd542a4f026c35b6e202, type: 3}
   m_Name: 
@@ -226,7 +226,7 @@ PrefabInstance:
     - target: {fileID: 441859746939074632, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 891409199bf039546bceebd249b97912, type: 2}
+      objectReference: {fileID: 11400000, guid: e29d5f3603e0ca042bc0efb4f40d815a, type: 2}
     - target: {fileID: 2031054130558360203, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
@@ -234,7 +234,7 @@ PrefabInstance:
     - target: {fileID: 2683682672987421781, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 891409199bf039546bceebd249b97912, type: 2}
+      objectReference: {fileID: 11400000, guid: e29d5f3603e0ca042bc0efb4f40d815a, type: 2}
     - target: {fileID: 2699778261704203626, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: m_Name
       value: Enviornment Setup
@@ -477,7 +477,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1949428025}
-  - component: {fileID: 1949428024}
   - component: {fileID: 1949428026}
   m_Layer: 0
   m_Name: WwiseGlobal
@@ -486,31 +485,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1949428024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949428023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fd69052e2ed2c34bbbdce595db77181, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 9fcd89b5f42e3b649ac4eed608115f27, type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  engineLogging: 0
 --- !u!4 &1949428025
 Transform:
   m_ObjectHideFlags: 0

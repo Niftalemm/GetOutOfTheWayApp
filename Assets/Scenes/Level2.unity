@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: distanceProbe
       value: 
       objectReference: {fileID: 32351251}
+    - target: {fileID: 1636155997144338328, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: akGoalSuccess.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0872ae6c151b2ef44b7e44cce1dfdeb1, type: 2}
     - target: {fileID: 3398949186424952914, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -333,7 +337,7 @@ PrefabInstance:
     - target: {fileID: 441859746939074632, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 891409199bf039546bceebd249b97912, type: 2}
+      objectReference: {fileID: 11400000, guid: e29d5f3603e0ca042bc0efb4f40d815a, type: 2}
     - target: {fileID: 2031054130558360203, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
@@ -341,7 +345,7 @@ PrefabInstance:
     - target: {fileID: 2683682672987421781, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 891409199bf039546bceebd249b97912, type: 2}
+      objectReference: {fileID: 11400000, guid: e29d5f3603e0ca042bc0efb4f40d815a, type: 2}
     - target: {fileID: 2699778261704203626, guid: e35b264a0b610f44fafa0cc61b0b1e36, type: 3}
       propertyPath: m_Name
       value: Enviornment Setup
@@ -527,7 +531,7 @@ PrefabInstance:
     - target: {fileID: 8497146883665590687, guid: 5f61e9c87980b614f8a348ff30478696, type: 3}
       propertyPath: data.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: e29d5f3603e0ca042bc0efb4f40d815a, type: 2}
+      objectReference: {fileID: 11400000, guid: cf868e326341f1342a634a08a8c34232, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f61e9c87980b614f8a348ff30478696, type: 3}
 --- !u!1 &838364818 stripped
@@ -750,7 +754,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1960199460}
-  - component: {fileID: 1960199459}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -758,31 +761,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1960199459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960199458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fd69052e2ed2c34bbbdce595db77181, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationSettings: {fileID: 11400000, guid: 9fcd89b5f42e3b649ac4eed608115f27, type: 2}
-  basePath: 
-  language: 
-  defaultPoolSize: 0
-  lowerPoolSize: 0
-  streamingPoolSize: 0
-  memoryCutoffThreshold: 0
-  monitorPoolSize: 0
-  monitorQueuePoolSize: 0
-  callbackManagerBufferSize: 0
-  spatialAudioPoolSize: 0
-  maxSoundPropagationDepth: 0
-  engineLogging: 0
 --- !u!4 &1960199460
 Transform:
   m_ObjectHideFlags: 0

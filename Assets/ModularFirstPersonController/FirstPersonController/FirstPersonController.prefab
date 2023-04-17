@@ -234,11 +234,11 @@ MonoBehaviour:
   akGoalSuccess:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e671d364b21c97f46894d1fd16e3902e, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 0872ae6c151b2ef44b7e44cce1dfdeb1, type: 2}
   akLevelSuccess:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2ff0ab296898893469e336ff8f22cb51, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 91bdf37492017454886f05cf763ecc0a, type: 2}
   akGoalError:
     idInternal: 0
     valueGuidInternal: 
@@ -246,7 +246,7 @@ MonoBehaviour:
   akThud:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 09b749c431d5f3b4eb6555e4260b9fba, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: f15d06f9e5d9edc4e9dc08e1dcbdb9ab, type: 2}
   tutorialLevels:
   - Level1
   - Level2
