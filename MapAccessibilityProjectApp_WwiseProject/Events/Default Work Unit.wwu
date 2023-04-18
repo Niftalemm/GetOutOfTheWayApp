@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{72CF0FED-C23A-4215-B871-B71F750B2934}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Goal3" ID="{A99E7267-4AAA-4F85-A399-CD745D7E8262}">
-					<ChildrenList>
-						<Action Name="" ID="{C03D7331-35DB-4065-9C94-BF6E63608782}" ShortID="863552471">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Goal3" ID="{D97941A1-A24A-4382-9EF2-9FE27416A9E7}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}">
 					<ChildrenList>
 						<Action Name="" ID="{F2E85789-2906-4918-A86F-B00312348E52}" ShortID="988044063">
@@ -31,28 +20,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Static1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Goal1" ID="{0DC08397-30C9-4E21-93F3-DDCF9F70B4DC}">
-					<ChildrenList>
-						<Action Name="" ID="{98E5C27D-3BFD-49B1-9486-84A51F13D150}" ShortID="1055984996">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Goal1" ID="{FC3B3278-DDFC-4C01-902A-ABD97F538A9F}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Goal2" ID="{F136B9F6-822F-4EBD-9241-2710698A288F}">
-					<ChildrenList>
-						<Action Name="" ID="{63C891C5-E5F1-45D8-9C82-AB328478AADA}" ShortID="67275112">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Goal2" ID="{07218D90-C0E3-4730-9695-4496B8A8A7D1}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
