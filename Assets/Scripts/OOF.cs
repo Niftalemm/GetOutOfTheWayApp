@@ -24,7 +24,6 @@ public class OOF : MonoBehaviour
 
 
     private List<GoalBehavior> goals;
-    private Rigidbody rb;
     public string[] tutorialLevels = { "Level1", "Level2", "Level3" };
     public string[] levelNames = { "Level4", "Level5", "Level6", "Level7", "Level8", "Level9", "Level10", "Level11" };
     public List<int> selectedLevels; // A list of integers that correspond to the indices of selected levels
@@ -33,7 +32,6 @@ public class OOF : MonoBehaviour
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody>();
         goals = GameObject.FindObjectsOfType<GoalBehavior>().ToList<GoalBehavior>();
         selectedLevels = new List<int>(); // Initialize selectedLevels to an empty list
         readyForNextLevel = false;
