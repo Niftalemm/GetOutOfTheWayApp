@@ -122,6 +122,8 @@ public class OOF : MonoBehaviour
 
                 readyForNextLevel = true;
                 Time.timeScale = 0; // Freeze everything in the game
+                AkSoundEngine.StopAll();
+                
 
             }
             else

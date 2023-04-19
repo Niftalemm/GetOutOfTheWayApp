@@ -5,9 +5,6 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 using UnityEngine.SceneManagement;
-
-
-
 public class CollisionTracker : MonoBehaviour
 {
 
@@ -25,6 +22,7 @@ public class CollisionTracker : MonoBehaviour
         public float timer1 = 0;
         public float timer2 = 0;
         public float timer3 = 0;
+        public int goalsHit = 0;
     }
 
     collectedData tracker = new collectedData();
@@ -36,11 +34,14 @@ public class CollisionTracker : MonoBehaviour
     private void WriteToCSV()
     {
         string filePath = Application.dataPath + "/results.csv";
-        
-        StreamWriter creativeWriter = new StreamWriter(filePath);
-        creativeWriter.WriteLine("Participant,Scene,# Static Collisions,Static Timestamps,# Moving Collisions,Moving Timestamps,Location,Rotation,TTT1,TTT2,TTT3"); // Header
-        creativeWriter.Flush();
-        creativeWriter.Close();
+
+        if (!File.Exists(filePath))
+        {
+            StreamWriter creativeWriter = new StreamWriter(filePath);
+            creativeWriter.WriteLine("Participant,Scene,# Static Collisions,Static Timestamps,# Moving Collisions,Moving Timestamps,Location,Rotation,TTT1,TTT2,TTT3"); // Header
+            creativeWriter.Flush();
+            creativeWriter.Close();
+        }
         
         // List<> is converted to array for easier loops. 
         string[] tempPosition = tracker.position.ToArray();
@@ -52,6 +53,14 @@ public class CollisionTracker : MonoBehaviour
         string fullPosition = "";
         string fullRotation = "";
         string currentScene = SceneManager.GetActiveScene().name;
+
+        string participantID = Application.dataPath + "/ParticipantID.txt";
+
+        StreamReader getName = new StreamReader(participantID);
+        string participant = getName.ReadLine();
+        getName.Close();
+        Debug.Log(participant);
+
 
         // For every List<> (now an array), iterate through and convert to a single string
 
@@ -108,7 +117,7 @@ public class CollisionTracker : MonoBehaviour
         
         //This will append to the CSV file, creating a new row, hence why WriteCSV should be called once, at the end of a level
         StreamWriter writer = File.AppendText(filePath);
-        writer.WriteLine("Goober McGee" + "," + currentScene + "," + tracker.staticCollisions + "," + "\"" + fullStatic + "\"" + "," + tracker.movingCollisions + "," + "\"" + fullMoving + "\"" + "," + "\"" + fullPosition + "\"" + "," + "\"" + fullRotation + "\"" + 
+        writer.WriteLine(participant + "," + currentScene + "," + tracker.staticCollisions + "," + "\"" + fullStatic + "\"" + "," + tracker.movingCollisions + "," + "\"" + fullMoving + "\"" + "," + "\"" + fullPosition + "\"" + "," + "\"" + fullRotation + "\"" + 
             "," + tracker.timer1 + "," + tracker.timer2 + "," + tracker.timer3);
         writer.Flush();
         writer.Close();
@@ -116,7 +125,18 @@ public class CollisionTracker : MonoBehaviour
 
     private void Start()
     {
-        tracker.baseTimer = 0;
+        // When the game starts, a .txt file is created to store the ID of the participant in order to write the same ID throughout changing scenes
+        string idNumber = Random.Range(100, 100000).ToString();
+        if(SceneManager.GetActiveScene().name == "Level1")
+        {
+            string participantID = Application.dataPath + "/ParticipantID.txt";
+            StreamWriter nameStorage = new StreamWriter(participantID);
+            nameStorage.WriteLine(idNumber);
+            nameStorage.Flush();
+            nameStorage.Close();
+        }
+
+        tracker.baseTimer = 0; // Initialize game timer
     }
 
     private void Update()
@@ -149,35 +169,55 @@ public class CollisionTracker : MonoBehaviour
         {
             tracker.staticCollisions += 1;
             tracker.staticCollisionTimes.Add(tracker.baseTimer);
-            WriteToCSV();
-            Debug.Log("Pillar hit " + tracker.staticCollisions);
+            
         }
         else if (collision.gameObject.tag == "Ball")
         {
             tracker.movingCollisions += 1;
             tracker.movingCollisionTimes.Add(tracker.baseTimer);
-            Debug.Log("Ball hit " + tracker.movingCollisions);
+           
         }
-        else if (collision.gameObject.tag == "Goal")
+      
+    }
+
+    /// <summary>
+    /// Goals require trigger detection. CSV is written to when 3 goals have been hit. 
+    /// </summary>
+    /// <param name="other"></param>
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Goal")
         {
             tracker.timer1 = tracker.baseTimer;
-            Debug.Log("Goal At " + tracker.timer1);
+            tracker.goalsHit += 1;
+            if (tracker.goalsHit == 3)
+            {
+                Debug.Log("Writing to CSV");
+                WriteToCSV();
+            }
         }
-        else if (collision.gameObject.tag == "Goal1")
-        {
-            tracker.timer1 = tracker.baseTimer;
-            Debug.Log("Goal At " + tracker.timer1);      
-        }
-        else if(collision.gameObject.tag == "Goal2")
+        else if (other.gameObject.tag == "Goal1")
         {
             tracker.timer2 = tracker.baseTimer;
-            Debug.Log("Goal At " + tracker.timer2);
+            tracker.goalsHit += 1;
+            if (tracker.goalsHit == 3)
+            {
+                WriteToCSV();
+                Debug.Log("Writing to CSV");
+            }
         }
-        else if (collision.gameObject.tag == "Goal2")
+        else if (other.gameObject.tag == "Goal2")
         {
             tracker.timer3 = tracker.baseTimer;
-            Debug.Log("Goal At " + tracker.timer3);
+            tracker.goalsHit += 1;
+            if (tracker.goalsHit == 3)
+            {
+                WriteToCSV();
+                Debug.Log("Writing to CSV");
+            }
         }
+        
+
     }
 
 }
