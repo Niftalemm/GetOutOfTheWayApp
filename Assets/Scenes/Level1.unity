@@ -145,7 +145,7 @@ PrefabInstance:
     - target: {fileID: 1636155997144338328, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: akLevelSuccess.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 91bdf37492017454886f05cf763ecc0a, type: 2}
+      objectReference: {fileID: 11400000, guid: de73a21c0804ad04d80e525924883d9f, type: 2}
     - target: {fileID: 3398949186424952914, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_listeners.initialListenerList.Array.size
       value: 1
@@ -204,6 +204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4459864851310106427, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+    - {fileID: 3029400690910519055, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
 --- !u!114 &32351251 stripped
 MonoBehaviour:

@@ -50,7 +50,6 @@ public class OOF : MonoBehaviour
     /// <param name="other">The Collider component of the object that the player collided with</param>
     private void OnTriggerEnter(Collider other)
     {
-        akThud.Post(gameObject);
         
         //If the player does not finished all 24 trials, activate goals
         if (selectedLevels.Count < 24)
@@ -116,12 +115,13 @@ public class OOF : MonoBehaviour
             // if there are no more goals, move on
             if (goals.Count == 0)
             {
-                akLevelSuccess.Post(gameObject);
+                
 
                 readyForNextLevel = true;
                 Time.timeScale = 0; // Freeze everything in the game
                 AkSoundEngine.StopAll();
-                
+                akLevelSuccess.Post(gameObject);
+
 
             }
             else

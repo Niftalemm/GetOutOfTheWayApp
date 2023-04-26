@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_GOALPING = 3561705391U;
         static const AkUniqueID PLAY_GOALPING_01 = 2166390195U;
         static const AkUniqueID PLAY_GOALPING_02 = 2166390192U;
+        static const AkUniqueID PLAY_LEVELCOMPLETE = 497544521U;
         static const AkUniqueID PLAY_MOVING1_ENGINE = 3649024054U;
         static const AkUniqueID PLAY_ROBLOXOOF = 1410732160U;
         static const AkUniqueID PLAY_STATIC1 = 2385860965U;

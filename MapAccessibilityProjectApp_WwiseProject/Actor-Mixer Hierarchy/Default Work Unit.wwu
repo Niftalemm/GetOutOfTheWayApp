@@ -71,7 +71,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-11</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -492,6 +492,11 @@
 				<Sound Name="GoalComplete3" ID="{7328CC27-4F30-4FE4-BC3D-D67CCA803132}" ShortID="486491623">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -585,6 +590,28 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Traffic_Ping" ID="{2069BBA2-2ADC-430A-A5FC-DA0581FE19C7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LevelComplete" ID="{694A5B44-0BEF-40EE-BACF-31C99AC9D6ED}" ShortID="1023592815">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{27F87AF0-DB32-434B-8368-6DBDAC2868AC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4B902699-5A5E-466F-87DD-6B48CD2013CB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Level complete 1" ID="{7A2DB150-E579-4757-ABD5-A3850AB98ABA}">
+							<Language>SFX</Language>
+							<AudioFile>Level complete 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="408296298"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Level complete 1" ID="{7A2DB150-E579-4757-ABD5-A3850AB98ABA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

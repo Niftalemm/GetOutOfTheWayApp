@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{92563E9A-EC96-66FE-6E30-C5ABF7CC62A4}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{EFA967DD-71CE-5265-E2CE-4467CD41EDE6}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
@@ -40,6 +40,10 @@
 				<File Id="332083561" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>580310__colorscrimsontears__fanfare-2-rpg.wav</ShortName>
 					<CachePath>SFX/580310__colorscrimsontears__fanfare-2-rpg_10524537.wem</CachePath>
+				</File>
+				<File Id="408296298" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Level complete 1.wav</ShortName>
+					<CachePath>SFX/Level complete 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="554589208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>320887__rhodesmas__win-04.wav</ShortName>
@@ -142,6 +146,11 @@
 						<MediaRef Id="217865682"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="497544521" Name="Play_LevelComplete" DurationType="OneShot" DurationMin="3.8933334" DurationMax="3.8933334">
+					<MediaRefs>
+						<MediaRef Id="408296298"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="277644868"/>
@@ -157,7 +166,7 @@
 						<MediaRef Id="232375660"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="38" DurationType="Infinite">
+				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="563949349"/>
 					</MediaRefs>
@@ -204,5 +213,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E55046A4-7F52-2B35-D190-801C581889B6}</FileHash>
+	<FileHash>{620BC2BA-AAD8-76CD-ED8C-98821BE94EA5}</FileHash>
 </SoundBanksInfo>

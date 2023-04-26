@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{92563E9A-EC96-66FE-6E30-C5ABF7CC62A4}">
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{DD8A0F78-630C-891C-82D0-41F2D309BA02}">
 			<ShortName>name</ShortName>
 			<Path>name.bnk</Path>
 			<Media>
@@ -157,7 +157,7 @@
 						<MediaRef Id="232375660"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="38" DurationType="Infinite">
+				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="563949349"/>
 					</MediaRefs>
@@ -204,5 +204,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{595A0BB2-8183-F5EC-1B5F-98BB00929C18}</FileHash>
+	<FileHash>{89A53520-A64B-BBBC-1DC1-95A5C466A6B5}</FileHash>
 </SoundBanksInfo>

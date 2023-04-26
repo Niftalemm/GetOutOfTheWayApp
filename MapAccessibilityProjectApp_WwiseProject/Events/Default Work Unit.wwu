@@ -243,6 +243,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_LevelComplete" ID="{6FE89E72-A60C-4AEE-8A71-25C910003ADB}">
+					<ChildrenList>
+						<Action Name="" ID="{1ECB52C5-9006-48CF-94F8-A5EF57C807E7}" ShortID="353734048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelComplete" ID="{694A5B44-0BEF-40EE-BACF-31C99AC9D6ED}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

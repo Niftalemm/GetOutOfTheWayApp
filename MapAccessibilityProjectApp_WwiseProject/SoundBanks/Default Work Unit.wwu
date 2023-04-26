@@ -23,6 +23,7 @@
 						<ObjectRef Name="Stop_GoalPing" ID="{EE376C89-F802-490E-9302-1C726FD9BF9D}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Static2" ID="{69BE8256-BA97-4942-84BD-55AE462288EE}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LevelComplete" ID="{6FE89E72-A60C-4AEE-8A71-25C910003ADB}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoalPing_02" ID="{283B3B4C-B212-4CDC-8FF7-127346E58B8F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Walls_Boiling" ID="{8EE3D8FD-58CB-4D1C-8D6B-F0FDDF1FED61}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoalPing_01" ID="{592C9C4A-B504-4E89-925D-F96100C11C07}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>

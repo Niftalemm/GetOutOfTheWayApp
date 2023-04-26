@@ -234,7 +234,7 @@ public class FirstPersonController : MonoBehaviour
             pitch = Mathf.Clamp(pitch, -maxLookAngle, maxLookAngle);
 
             transform.localEulerAngles = new Vector3(0, yaw, 0);
-            playerCamera.transform.localEulerAngles = new Vector3(pitch, 0, 0);
+            playerCamera.transform.localEulerAngles = new Vector3(0, 0, 0);
         }
 
         #region Camera Zoom

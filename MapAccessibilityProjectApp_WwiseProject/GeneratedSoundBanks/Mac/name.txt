@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	100894738	Play_GoalComplete			\Default Work Unit\Play_GoalComplete	
+	497544521	Play_LevelComplete			\Default Work Unit\Play_LevelComplete	
 	1116337078	Play_Walls_Boiling			\Default Work Unit\Play_Walls_Boiling	
 	1158470389	Stop_GoalPing			\Default Work Unit\Stop_GoalPing	
 	1410732160	Play_RobloxOof			\Default Work Unit\Play_RobloxOof	
@@ -29,6 +30,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	277644868	Moving1_Engine	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Engine_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Moving1_Engine		243684
 	305625904	Error2	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\572938__bloodpixelhero__error-3_773AB617.wem		\Actor-Mixer Hierarchy\Default Work Unit\Error2		156892
 	332083561	GoalComplete4	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\580310__colorscrimsontears__fanfare-2-rpg_10524537.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalComplete4		339224
+	408296298	LevelComplete	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Level complete 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelComplete		186976
 	554589208	GoalComplete3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\320887__rhodesmas__win-04_73E760FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\GoalComplete3		211776
 	563949349	Static2	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\Wall_A_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Static2		1056836
 	653669051	Thud3	C:\Users\Skeeter\Desktop\S23Project\MapAccessibilityProjectApp\MapAccessibilityProjectApp_WwiseProject\.cache\Mac\SFX\326048__freeman213sg__muted-wall-hit_9DC27399.wem		\Actor-Mixer Hierarchy\Default Work Unit\Thud3		23682

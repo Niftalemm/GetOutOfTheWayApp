@@ -341,7 +341,7 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
@@ -494,7 +494,7 @@
 				</Attenuation>
 				<Attenuation Name="MovingObstacle" ID="{BF3FF468-9450-46D3-B0DF-00FEEF7082F1}" ShortID="561270702">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="38"/>
+						<Property Name="RadiusMax" Type="Real64" Value="25"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -508,10 +508,10 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
-											<SegmentShape>Log1</SegmentShape>
+											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>38</XPos>
+											<XPos>25</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
