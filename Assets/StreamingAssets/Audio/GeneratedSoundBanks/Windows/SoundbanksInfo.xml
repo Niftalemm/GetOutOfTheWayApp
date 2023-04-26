@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="598466168" Type="User" Language="SFX" Hash="{022ACAD9-0A50-2746-8633-D8F010B61170}">
+			<ShortName>GoalIdeas</ShortName>
+			<Path>GoalIdeas.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="797654004" Type="User" Language="SFX" Hash="{5E77B9EF-3A11-E01F-7437-5509ED307089}">
+			<ShortName>name</ShortName>
+			<Path>name.bnk</Path>
+			<Media>
+				<File Id="42088284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>457741__osiruswaltz__wall-bump-1.wav</ShortName>
+					<CachePath>SFX/457741__osiruswaltz__wall-bump-1_AA20BD03.wem</CachePath>
+				</File>
+				<File Id="201529871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>466133__humanoide9000__victory-fanfare.wav</ShortName>
+					<CachePath>SFX/466133__humanoide9000__victory-fanfare_3DC02E41.wem</CachePath>
+				</File>
+				<File Id="217865682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Traffic_Ping.wav</ShortName>
+					<CachePath>SFX/Traffic_Ping_C5579977.wem</CachePath>
+				</File>
+				<File Id="232375660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>The Creature 1.wav</ShortName>
+					<CachePath>SFX/The Creature 1_093CB6E9.wem</CachePath>
+				</File>
+				<File Id="277644868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Engine_03.wav</ShortName>
+					<CachePath>SFX/Engine_03_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="305625904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>572938__bloodpixelhero__error-3.wav</ShortName>
+					<CachePath>SFX/572938__bloodpixelhero__error-3_773AB617.wem</CachePath>
+				</File>
+				<File Id="332083561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>580310__colorscrimsontears__fanfare-2-rpg.wav</ShortName>
+					<CachePath>SFX/580310__colorscrimsontears__fanfare-2-rpg_10524537.wem</CachePath>
+				</File>
+				<File Id="554589208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>320887__rhodesmas__win-04.wav</ShortName>
+					<CachePath>SFX/320887__rhodesmas__win-04_73E760FE.wem</CachePath>
+				</File>
+				<File Id="563949349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wall_A.wav</ShortName>
+					<CachePath>SFX/Wall_A_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="653669051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>326048__freeman213sg__muted-wall-hit.wav</ShortName>
+					<CachePath>SFX/326048__freeman213sg__muted-wall-hit_9DC27399.wem</CachePath>
+				</File>
+				<File Id="659495117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>562809__richheard__fanfare-4.wav</ShortName>
+					<CachePath>SFX/562809__richheard__fanfare-4_5C7F738F.wem</CachePath>
+				</File>
+				<File Id="672840739" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>142608__autistic-lucario__error.wav</ShortName>
+					<CachePath>SFX/142608__autistic-lucario__error_10C4C929.wem</CachePath>
+				</File>
+				<File Id="752423789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>442344__toddcircle__deep-thud-punch.wav</ShortName>
+					<CachePath>SFX/442344__toddcircle__deep-thud-punch_0AEA885E.wem</CachePath>
+				</File>
+				<File Id="886845352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>roblox-oof-gamespecifications.com_(1).wav</ShortName>
+					<CachePath>SFX/roblox-oof-gamespecifications.com_(1)_19988ABE.wem</CachePath>
+				</File>
+				<File Id="926600696" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mixkit-instant-win-2021.wav</ShortName>
+					<CachePath>SFX/mixkit-instant-win-2021_449134B6.wem</CachePath>
+				</File>
+				<File Id="928954443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>577835__deeplayerking__windows-error-sound-effect.wav</ShortName>
+					<CachePath>SFX/577835__deeplayerking__windows-error-sound-effect_98680764.wem</CachePath>
+				</File>
+				<File Id="957856903" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>681566__freekit__constant-buzz-with-repeating-spikes.wav</ShortName>
+					<CachePath>SFX/681566__freekit__constant-buzz-with-repeating-spikes_E3B83AEC.wem</CachePath>
+				</File>
+				<File Id="1010418730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>681638__itinerantmonk108__electric-tea-kettle.wav</ShortName>
+					<CachePath>SFX/681638__itinerantmonk108__electric-tea-kettle_0789F156.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2208161937" Name="Play_Error1" DurationType="OneShot" DurationMin="0.28510204" DurationMax="0.28510204">
+					<MediaRefs>
+						<MediaRef Id="672840739"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2208161938" Name="Play_Error2" DurationType="OneShot" DurationMin="0.81665486" DurationMax="0.81665486">
+					<MediaRefs>
+						<MediaRef Id="305625904"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2208161939" Name="Play_Error3" DurationType="OneShot" DurationMin="0.5472786" DurationMax="0.5472786">
+					<MediaRefs>
+						<MediaRef Id="928954443"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3029450520" Name="Play_Goal1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3029450523" Name="Play_Goal2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="100894738" Name="Play_GoalComplete" DurationType="OneShot" DurationMin="2.681416" DurationMax="2.681416">
+					<MediaRefs>
+						<MediaRef Id="659495117"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2307863652" Name="Play_GoalComplete2" MaxAttenuation="200" DurationType="OneShot" DurationMin="1.6363636" DurationMax="1.6363636">
+					<MediaRefs>
+						<MediaRef Id="201529871"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2307863653" Name="Play_GoalComplete3" MaxAttenuation="200" DurationType="OneShot" DurationMin="1.2" DurationMax="1.2">
+					<MediaRefs>
+						<MediaRef Id="554589208"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2307863650" Name="Play_GoalComplete4" MaxAttenuation="200" DurationType="OneShot" DurationMin="1.7663047" DurationMax="1.7663047">
+					<MediaRefs>
+						<MediaRef Id="332083561"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2307863651" Name="Play_GoalComplete5" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.7056368" DurationMax="0.7056368">
+					<MediaRefs>
+						<MediaRef Id="926600696"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3561705391" Name="Play_GoalPing" MaxAttenuation="200" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="217865682"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="277644868"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1410732160" Name="Play_RobloxOof" DurationType="OneShot" DurationMin="0.32153392" DurationMax="0.32153392">
+					<MediaRefs>
+						<MediaRef Id="886845352"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="51" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="232375660"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860966" Name="Play_Static2" MaxAttenuation="51" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="563949349"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860967" Name="Play_Static3" MaxAttenuation="51" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="957856903"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2096220506" Name="Play_Thud1" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.2885457" DurationMax="0.2885457">
+					<MediaRefs>
+						<MediaRef Id="752423789"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2096220505" Name="Play_Thud2" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.8331757" DurationMax="0.8331757">
+					<MediaRefs>
+						<MediaRef Id="42088284"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2096220504" Name="Play_Thud3" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.2674185" DurationMax="0.2674185">
+					<MediaRefs>
+						<MediaRef Id="653669051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1116337078" Name="Play_Walls_Boiling" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1010418730"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1786443913" Type="User" Language="SFX" Hash="{E60F2FDD-7FFB-7914-E4F5-5652C5AC708D}">
+			<ShortName>new_guy</ShortName>
+			<Path>new_guy.bnk</Path>
+			<Media>
+				<File Id="232375660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>The Creature 1.wav</ShortName>
+					<CachePath>SFX/The Creature 1_093CB6E9.wem</CachePath>
+				</File>
+				<File Id="277644868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Engine_03.wav</ShortName>
+					<CachePath>SFX/Engine_03_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3029450522" Name="Play_Goal3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3649024054" Name="Play_Moving1_Engine" MaxAttenuation="85" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="277644868"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2385860965" Name="Play_Static1" MaxAttenuation="51" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="232375660"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2A2B95E3-3D6C-1421-6F61-FF272D4483B4}</FileHash>
+</SoundBanksInfo>

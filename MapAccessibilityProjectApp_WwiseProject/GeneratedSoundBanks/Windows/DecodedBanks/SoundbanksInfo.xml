@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="268529915" Type="User" Language="SFX" Hash="{07865342-37B2-7D1D-A0E7-0B662BAC944F}">
+			<ShortName>Engine</ShortName>
+			<Path>Engine.bnk</Path>
+			<Media>
+				<File Id="242104969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>high_off.wav</ShortName>
+					<CachePath>SFX/high_off_10C4C929.wem</CachePath>
+				</File>
+				<File Id="875700341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>idle.wav</ShortName>
+					<CachePath>SFX/idle_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="41941568" Name="Play_idle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="875700341"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4268515854" Name="Play_med_off" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.1756463" DurationMax="1.1756463">
+					<MediaRefs>
+						<MediaRef Id="242104969"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D692939B-FC6D-FA2D-7080-FABC50661D42}</FileHash>
+</SoundBanksInfo>

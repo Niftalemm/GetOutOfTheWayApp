@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9E4EB255-64A7-465E-B035-11B1729B9392}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9E4EB255-64A7-465E-B035-11B1729B9392}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="name" ID="{D4CA33B5-2CC4-4FC0-BCAC-C815D89D876B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_GoalComplete5" ID="{A433E27A-C0C7-4001-9CD9-3FF1911A56C8}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Error1" ID="{0CFBD3C0-8956-40F9-A12D-9CB920850490}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalComplete4" ID="{3768EFD2-E3A4-4228-BD0F-3BCB64443932}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalComplete" ID="{2325E3ED-CFFC-4232-B5B1-2EE7F8DB3B5D}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Thud2" ID="{BFA48292-A3BE-42B2-AB96-3EA1796B11F6}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Error3" ID="{314DED65-2B10-4454-88EB-460FE323B27B}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalComplete3" ID="{01FE51E8-7880-4497-A03F-C59FC61D788D}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Thud3" ID="{F7F8E2C6-91DD-4545-BFA4-0705B04691D6}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Static3" ID="{9B4764FB-9722-4580-9337-6B87B660AF2B}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Error2" ID="{C6E1E3BB-9AF4-4682-ACC0-5659E777644C}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RobloxOof" ID="{7A20F280-A3C9-4782-9231-B3F9503D9AFC}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Thud1" ID="{76865A8A-0A08-4824-908B-04324F2B75AA}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalComplete2" ID="{44614E32-BD3B-4881-88B8-818A493D7192}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalPing" ID="{C47B7CE5-CB9A-48C1-B66F-77AD7A4A2972}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_GoalPing" ID="{EE376C89-F802-490E-9302-1C726FD9BF9D}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Static2" ID="{69BE8256-BA97-4942-84BD-55AE462288EE}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LevelComplete" ID="{6FE89E72-A60C-4AEE-8A71-25C910003ADB}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalPing_02" ID="{283B3B4C-B212-4CDC-8FF7-127346E58B8F}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Walls_Boiling" ID="{8EE3D8FD-58CB-4D1C-8D6B-F0FDDF1FED61}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GoalPing_01" ID="{592C9C4A-B504-4E89-925D-F96100C11C07}" WorkUnitID="{72CF0FED-C23A-4215-B871-B71F750B2934}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{72CF0FED-C23A-4215-B871-B71F750B2934}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{72CF0FED-C23A-4215-B871-B71F750B2934}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Moving1_Engine" ID="{506BE4E7-22B0-4A36-BACE-3AFD9CBF738F}">
+					<ChildrenList>
+						<Action Name="" ID="{F2E85789-2906-4918-A86F-B00312348E52}" ShortID="988044063">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moving1_Engine" ID="{EDAD9DB1-332D-4341-BBFC-C3D3DC7956A3}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Static1" ID="{E1A79C0A-B13B-40D5-B5C3-53D57A3DA8E2}">
+					<ChildrenList>
+						<Action Name="" ID="{DAC64434-892D-48EE-BE3A-740A0B4C86F3}" ShortID="432139127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Static1" ID="{59FAE8EA-7B31-4278-9CE3-5F646BB49261}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Static2" ID="{69BE8256-BA97-4942-84BD-55AE462288EE}">
+					<ChildrenList>
+						<Action Name="" ID="{DE7F746F-D1B0-45B5-AFC3-E0FF5C8CC15D}" ShortID="53656449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Static2" ID="{98F93700-3200-41B5-9431-8152465D32AC}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Static3" ID="{9B4764FB-9722-4580-9337-6B87B660AF2B}">
+					<ChildrenList>
+						<Action Name="" ID="{75A3AC8F-5EB3-447A-BF16-396BDD6BC442}" ShortID="306795848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Static3" ID="{743CEB17-6E95-4CA5-BDE7-25B988E21C56}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Walls_Boiling" ID="{8EE3D8FD-58CB-4D1C-8D6B-F0FDDF1FED61}">
+					<ChildrenList>
+						<Action Name="" ID="{92EFA6EA-6765-48DE-B293-AC8D3983C0D5}" ShortID="968999312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walls_Boiling" ID="{F3300D82-54AF-441E-9887-5CD127964F7A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RobloxOof" ID="{7A20F280-A3C9-4782-9231-B3F9503D9AFC}">
+					<ChildrenList>
+						<Action Name="" ID="{E1A4AE41-7C98-4B59-A19B-4F5C62BA9AC4}" ShortID="891333762">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RobloxOof" ID="{C80084DD-D61D-4C99-8B38-AD57D057373A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Error1" ID="{0CFBD3C0-8956-40F9-A12D-9CB920850490}">
+					<ChildrenList>
+						<Action Name="" ID="{64228B10-6AF8-467E-8CF2-2017AC5ACAE7}" ShortID="523258354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error1" ID="{756C566B-3747-4197-8055-D9C9CF45EED0}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Error2" ID="{C6E1E3BB-9AF4-4682-ACC0-5659E777644C}">
+					<ChildrenList>
+						<Action Name="" ID="{43710ECD-2244-4E9B-B372-55F93939DFBE}" ShortID="540032672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error2" ID="{05355D91-3447-48D0-B9DF-BB1B876A7EB2}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Error3" ID="{314DED65-2B10-4454-88EB-460FE323B27B}">
+					<ChildrenList>
+						<Action Name="" ID="{29FF80C1-FAF2-4CC6-B629-A1CF71CD6C39}" ShortID="1057576534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Error3" ID="{0CA978F0-00D0-4160-B158-C8BAE7CFD61D}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thud1" ID="{76865A8A-0A08-4824-908B-04324F2B75AA}">
+					<ChildrenList>
+						<Action Name="" ID="{1390321C-18C1-40D1-9B32-A81B4F4696D0}" ShortID="248902845">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thud1" ID="{F88F719B-7C60-48EA-A857-0F40ECFEF514}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thud3" ID="{F7F8E2C6-91DD-4545-BFA4-0705B04691D6}">
+					<ChildrenList>
+						<Action Name="" ID="{374D8764-F188-4B0B-9AD0-5025525CCD2E}" ShortID="171936546">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thud3" ID="{92825E07-3CD9-40AC-8704-E8B3E286B074}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Thud2" ID="{BFA48292-A3BE-42B2-AB96-3EA1796B11F6}">
+					<ChildrenList>
+						<Action Name="" ID="{0CD42FC8-80DF-41A9-8FC8-05159FBDB612}" ShortID="42969105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thud2" ID="{51D82F3F-6AF1-4CB8-8159-49F2390A4042}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete3" ID="{01FE51E8-7880-4497-A03F-C59FC61D788D}">
+					<ChildrenList>
+						<Action Name="" ID="{5B904E76-B971-46B1-8960-13F788802AEA}" ShortID="838698774">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete3" ID="{7328CC27-4F30-4FE4-BC3D-D67CCA803132}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete4" ID="{3768EFD2-E3A4-4228-BD0F-3BCB64443932}">
+					<ChildrenList>
+						<Action Name="" ID="{335E0A4D-15B3-4605-9162-24933EA5B2F9}" ShortID="203634156">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete4" ID="{8809F8CD-0568-4D9B-842D-FBB21F4EFA5F}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete2" ID="{44614E32-BD3B-4881-88B8-818A493D7192}">
+					<ChildrenList>
+						<Action Name="" ID="{C3AE597B-CB93-4FFD-8ADE-3FDB112B4B99}" ShortID="1039025525">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete2" ID="{097F92B0-8F77-4871-AB03-65AC2F88D7CE}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete" ID="{2325E3ED-CFFC-4232-B5B1-2EE7F8DB3B5D}">
+					<ChildrenList>
+						<Action Name="" ID="{E90F917E-A3E3-480D-AE7D-3210656F8249}" ShortID="805229509">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete" ID="{34C5B4F4-8162-4FBC-89FD-20694D77EF82}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalComplete5" ID="{A433E27A-C0C7-4001-9CD9-3FF1911A56C8}">
+					<ChildrenList>
+						<Action Name="" ID="{D80F5329-9911-40F2-9B7D-CA7B19C2DE49}" ShortID="511217429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalComplete5" ID="{321044EC-F66D-44A6-B756-4F5F22890E51}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalPing" ID="{C47B7CE5-CB9A-48C1-B66F-77AD7A4A2972}">
+					<ChildrenList>
+						<Action Name="" ID="{80512AED-CAA4-4EAF-8BA1-9864CEF97398}" ShortID="746403963">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GoalPing" ID="{EE376C89-F802-490E-9302-1C726FD9BF9D}">
+					<ChildrenList>
+						<Action Name="" ID="{AF45BC33-FBFB-4E55-811D-A9E73B3A9F6C}" ShortID="439500383">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalPing_01" ID="{592C9C4A-B504-4E89-925D-F96100C11C07}">
+					<ChildrenList>
+						<Action Name="" ID="{3789892E-40AA-45C2-8CAF-34A25BBA8175}" ShortID="3905463">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoalPing_02" ID="{283B3B4C-B212-4CDC-8FF7-127346E58B8F}">
+					<ChildrenList>
+						<Action Name="" ID="{B4D206B2-E467-49B9-A891-C824F8464C58}" ShortID="914009466">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GoalPing" ID="{CE4761A1-FCED-4D21-8E3F-9989D787524A}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LevelComplete" ID="{6FE89E72-A60C-4AEE-8A71-25C910003ADB}">
+					<ChildrenList>
+						<Action Name="" ID="{1ECB52C5-9006-48CF-94F8-A5EF57C807E7}" ShortID="353734048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelComplete" ID="{694A5B44-0BEF-40EE-BACF-31C99AC9D6ED}" WorkUnitID="{0D5049FE-B5C4-430F-9C17-5A6BDF3588BB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
