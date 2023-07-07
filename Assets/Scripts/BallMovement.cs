@@ -27,16 +27,16 @@ public class BallMovement : MonoBehaviour
 
     // FixedUpdate is called once every 50th of a second
     void FixedUpdate()
-    {
-        
+    {        
     }
 
     // OnCollisionEnter is called on each collision
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("Initial velocity: " + intitialVelocity.ToString());
         intitialVelocity *= -1;
         rb.velocity = intitialVelocity;
-
+        Debug.Log("New velocity: " + intitialVelocity.ToString());
         // player collisions still affect the ball's trajectory ugh
     }
 }
@@ -54,6 +54,7 @@ public class BallMovementEditor : Editor
     SerializedObject SerBM;
     float direction;
     float speed;
+    float elevation;
 
     private void OnEnable()
     {
@@ -64,7 +65,11 @@ public class BallMovementEditor : Editor
     public override void OnInspectorGUI()
     {
         SerBM.Update();
-        GUILayout.Label("Ball Initial Movement", new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold, fontSize = 16 });
+        GUILayout.Label("Ball Initial Movement", new GUIStyle(GUI.skin.label) { 
+            alignment = TextAnchor.MiddleCenter, 
+            fontStyle = FontStyle.Bold, 
+            fontSize = 16 }
+        );
         EditorGUILayout.Space();
 
         // create sliders for speed and direction
@@ -73,11 +78,20 @@ public class BallMovementEditor : Editor
             0,
             360,
             GUILayout.Height(25));
-        speed = EditorGUILayout.Slider(new GUIContent("Ball Movement Speed", "how fast it go :O"), (float) speed, 0, 100, GUILayout.Height(25));
+        speed = EditorGUILayout.Slider(new GUIContent("Ball Movement Speed", "how fast it go :O"), 
+            (float) speed, 
+            0, 
+            100, 
+            GUILayout.Height(25));
+        elevation = EditorGUILayout.Slider(new GUIContent("Ball Elevation Speed", "How fast the ball moves vertically"),
+            (float) elevation,
+            -10,
+            10,
+            GUILayout.Height(25));
 
         // convert the direction to a Vector3
         float constant = Mathf.PI / 180;
-        bm.intitialVelocity = new Vector3(speed * Mathf.Sin(constant * direction), 0, speed * Mathf.Cos(constant * direction));
+        bm.intitialVelocity = new Vector3(speed * Mathf.Sin(constant * direction), elevation, speed * Mathf.Cos(constant * direction));
 
         if (GUI.changed)
         {

@@ -5,42 +5,48 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: cee56ba95a9d3f245ad0a557a4c2ca1b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level2.unity
     guid: 213e5399869cb23459583c7ba653e2c8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level3.unity
     guid: b9457c7c48c8e6d49a8e9f6a70a1c50b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level4.unity
     guid: f553b59a46957e948917a147fd2925c7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level5.unity
     guid: fe7f888bbc7bec1429cc4a90768e1fe4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level6.unity
     guid: 2f8effda6e897264eaee625cb05e7ca2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level7.unity
     guid: 45e8e17be9db1f54583dcaebee80bb85
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level8.unity
     guid: 87be997e3b92c1e47884d624b33570b3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level9.unity
     guid: 5ff7b62162692e4488293cc162ed4369
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level10.unity
     guid: 4a01700f8ad3be049b5faac9c51831cc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level11.unity
     guid: 56bb3fb9210af9b4ab5dbe29af4953de
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Success.unity
     guid: 3e924f3b60ad2624091c661e5deb41b8
+  - enabled: 0
+    path: Assets/Scenes/Basic.unity
+    guid: 4ac7bf5c9a8f6d341ab95216f181047d
+  - enabled: 1
+    path: Assets/Scenes/GetOutOfTheWay.unity
+    guid: 2fb768b372dc730478023e0b7de680e7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5e00832fd8d0cdc458595aa2fecfb7dc, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 18e964d240b0e6f4fa43466d252a4cdc, type: 2}
