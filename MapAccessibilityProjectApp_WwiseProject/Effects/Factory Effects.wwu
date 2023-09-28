@@ -106,6 +106,7 @@
 						</Effect>
 						<Effect Name="Noise_Gate_Fast_Attack" ID="{747A6B61-E953-474C-8227-672C884DA616}" PluginName="Wwise Expander" CompanyID="0" PluginID="109" PluginType="3">
 							<PropertyList>
+								<Property Name="OutputGain" Type="Real32" Value="-6.7"/>
 								<Property Name="Ratio" Type="Real32" Value="50"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.1"/>
 								<Property Name="Threshold" Type="Real32" Value="-50"/>
@@ -749,7 +750,7 @@
 								<Property Name="HFRatio" Type="Real32" Value="9.5"/>
 								<Property Name="NumberOfDelays" Type="int32" Value="12"/>
 								<Property Name="ReverbTime" Type="Real32" Value="5"/>
-								<Property Name="WetLevel" Type="Real32" Value="-30"/>
+								<Property Name="WetLevel" Type="Real32" Value="-19"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
@@ -1956,6 +1957,7 @@
 								<Effect Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 									<PropertyList>
 										<Property Name="DryLevel" Type="Real32" Value="0"/>
+										<Property Name="FilterType" Type="int32" Value="6"/>
 										<Property Name="Pitch" Type="Real32" Value="-1200"/>
 									</PropertyList>
 								</Effect>
